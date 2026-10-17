@@ -1,0 +1,702 @@
+{
+  "status": "ALL_INDEPENDENT_NUMERIC_CHECKS_PASSED",
+  "source_sha256": "f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1",
+  "source_rows": 51177,
+  "source_transactions": 33887,
+  "period_start": "2026-01-01",
+  "period_end": "2026-06-30",
+  "checks": [
+    {
+      "check": "No missing financial/transaction fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Positive integral quantities and valid discounts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Expected six-month source period",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden gross-profit identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Harbour gross-profit identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Uptown gross-profit identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden observed gross profit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden observed transactions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "135 stable branch-product schedules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All branch-product schedules present in six months",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "45 products in each branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden Harbour-based recorded cost rule",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Uptown Harbour-based recorded cost rule",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden prices below Harbour and above Uptown on all products",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No direct Garden/Uptown rounded-cost multiplier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact repeated-row counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonidentical repeated-item pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Transaction metadata consistent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All supplied GP lines reconcile exactly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All revenue differences within half cent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Harbour fixed-Garden-quantity cost gap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Uptown fixed-Garden-quantity cost gap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden dessert share highest in six months",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden GP/basket lowest in all category_line_signature slices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden GP/basket lowest in all month slices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden GP/basket lowest in all order_type slices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Harbour Shapley contributions reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Harbour rounding residual under 0.0001 per basket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Uptown Shapley contributions reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Uptown rounding residual under 0.0001 per basket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Garden lower on every exact matched signature in all variants",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original source preserved",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "branch_totals": [
+    {
+      "branch": "Garden",
+      "lines": 16907,
+      "transactions": 11163,
+      "units": "17833",
+      "revenue": "99748.55",
+      "recorded_cost": "52954.06",
+      "gross_profit": "46794.49",
+      "gross_margin_pct": "46.91245135894205980939071295",
+      "units_per_basket": "1.597509630027770312639971334",
+      "revenue_per_basket": "8.935640060915524500582280749",
+      "gross_profit_per_basket": "4.191927797187136074531935860",
+      "recorded_discount_dollars": "555.90"
+    },
+    {
+      "branch": "Harbour",
+      "lines": 24654,
+      "transactions": 16334,
+      "units": "26093",
+      "revenue": "150483.58",
+      "recorded_cost": "52729.64",
+      "gross_profit": "97753.94",
+      "gross_margin_pct": "64.95987136935471630858330191",
+      "units_per_basket": "1.597465409575119382882331333",
+      "revenue_per_basket": "9.212904371250153054977347863",
+      "gross_profit_per_basket": "5.984690828945757316027917228",
+      "recorded_discount_dollars": "1300.04"
+    },
+    {
+      "branch": "Uptown",
+      "lines": 9616,
+      "transactions": 6390,
+      "units": "10161",
+      "revenue": "55693.01",
+      "recorded_cost": "20810.95",
+      "gross_profit": "34882.06",
+      "gross_margin_pct": "62.63274331913466339851266793",
+      "units_per_basket": "1.590140845070422535211267606",
+      "revenue_per_basket": "8.715651017214397496087636933",
+      "gross_profit_per_basket": "5.458851330203442879499217527",
+      "recorded_discount_dollars": "322.15"
+    }
+  ],
+  "duplicates": {
+    "exact_groups": 132,
+    "participating_rows": 264,
+    "excess_copies": 132,
+    "max_group_size": 2,
+    "nonidentical_repeated_item_groups": 34,
+    "max_nonidentical_group_size": 2
+  },
+  "arithmetic": {
+    "gp_exact_mismatches": 0,
+    "revenue_half_up_mismatches": 478,
+    "revenue_half_even_mismatches": 221,
+    "revenue_outside_half_cent": 0,
+    "revenue_rounding_residual_by_branch": {
+      "Harbour": "0.2705",
+      "Garden": "0.755",
+      "Uptown": "0.241"
+    }
+  },
+  "missing_values": {
+    "Transaction ID": 0,
+    "Date": 0,
+    "Time": 0,
+    "Branch": 0,
+    "Customer ID": 18691,
+    "Order Type": 0,
+    "Product": 0,
+    "Category": 0,
+    "Quantity": 0,
+    "Unit Price (USD)": 0,
+    "Discount Rate": 0,
+    "Unit Cost (USD)": 0,
+    "Line Revenue (USD)": 0,
+    "Line Gross Profit (USD)": 0
+  },
+  "metadata_conflicts": {
+    "Branch": 0,
+    "Date": 0,
+    "Time": 0,
+    "Customer ID": 0,
+    "Order Type": 0
+  },
+  "cost_premiums": [
+    {
+      "peer": "Harbour",
+      "recorded_cost_gap": "15923.47",
+      "top_product": "Iced Matcha",
+      "top_product_gap": "827.28",
+      "top5_share_pct": "22.30211128604506429817119007",
+      "exact_repeat_sensitivity_gap": "15887.50",
+      "exact_repeat_change_pct": "-0.2258929743328558410949372200",
+      "garden_margin_with_reference_costs_pct": "62.87606185754078630716937740",
+      "cost25_saving": "3980.8675",
+      "cost25_garden_cost_reduction_pct": "7.517586942342098037430935418"
+    },
+    {
+      "peer": "Uptown",
+      "recorded_cost_gap": "17409.78",
+      "top_product": "Iced Matcha",
+      "top_product_gap": "903.88",
+      "top5_share_pct": "22.30550874278710012418307411",
+      "exact_repeat_sensitivity_gap": "17370.46",
+      "exact_repeat_change_pct": "-0.2258500681800689038000480200",
+      "garden_margin_with_reference_costs_pct": "64.36611860523285802149504930",
+      "cost25_saving": "4352.445",
+      "cost25_garden_cost_reduction_pct": "8.219284791383323582743230642"
+    }
+  ],
+  "dessert_ranges": [
+    {
+      "branch": "Garden",
+      "min": 14.332706766917294,
+      "max": 17.200217037438957
+    },
+    {
+      "branch": "Harbour",
+      "min": 10.704483074107959,
+      "max": 12.492616656822209
+    },
+    {
+      "branch": "Uptown",
+      "min": 8.966148215919487,
+      "max": 10.907577019150708
+    }
+  ],
+  "common_reference": [
+    {
+      "reference": "Chain-average",
+      "peer": "Harbour",
+      "garden_gp_per_basket": 5.359422167706609,
+      "peer_gp_per_basket": 5.330896372009396,
+      "signed_peer_minus_garden_gp_per_basket": -0.02852579569721314,
+      "signed_fraction_of_observed_gap_pct": -1.59116376185148
+    },
+    {
+      "reference": "Chain-average",
+      "peer": "Uptown",
+      "garden_gp_per_basket": 5.359422167706609,
+      "peer_gp_per_basket": 5.43137543059306,
+      "signed_peer_minus_garden_gp_per_basket": 0.07195326288645099,
+      "signed_fraction_of_observed_gap_pct": 5.6793690393566045
+    },
+    {
+      "reference": "Garden",
+      "peer": "Harbour",
+      "garden_gp_per_basket": 4.241726238466362,
+      "peer_gp_per_basket": 4.234006979306967,
+      "signed_peer_minus_garden_gp_per_basket": -0.0077192591593950866,
+      "signed_fraction_of_observed_gap_pct": -0.43057888982811243
+    },
+    {
+      "reference": "Garden",
+      "peer": "Uptown",
+      "garden_gp_per_basket": 4.241726238466362,
+      "peer_gp_per_basket": 4.280370892018779,
+      "signed_peer_minus_garden_gp_per_basket": 0.038644653552417196,
+      "signed_fraction_of_observed_gap_pct": 3.050275138580111
+    },
+    {
+      "reference": "Harbour",
+      "peer": "Harbour",
+      "garden_gp_per_basket": 6.11731255038968,
+      "peer_gp_per_basket": 6.064281866046284,
+      "signed_peer_minus_garden_gp_per_basket": -0.05303068434339586,
+      "signed_fraction_of_observed_gap_pct": -2.958042050397206
+    },
+    {
+      "reference": "Harbour",
+      "peer": "Uptown",
+      "garden_gp_per_basket": 6.11731255038968,
+      "peer_gp_per_basket": 6.195776212832551,
+      "signed_peer_minus_garden_gp_per_basket": 0.0784636624428714,
+      "signed_fraction_of_observed_gap_pct": 6.193243743453416
+    },
+    {
+      "reference": "Uptown",
+      "peer": "Harbour",
+      "garden_gp_per_basket": 5.4404801576637105,
+      "peer_gp_per_basket": 5.396431982368067,
+      "signed_peer_minus_garden_gp_per_basket": -0.044048175295643865,
+      "signed_fraction_of_observed_gap_pct": -2.456999308627785
+    },
+    {
+      "reference": "Uptown",
+      "peer": "Uptown",
+      "garden_gp_per_basket": 5.4404801576637105,
+      "peer_gp_per_basket": 5.509266040688575,
+      "signed_peer_minus_garden_gp_per_basket": 0.06878588302486488,
+      "signed_fraction_of_observed_gap_pct": 5.429363432937316
+    }
+  ],
+  "decomposition": [
+    {
+      "peer": "Harbour",
+      "factor": "costs",
+      "forward": 1.426450774881305,
+      "forward_share_of_gap_pct": 79.56716808701812,
+      "reverse": 1.388033549651034,
+      "shapley": 1.4072419852064117
+    },
+    {
+      "peer": "Harbour",
+      "factor": "prices",
+      "forward": 0.44664230045686537,
+      "forward_share_of_gap_pct": 24.91362731965355,
+      "reverse": 0.43844584914901397,
+      "shapley": 0.44252028485321077
+    },
+    {
+      "peer": "Harbour",
+      "factor": "discounts",
+      "forward": -0.03109133982381973,
+      "forward_share_of_gap_pct": -1.7342693525602477,
+      "reverse": -0.026778349300677462,
+      "shapley": -0.028887313752086963
+    },
+    {
+      "peer": "Harbour",
+      "factor": "units_per_basket",
+      "forward": -0.00016702253267908418,
+      "forward_share_of_gap_pct": -0.009316486881997023,
+      "reverse": -0.00011584689656629621,
+      "shapley": -0.00014105140027883932
+    },
+    {
+      "peer": "Harbour",
+      "factor": "product_mix",
+      "forward": -0.049020607623073253,
+      "forward_share_of_gap_pct": -2.734360690993621,
+      "reverse": -0.0067710972442061035,
+      "shapley": -0.02791979954865903
+    },
+    {
+      "peer": "Harbour",
+      "factor": "rounding_residual",
+      "forward": -5.1073599975914874e-05,
+      "forward_share_of_gap_pct": -0.002848876235796423,
+      "reverse": -5.1073599975914874e-05,
+      "shapley": -5.1073599975470785e-05
+    },
+    {
+      "peer": "Uptown",
+      "factor": "costs",
+      "forward": 1.5595968825584512,
+      "forward_share_of_gap_pct": 123.1011060979619,
+      "reverse": 1.5955915492957757,
+      "shapley": 1.577627572228622
+    },
+    {
+      "peer": "Uptown",
+      "factor": "prices",
+      "forward": -0.3588418883812583,
+      "forward_share_of_gap_pct": -28.323878989517482,
+      "reverse": -0.36458622848200317,
+      "shapley": -0.3617218139235802
+    },
+    {
+      "peer": "Uptown",
+      "factor": "discounts",
+      "forward": -0.001688237705344875,
+      "forward_share_of_gap_pct": -0.1332549014481954,
+      "reverse": -0.0020488939010263607,
+      "shapley": -0.0018648291205933813
+    },
+    {
+      "peer": "Uptown",
+      "factor": "units_per_basket",
+      "forward": -0.02486656758992911,
+      "forward_share_of_gap_pct": -1.9627520479256144,
+      "reverse": -0.019601350481691426,
+      "shapley": -0.022288612773550053
+    },
+    {
+      "peer": "Uptown",
+      "factor": "product_mix",
+      "forward": 0.09275326310294751,
+      "forward_share_of_gap_pct": 7.321141385867182,
+      "reverse": 0.05759837555381164,
+      "shapley": 0.07520113557396745
+    },
+    {
+      "peer": "Uptown",
+      "factor": "rounding_residual",
+      "forward": -2.9918968559528025e-05,
+      "forward_share_of_gap_pct": -0.0023615449377829916,
+      "reverse": -2.9918968559528025e-05,
+      "shapley": -2.991896855886189e-05
+    }
+  ],
+  "matched_baskets": [
+    {
+      "variant": "all lines",
+      "peer": "Harbour",
+      "matched_signatures": 1170,
+      "garden_matched_transactions": 10293,
+      "garden_denominator_transactions": 11163,
+      "garden_coverage_pct": 92.20639613007256,
+      "peer_matched_transactions": 14841,
+      "peer_denominator_transactions": 16334,
+      "peer_coverage_pct": 90.8595567527856,
+      "garden_gp_per_basket": 3.8508122024676967,
+      "peer_gp_per_basket_same_signature_weights": 5.539476756855324,
+      "gap_per_basket": 1.688664554387627,
+      "all_matched_signatures_garden_lower": true
+    },
+    {
+      "variant": "all lines",
+      "peer": "Uptown",
+      "matched_signatures": 932,
+      "garden_matched_transactions": 9806,
+      "garden_denominator_transactions": 11163,
+      "garden_coverage_pct": 87.84376959598674,
+      "peer_matched_transactions": 5800,
+      "peer_denominator_transactions": 6390,
+      "peer_coverage_pct": 90.76682316118936,
+      "garden_gp_per_basket": 3.752443401998776,
+      "peer_gp_per_basket_same_signature_weights": 4.820773260468834,
+      "gap_per_basket": 1.068329858470058,
+      "all_matched_signatures_garden_lower": true
+    },
+    {
+      "variant": "all lines; undiscounted only",
+      "peer": "Harbour",
+      "matched_signatures": 1102,
+      "garden_matched_transactions": 9453,
+      "garden_denominator_transactions": 10259,
+      "garden_coverage_pct": 92.14348377034798,
+      "peer_matched_transactions": 13215,
+      "peer_denominator_transactions": 14539,
+      "peer_coverage_pct": 90.89345897241901,
+      "garden_gp_per_basket": 3.8452649952396065,
+      "peer_gp_per_basket_same_signature_weights": 5.542150640008463,
+      "gap_per_basket": 1.696885644768856,
+      "all_matched_signatures_garden_lower": true
+    },
+    {
+      "variant": "all lines; undiscounted only",
+      "peer": "Uptown",
+      "matched_signatures": 875,
+      "garden_matched_transactions": 8966,
+      "garden_denominator_transactions": 10259,
+      "garden_coverage_pct": 87.3964324008188,
+      "peer_matched_transactions": 5312,
+      "peer_denominator_transactions": 5842,
+      "peer_coverage_pct": 90.92776446422458,
+      "garden_gp_per_basket": 3.736429846085211,
+      "peer_gp_per_basket_same_signature_weights": 4.7863071603836715,
+      "gap_per_basket": 1.0498773142984605,
+      "all_matched_signatures_garden_lower": true
+    },
+    {
+      "variant": "exact repeats once",
+      "peer": "Harbour",
+      "matched_signatures": 1159,
+      "garden_matched_transactions": 10297,
+      "garden_denominator_transactions": 11163,
+      "garden_coverage_pct": 92.2422287915435,
+      "peer_matched_transactions": 14859,
+      "peer_denominator_transactions": 16334,
+      "peer_coverage_pct": 90.96975633647605,
+      "garden_gp_per_basket": 3.8429134699427014,
+      "peer_gp_per_basket_same_signature_weights": 5.529156712991473,
+      "gap_per_basket": 1.686243243048772,
+      "all_matched_signatures_garden_lower": true
+    },
+    {
+      "variant": "exact repeats once",
+      "peer": "Uptown",
+      "matched_signatures": 933,
+      "garden_matched_transactions": 9823,
+      "garden_denominator_transactions": 11163,
+      "garden_coverage_pct": 87.9960584072382,
+      "peer_matched_transactions": 5814,
+      "peer_denominator_transactions": 6390,
+      "peer_coverage_pct": 90.98591549295774,
+      "garden_gp_per_basket": 3.7509406494960813,
+      "peer_gp_per_basket_same_signature_weights": 4.8197501838750485,
+      "gap_per_basket": 1.0688095343789672,
+      "all_matched_signatures_garden_lower": true
+    },
+    {
+      "variant": "exact repeats once; undiscounted only",
+      "peer": "Harbour",
+      "matched_signatures": 1094,
+      "garden_matched_transactions": 9456,
+      "garden_denominator_transactions": 10259,
+      "garden_coverage_pct": 92.17272638658739,
+      "peer_matched_transactions": 13233,
+      "peer_denominator_transactions": 14539,
+      "peer_coverage_pct": 91.01726391086045,
+      "garden_gp_per_basket": 3.836967005076142,
+      "peer_gp_per_basket_same_signature_weights": 5.53086611675127,
+      "gap_per_basket": 1.6938991116751274,
+      "all_matched_signatures_garden_lower": true
+    },
+    {
+      "variant": "exact repeats once; undiscounted only",
+      "peer": "Uptown",
+      "matched_signatures": 878,
+      "garden_matched_transactions": 8983,
+      "garden_denominator_transactions": 10259,
+      "garden_coverage_pct": 87.56214055950873,
+      "peer_matched_transactions": 5326,
+      "peer_denominator_transactions": 5842,
+      "peer_coverage_pct": 91.16740842177336,
+      "garden_gp_per_basket": 3.735510408549482,
+      "peer_gp_per_basket_same_signature_weights": 4.785479238561728,
+      "gap_per_basket": 1.0499688300122463,
+      "all_matched_signatures_garden_lower": true
+    }
+  ],
+  "source_claim_review": [
+    {
+      "claim": "Garden branch totals/margins",
+      "status": "VERIFIED",
+      "verified_value_or_replacement": "See audited_branch_totals.csv; Garden GP $46,794.49, revenue $99,748.55, 11,163 transactions.",
+      "note": ""
+    },
+    {
+      "claim": "All branches same items/basket",
+      "status": "QUALIFY",
+      "verified_value_or_replacement": "Garden 1.5975, Harbour 1.5975, Uptown 1.5901 units per basket; all approximately 1.60.",
+      "note": ""
+    },
+    {
+      "claim": "Same 59%/41% order-type split",
+      "status": "CORRECT",
+      "verified_value_or_replacement": "Dine-in shares: Garden 58.69%, Harbour 58.96%, Uptown 60.25%; broadly similar, not identical.",
+      "note": ""
+    },
+    {
+      "claim": "Purchasing patterns explain only 0\u20136%",
+      "status": "CORRECT",
+      "verified_value_or_replacement": "Report signed peer-minus-Garden effects for each common reference; negative means Garden's baskets help, not a positive portion of its deficit.",
+      "note": "Common reference removes discounts and changes all prices/costs; comparison is descriptive, not causal."
+    },
+    {
+      "claim": "Common-reference Garden $5.36, Harbour $5.33, Uptown $5.43",
+      "status": "VERIFIED",
+      "verified_value_or_replacement": "Chain-average list: no discounts; use audited_common_reference.csv for precise values.",
+      "note": ""
+    },
+    {
+      "claim": "Dessert baskets 14\u201317% versus 9\u201312%",
+      "status": "REFINE",
+      "verified_value_or_replacement": "Garden 14.33\u201317.20%; Harbour 10.70\u201312.49%; Uptown 8.97\u201310.91%; Garden highest each month.",
+      "note": ""
+    },
+    {
+      "claim": "All top ten basket types lower GP",
+      "status": "VERIFIED_WITH_DEFINITION",
+      "verified_value_or_replacement": "True for the ten most common category-line signatures in the full dataset.",
+      "note": "Types count category occurrences per row; exact product-quantity matches are a separate analysis."
+    },
+    {
+      "claim": "92% matched coverage",
+      "status": "REFINE",
+      "verified_value_or_replacement": "Give reference-specific Garden coverage and peer coverage from audited_matched_baskets.csv.",
+      "note": "Weight each peer's signature mean by Garden's matched-signature counts; unmatched baskets excluded."
+    },
+    {
+      "claim": "132 exact repeated-row pairs and 34 nonidentical repeated-item pairs",
+      "status": "VERIFIED",
+      "verified_value_or_replacement": "132 exact pairs = 264 participating rows, 132 excess copies; all retained in main analysis.",
+      "note": ""
+    },
+    {
+      "claim": "25% cost-gap closure is 25% cost reduction",
+      "status": "CORRECT_IF_PRESENT",
+      "verified_value_or_replacement": "Harbour quarter-gap = $3,980.8675 = 7.5176% of Garden recorded costs, not 25%.",
+      "note": ""
+    },
+    {
+      "claim": "Cost premium proves supplier issue rather than waste",
+      "status": "UNSUPPORTED_CAUSAL_CLAIM",
+      "verified_value_or_replacement": "Fixed recorded cost schedules establish an accounting pattern; supplier terms, allocation, portions/quality, standard waste allowances, mappings and volume discounts remain unresolved.",
+      "note": ""
+    },
+    {
+      "claim": "Partial cost-gap closure dwarfs every other lever",
+      "status": "FALSE_COMPARISON",
+      "verified_value_or_replacement": "Harbour price-only uplift $4,985.868 exceeds quarter Harbour cost-gap uplift $3,980.8675 and quarter Uptown cost-gap uplift $4,352.445 before volume changes/expenses.",
+      "note": ""
+    },
+    {
+      "claim": "Only quality/portion/allocation reverses recommendation",
+      "status": "FALSE_EXCLUSIVITY",
+      "verified_value_or_replacement": "Volume loss, implementation costs, infeasible savings, supplier evidence and alternative actions can change the decision.",
+      "note": ""
+    },
+    {
+      "claim": "Cost story not a price or mix story",
+      "status": "OVERSTATED",
+      "verified_value_or_replacement": "Recorded cost is the largest accounting component; prices materially amplify Harbour's gap and offset Uptown's. Mix/size effects are small but nonzero.",
+      "note": ""
+    },
+    {
+      "claim": "No-discount savings are guaranteed",
+      "status": "CORRECT_IF_PRESENT",
+      "verified_value_or_replacement": "Removing discounts gives a $555.90 fixed-quantity benchmark; sales and mix responses are unestimated.",
+      "note": ""
+    },
+    {
+      "claim": "Net profitability established",
+      "status": "CORRECT_IF_PRESENT",
+      "verified_value_or_replacement": "Operating expenses absent; observed gross-profit comparisons do not establish total net profit.",
+      "note": ""
+    },
+    {
+      "claim": "Garden serves 75% more transactions than Uptown",
+      "status": "VERIFIED_ROUNDED",
+      "verified_value_or_replacement": "Garden 11,163 versus Uptown 6,390: 74.6948% more; total GP $46,794.49 versus $34,882.06.",
+      "note": ""
+    },
+    {
+      "claim": "Customer-level evidence is complete",
+      "status": "LIMITATION",
+      "verified_value_or_replacement": "Customer ID is absent on 18,691 of 51,177 lines (36.52%); financial/transaction fields have no missing values.",
+      "note": "Transaction totals remain usable; identified-customer retention cannot be fully reconstructed."
+    }
+  ],
+  "limitations": [
+    "Accounting comparisons do not identify causality or recoverable cash savings.",
+    "No operating expenses, supplier invoices, recipe/quality/portion data or realized customer response supplied.",
+    "Recorded prices/costs are reused product schedules; rows are not independent supplier-price samples.",
+    "Customer IDs are missing on 18,691 lines, preventing complete identified-customer retention analysis.",
+    "The numerical checks validate calculations, not the unobserved feasibility of implementation."
+  ]
+}

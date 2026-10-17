@@ -1,0 +1,9 @@
+comparison,variant,matched_signatures,Garden_transactions,Garden_coverage_%,target_transactions,target_coverage_%,Garden_GP_per_basket_$,target_GP_per_basket_same_mix_$,matched_gap_$,signatures_where_Garden_lower_%
+Garden vs Harbour,all lines,1170,10293,92.21,14841,90.86,3.85,5.54,1.69,100.0
+Garden vs Harbour,"all lines, undiscounted transactions only",1102,9453,92.14,13215,90.89,3.85,5.54,1.7,100.0
+Garden vs Harbour,exact repeated lines removed,1159,10297,92.24,14859,90.97,3.84,5.53,1.69,100.0
+Garden vs Harbour,"exact repeated lines removed, undiscounted transactions only",1094,9456,92.17,13233,91.02,3.84,5.53,1.69,100.0
+Garden vs Uptown,all lines,932,9806,87.84,5800,90.77,3.75,4.82,1.07,100.0
+Garden vs Uptown,"all lines, undiscounted transactions only",875,8966,87.4,5312,90.93,3.74,4.79,1.05,100.0
+Garden vs Uptown,exact repeated lines removed,933,9823,88.0,5814,90.99,3.75,4.82,1.07,100.0
+Garden vs Uptown,"exact repeated lines removed, undiscounted transactions only",878,8983,87.56,5326,91.17,3.74,4.79,1.05,100.0

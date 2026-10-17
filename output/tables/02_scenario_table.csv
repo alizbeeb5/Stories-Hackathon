@@ -1,0 +1,9 @@
+Reference_Branch,Closure_alpha_pct,Recorded_Garden_GP,Cost_Gap_dollars,Reduction_in_Garden_recorded_cost_pct,Scenario_Uplift_dollars,Scenario_GP_dollars,Scenario_Margin_pct,Evidence_Label
+Harbour,0,46794.49,15923.47,0.0,0.0,46794.49,46.91,fixed-quantity accounting benchmark; recoverability unverified
+Harbour,25,46794.49,15923.47,7.5176,3980.87,50775.36,50.9,fixed-quantity accounting benchmark; recoverability unverified
+Harbour,50,46794.49,15923.47,15.0352,7961.74,54756.23,54.89,fixed-quantity accounting benchmark; recoverability unverified
+Harbour,100,46794.49,15923.47,30.0703,15923.47,62717.96,62.88,fixed-quantity accounting benchmark; recoverability unverified
+Uptown,0,46794.49,17409.78,0.0,0.0,46794.49,46.91,fixed-quantity accounting benchmark; recoverability unverified
+Uptown,25,46794.49,17409.78,8.2193,4352.44,51146.94,51.28,fixed-quantity accounting benchmark; recoverability unverified
+Uptown,50,46794.49,17409.78,16.4386,8704.89,55499.38,55.64,fixed-quantity accounting benchmark; recoverability unverified
+Uptown,100,46794.49,17409.78,32.8771,17409.78,64204.27,64.37,fixed-quantity accounting benchmark; recoverability unverified

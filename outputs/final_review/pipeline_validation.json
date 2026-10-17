@@ -1,0 +1,268 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-17T14:13:43.406125+00:00",
+  "completed_at_utc": "2026-10-17T14:13:58.349369+00:00",
+  "python_executable": "/Users/fatimakarnib/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "python_version": "3.12.14",
+  "pandas_version": "2.2.3",
+  "source": "data/stories_transactions.csv",
+  "source_sha256_before": "f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1",
+  "source_sha256_after": "f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1",
+  "script_count": 17,
+  "passed_scripts": 17,
+  "steps": [
+    {
+      "step": 1,
+      "script": "scripts/validate_baseline.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.387,
+      "script_sha256": "a62d1bb39e088e9376e631d0f613f06c8fb84c3bdda0697f0dad747fa687039b",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/01_validate_baseline.log"
+    },
+    {
+      "step": 2,
+      "script": "scripts/cost_gap_scenarios.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.231,
+      "script_sha256": "fde3aa3bc962f0146fdc7d1900799f3afb38d9be488c7d6b61a71edd5cd41620",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/02_cost_gap_scenarios.log"
+    },
+    {
+      "step": 3,
+      "script": "scripts/price_matching.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.278,
+      "script_sha256": "4be9748138b889843919e5199c8a5c8732153896fa650809c4f19f22ff0e5496",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/03_price_matching.log"
+    },
+    {
+      "step": 4,
+      "script": "scripts/discount_comparison.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.396,
+      "script_sha256": "9c4e74d2a931007af64831551b746a1c78e915e01230df77101720a7aef657b1",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/04_discount_comparison.log"
+    },
+    {
+      "step": 5,
+      "script": "scripts/feasibility.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.443,
+      "script_sha256": "08d78f8e03f99c47da7c682cba719958a4111dc9cfa298b831f414df9b8d004f",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/05_feasibility.log"
+    },
+    {
+      "step": 6,
+      "script": "scripts/consolidated.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.289,
+      "script_sha256": "42345bdb84d2af13dd3be2ae44956f878a65a90f17df896e20870e286c1bd654",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/06_consolidated.log"
+    },
+    {
+      "step": 7,
+      "script": "scripts/basket_comparison.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.256,
+      "script_sha256": "96e9420ca9a47cac11c31b1fe63dc28c233a159eb4e43c72682d66b357d5218d",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/07_basket_comparison.log"
+    },
+    {
+      "step": 8,
+      "script": "scripts/category_mix.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.242,
+      "script_sha256": "50d802df84cc26afd18fc48182e050fd97757f8d1152f6030c2f3168382c02df",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/08_category_mix.log"
+    },
+    {
+      "step": 9,
+      "script": "scripts/common_price_reference.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.272,
+      "script_sha256": "39c9c56c3f8d6795270d6c12f4a65ec0a307e6a4c41907c3773de83d854eea00",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/09_common_price_reference.log"
+    },
+    {
+      "step": 10,
+      "script": "scripts/basket_types_and_months.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.404,
+      "script_sha256": "16d7d63a1fafa78721c23675c791d9e92955b838740ac5a01385a5179014f808",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/10_basket_types_and_months.log"
+    },
+    {
+      "step": 11,
+      "script": "scripts/order_type_demand.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.244,
+      "script_sha256": "6223ef00d668be29c7f287b2968972a830645d891e6492a291f51af00db745f1",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/11_order_type_demand.log"
+    },
+    {
+      "step": 12,
+      "script": "scripts/where_garden_does_well.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 1.364,
+      "script_sha256": "84f391caecd1e0660e0381b4d87442eb65ff9b7cb33a74cac4d10335d999c57f",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/12_where_garden_does_well.log"
+    },
+    {
+      "step": 13,
+      "script": "scripts/08_gap_decomposition.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.331,
+      "script_sha256": "8e7bd2a1512023da2db5cca8485c2138850bb74df8bb17a27c3f84a2a7bc80d2",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/13_08_gap_decomposition.log"
+    },
+    {
+      "step": 14,
+      "script": "scripts/09_matched_baskets.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 3.977,
+      "script_sha256": "fbadc3702e7782e967fc66457cd4895f0c362550e36e899604b469b30ef4cb16",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/14_09_matched_baskets.log"
+    },
+    {
+      "step": 15,
+      "script": "scripts/10_robustness.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.415,
+      "script_sha256": "1685abc3228f5b88a94774a7c176f0d321ef23d29c56b4ec87c2e2e2918b0a83",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/15_10_robustness.log"
+    },
+    {
+      "step": 16,
+      "script": "scripts/build_cost_evidence.py",
+      "arguments": [
+        "--out",
+        "/Users/fatimakarnib/Desktop/Stories-Hackathon/outputs/final_review/cost_evidence"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 2.321,
+      "script_sha256": "0679cf9498fc01cfbef878a02abc61e8ff66432b00cb2eb16f01b7646f75acb0",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/16_build_cost_evidence.log"
+    },
+    {
+      "step": 17,
+      "script": "scripts/validate_final_report.py",
+      "arguments": [],
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 3.039,
+      "script_sha256": "6cd5c1cae9bf20a79d9ebfacbaf67b483de640387beea52239235ed2cbe40875",
+      "source_unchanged_after_step": true,
+      "log": "outputs/final_review/pipeline_logs/17_validate_final_report.log"
+    }
+  ],
+  "crosschecks": [
+    {
+      "check": "Legacy baseline agrees with independent audit / Garden",
+      "passed": true,
+      "detail": "Revenue, gross profit, cost, units, transactions"
+    },
+    {
+      "check": "Legacy baseline agrees with independent audit / Harbour",
+      "passed": true,
+      "detail": "Revenue, gross profit, cost, units, transactions"
+    },
+    {
+      "check": "Legacy baseline agrees with independent audit / Uptown",
+      "passed": true,
+      "detail": "Revenue, gross profit, cost, units, transactions"
+    },
+    {
+      "check": "Decomposition agrees with independent audit / Harbour",
+      "passed": true,
+      "detail": "All factors, declared/reverse/all-120-orders; 4-decimal export precision"
+    },
+    {
+      "check": "Decomposition agrees with independent audit / Uptown",
+      "passed": true,
+      "detail": "All factors, declared/reverse/all-120-orders; 4-decimal export precision"
+    },
+    {
+      "check": "Matched baskets agree with independent audit / Harbour",
+      "passed": true,
+      "detail": "Coverage and gap; 2-decimal export precision"
+    },
+    {
+      "check": "Matched baskets agree with independent audit / Uptown",
+      "passed": true,
+      "detail": "Coverage and gap; 2-decimal export precision"
+    },
+    {
+      "check": "Complete scenario and sensitivity validation",
+      "passed": true,
+      "detail": "16 scenarios; 384 hypothetical sensitivity cells"
+    },
+    {
+      "check": "Canonical cost-evidence reconciliation",
+      "passed": true,
+      "detail": "215 reconciliation checks"
+    },
+    {
+      "check": "Independent final report audit",
+      "passed": true,
+      "detail": "32 numerical/data checks; 18 source-claim reviews"
+    },
+    {
+      "check": "Original source hash unchanged",
+      "passed": true,
+      "detail": "f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1"
+    }
+  ],
+  "scope": "Analytical pipeline only; figures and document layout are validated separately.",
+  "caveats": [
+    "A successful script run does not establish causal effects, feasible savings, or estimated customer response.",
+    "Legacy baseline floating-point rounding diagnostic is superseded by the Decimal audit: all line GP identities exact and revenue deviations within half a cent.",
+    "Common-reference tables must be interpreted using signed effects; the independent audit supplies full precision."
+  ]
+}

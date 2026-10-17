@@ -1,0 +1,14 @@
+STDOUT
+scenario                 Actual (own prices, costs, discounts)  Common reference: chain-average list  Common reference: Harbour list  Common reference: Uptown list
+GP/basket Garden                                          4.19                                  5.36                            6.12                           5.44
+GP/basket Harbour                                         5.98                                  5.33                            6.06                           5.40
+GP/basket Uptown                                          5.46                                  5.43                            6.20                           5.51
+margin% Garden                                           46.91                                 58.70                           64.84                          63.08
+margin% Harbour                                          64.96                                 59.27                           65.26                          63.53
+margin% Uptown                                           62.63                                 58.55                           64.61                          62.85
+Garden gap vs Harbour $                                   1.79                                 -0.03                           -0.05                          -0.04
+Garden gap vs Uptown $                                    1.27                                  0.07                            0.08                           0.07
+vs Harbour: actual gap 1.79; gap due to what customers buy -0.03 (-2% of actual); gap due to branch prices/costs/discounts 1.82 (102%)
+vs Uptown: actual gap 1.27; gap due to what customers buy 0.07 (6% of actual); gap due to branch prices/costs/discounts 1.20 (94%)
+
+STDERR

@@ -26,36 +26,67 @@ C_OBS, C_HARB, C_UPT = "#7a7a7a", "#1565c0", "#ef6c00"
 
 
 def panel_a_scenarios() -> Path:
-    sc = pd.read_csv(TABLES / "02_scenario_table.csv")
-    fx = pd.read_csv(TABLES / "03_fixed_quantity_summary.csv")
-    labels, values, colors = [], [], []
-    labels.append("Do\nnothing"); values.append(OBS_GP); colors.append(C_OBS)
-    for ref, color in [("Harbour", C_HARB), ("Uptown", C_UPT)]:
-        for alpha in [25, 50, 100]:
-            r = sc[(sc["Reference_Branch"] == ref) & (sc["Closure_alpha_pct"] == alpha)].iloc[0]
-            labels.append(f"{ref}\n{alpha}% cost\nclosure")
-            values.append(r["Scenario_GP_dollars"]); colors.append(color)
-    for ref, color in [("Harbour", C_HARB), ("Uptown", C_UPT)]:
-        r = fx[(fx["Reference_Branch"] == ref) & (fx["Cost_Closure_alpha"] == 1.0)].iloc[0]
-        labels.append(f"{ref}\n100% + price\nmatch")
-        values.append(r["Scenario_GP_fixed_qty"]); colors.append(color)
+    """Show the complete comparison, including price-only alternatives."""
+    from decimal import Decimal, ROUND_HALF_UP
 
-    fig, ax = plt.subplots(figsize=(12, 6))
-    x = np.arange(len(labels))
-    bars = ax.bar(x, values, color=colors, edgecolor="black", linewidth=0.5)
-    ax.axhline(OBS_GP, ls="--", color="black", lw=1, label=f"Do-nothing baseline = ${OBS_GP:,.0f}")
-    ax.set_xticks(x); ax.set_xticklabels(labels, fontsize=9)
-    ax.set_ylabel("Garden gross profit (USD, 6 months)")
-    ax.set_title("Garden gross profit under each scenario (accounting scenarios)")
-    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${x/1000:.0f}K"))
-    for bar, v in zip(bars, values):
-        ax.text(bar.get_x() + bar.get_width() / 2, v + 800, f"${v:,.0f}",
-                ha="center", va="bottom", fontsize=8)
-    ax.set_ylim(0, max(values) * 1.15)
-    ax.grid(axis="y", alpha=0.3); ax.legend(loc="upper left")
-    plt.tight_layout()
+    scenarios = pd.read_csv(TABLES / "06_master_scenario_table.csv")
+    assert len(scenarios) == 16 and scenarios["Scenario_ID"].is_unique
+    assert scenarios["Scenario_Type"].eq("Price only").sum() == 2
+    labels, colors = [], []
+    for row in scenarios.to_dict("records"):
+        ref, kind = row["Reference_Branch"], row["Scenario_Type"]
+        closure = int(row["Cost_Closure_alpha_pct"])
+        if kind == "Baseline":
+            label = "Do nothing (observed Garden)"
+        elif kind == "Price only":
+            label = f"Match {ref} prices only"
+        elif kind == "Cost only":
+            label = f"{ref} gap: {closure}% closure; Garden prices"
+        elif kind == "Cost and price":
+            label = f"{ref} gap: {closure}% closure + {ref} prices"
+        else:
+            label = "Remove recorded discounts (fixed-quantity benchmark)"
+        labels.append(label)
+        colors.append(C_HARB if ref == "Harbour" else C_UPT if ref == "Uptown" else "#7358a5" if kind == "Discount benchmark" else C_OBS)
+
+    values = scenarios["Benefit_v100_K0_dollars"].to_numpy()
+    fig, ax = plt.subplots(figsize=(14, 10))
+    y = np.arange(len(scenarios))
+    ax.barh(y, values, color=colors, height=0.64)
+    ax.scatter([0], [0], color=C_OBS, s=25, zorder=4)
+    ax.axvline(0, color="#555555", lw=0.9)
+    ax.set_yticks(y)
+    ax.set_yticklabels(labels, fontsize=10)
+    ax.invert_yaxis()
+    ax.set_xlabel("Incremental benefit versus observed Garden gross profit (USD, six months)", labelpad=12)
+    ax.set_title(
+        "Six-month incremental benefit: all 16 alternatives\n"
+        "Hypothetical fixed-quantity benchmark: v = 1.00; additional expenses K = $0",
+        fontsize=14, loc="left", pad=20,
+    )
+    ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda amount, _: f"${amount / 1000:,.0f}K"))
+    for i, value in enumerate(values):
+        amount = Decimal(str(abs(value))).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
+        label = f"{'-' if value < 0 else ''}${amount:,.2f}"
+        if value < 0:
+            ax.text(value / 2, i, label, ha="center", va="center", fontsize=9, color="white")
+        else:
+            ax.annotate(label, (value, i), xytext=(6, 0), textcoords="offset points",
+                        ha="left", va="center", fontsize=9)
+    ax.set_xlim(min(values) - 2500, max(values) + 3800)
+    ax.grid(axis="x", alpha=0.22)
+    ax.set_axisbelow(True)
+    ax.spines[["top", "right", "left"]].set_visible(False)
+    ax.tick_params(axis="y", length=0, pad=8)
+    fig.text(0.025, 0.035,
+             "Blue: Harbour reference. Orange: Uptown reference. Purple: discount-removal benchmark.\n"
+             "All actions use Garden's observed quantities and mix. Cost achievability and customer responses are unproven;\n"
+             "positive bars are before implementation expenses. Observed baseline gross profit: $46,794.49.",
+             fontsize=9, color="#444444", va="bottom")
+    fig.subplots_adjust(left=0.40, right=0.98, top=0.88, bottom=0.18)
     out = FIGS / "fig_a_scenarios.png"
-    plt.savefig(out, dpi=150); plt.close()
+    fig.savefig(out, dpi=160)
+    plt.close(fig)
     return out
 
 

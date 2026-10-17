@@ -21,7 +21,9 @@ for ax, target in zip(axes, ["Harbour", "Uptown"]):
     ax.text(0, obs_g + 0.06, f"${obs_g:.2f}", ha="center", fontsize=9)
     run = obs_g
     for i, v in enumerate(vals, start=1):
-        ax.bar(i, v, bottom=run if v >= 0 else run + v, color=UP if v >= 0 else DOWN, width=0.6)
+        # A negative contribution spans from the new running total to the old
+        # one. Using a negative height after lowering the bottom shifts it twice.
+        ax.bar(i, abs(v), bottom=min(run, run + v), color=UP if v >= 0 else DOWN, width=0.6)
         top = run + max(v, 0)
         ax.text(i, top + 0.06, ("$0.00" if abs(v) < 0.005 else f"+${v:.2f}" if v > 0 else f"-${-v:.2f}"), ha="center", fontsize=9)
         ax.plot([i - 0.3, i + 1.3], [run + v] * 2, color="#b9b8b2", lw=0.8, zorder=0)
@@ -34,9 +36,9 @@ for ax, target in zip(axes, ["Harbour", "Uptown"]):
     ax.set_ylim(0, 7); ax.grid(axis="y", color="#e4e3df"); ax.set_axisbelow(True)
 axes[0].set_ylabel("Gross profit per transaction (USD)")
 fig.suptitle("Where Garden's gross-profit-per-transaction gap comes from", x=0.01, ha="left", fontsize=12)
-fig.text(0.01, 0.005, "Orange = raises the comparison branch above Garden; green = works in Garden's favour. "
+fig.text(0.01, 0.015, "Orange = raises the comparison branch above Garden; green = works in Garden's favour.\n"
          "Order: costs -> list prices -> discounts -> units per basket -> mix. Accounting comparison, not causal effects.",
          fontsize=8, color="#52514e")
-fig.tight_layout(rect=(0, 0.04, 1, 0.95))
+fig.tight_layout(rect=(0, 0.09, 1, 0.95))
 fig.savefig("out/11_gap_waterfall.png", dpi=170)
 print("saved out/11_gap_waterfall.png")

@@ -1,0 +1,20 @@
+{
+  "all_source_rows_retained": true,
+  "source_sha256": "f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1",
+  "source_row_count": 51177,
+  "garden_observed_gp_usd": "46794.49",
+  "harbour_recorded_cost_premium_usd": "15923.47",
+  "top15_share": "0.5542523080710423042213788829",
+  "common_reference_convention": "Quantity-weighted chain product price and unit cost, then applied to each branch quantities; discounts removed",
+  "harbour_waterfall_residual_usd_per_transaction": -5.107359997680305e-05,
+  "uptown_waterfall_residual_usd_per_transaction": -2.9918968559528025e-05,
+  "garden_rule_matches": 45,
+  "uptown_rule_matches": 45,
+  "source_unchanged": true,
+  "charts": [
+    "01_recorded_cost_premiums.png",
+    "02_common_reference_baskets.png",
+    "03_declared_order_waterfalls.png",
+    "04_recorded_cost_schedules.png"
+  ]
+}

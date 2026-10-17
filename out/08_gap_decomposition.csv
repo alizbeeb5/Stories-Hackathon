@@ -1,0 +1,15 @@
+comparison,component,declared_order_$,share_of_gap_%,reverse_order_$,all_orders_average_$
+Garden -> Harbour,Recorded unit costs,1.4265,79.5672,1.388,1.4072
+Garden -> Harbour,List prices,0.4466,24.9136,0.4384,0.4425
+Garden -> Harbour,Realized discounts,-0.0311,-1.7343,-0.0268,-0.0289
+Garden -> Harbour,Units per basket,-0.0002,-0.0093,-0.0001,-0.0001
+Garden -> Harbour,Product mix,-0.049,-2.7344,-0.0068,-0.0279
+Garden -> Harbour,Cent rounding of recorded lines,-0.0001,-0.0028,-0.0001,-0.0001
+Garden -> Harbour,TOTAL = observed gap,1.7928,100.0,1.7928,1.7928
+Garden -> Uptown,Recorded unit costs,1.5596,123.1011,1.5956,1.5776
+Garden -> Uptown,List prices,-0.3588,-28.3239,-0.3646,-0.3617
+Garden -> Uptown,Realized discounts,-0.0017,-0.1333,-0.002,-0.0019
+Garden -> Uptown,Units per basket,-0.0249,-1.9628,-0.0196,-0.0223
+Garden -> Uptown,Product mix,0.0928,7.3211,0.0576,0.0752
+Garden -> Uptown,Cent rounding of recorded lines,-0.0,-0.0024,-0.0,-0.0
+Garden -> Uptown,TOTAL = observed gap,1.2669,100.0,1.2669,1.2669

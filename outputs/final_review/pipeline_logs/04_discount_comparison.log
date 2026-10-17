@@ -1,0 +1,26 @@
+STDOUT
+======================================================================
+STEP 4 — DISCOUNT DOLLARS vs SCENARIOS
+======================================================================
+
+Discount dollars by branch:
+ Branch  FullPriceRevenue  ActualRevenue  DiscountDollars  DiscountedLines  DiscountRate_pct_of_rev  PctOfLinesDiscounted
+ Garden         100304.45       99748.55           555.90              927                    0.554                  5.48
+Harbour         151783.62      150483.58          1300.04             1878                    0.857                  7.62
+ Uptown          56015.16       55693.01           322.15              560                    0.575                  5.82
+
+Scenario benefits vs discount dollars:
+Reference_Branch  Closure_alpha_pct  Scenario_Uplift_dollars  Garden_Discount_Dollars  Benefit_vs_GardenDiscount  Chain_Discount_Dollars  Benefit_vs_ChainDiscount
+         Harbour                  0                     0.00                    555.9                       0.00                 2178.09                      0.00
+         Harbour                 25                  3980.87                    555.9                       7.16                 2178.09                      1.83
+         Harbour                 50                  7961.74                    555.9                      14.32                 2178.09                      3.66
+         Harbour                100                 15923.47                    555.9                      28.64                 2178.09                      7.31
+          Uptown                  0                     0.00                    555.9                       0.00                 2178.09                      0.00
+          Uptown                 25                  4352.44                    555.9                       7.83                 2178.09                      2.00
+          Uptown                 50                  8704.89                    555.9                      15.66                 2178.09                      4.00
+          Uptown                100                 17409.78                    555.9                      31.32                 2178.09                      7.99
+
+  Removing recorded Garden discounts: fixed-quantity benefit = $555.90.
+  Sales-volume and product-mix responses are unknown; this is not a forecast or realized-savings ceiling.
+
+STDERR

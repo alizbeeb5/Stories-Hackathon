@@ -1,0 +1,34 @@
+STDOUT
+======================================================================
+STEP 2 — COST-GAP SCENARIOS FOR GARDEN
+======================================================================
+
+Observed Garden revenue:        $99,748.55
+Observed Garden recorded cost:  $52,954.06
+Observed Garden gross profit:   $46,794.49
+
+TOTAL cost gap vs Harbour: $15,923.47
+TOTAL cost gap vs Uptown:  $17,409.78
+  Garden cost / Harbour cost = 1.430
+  Garden cost / Uptown cost  = 1.490
+
+25% Harbour-gap closure reduces Garden recorded costs by 7.52%.
+  Benefit at unchanged volume, before implementation expenses: $3,980.87
+  Benefit at 95% volume, before implementation expenses: $1,442.10
+
+Wrote /Users/fatimakarnib/Desktop/Stories-Hackathon/output/tables/02_cost_gap_by_product.csv
+
+Wrote /Users/fatimakarnib/Desktop/Stories-Hackathon/output/tables/02_scenario_table.csv:
+Reference_Branch  Closure_alpha_pct  Recorded_Garden_GP  Cost_Gap_dollars  Reduction_in_Garden_recorded_cost_pct  Scenario_Uplift_dollars  Scenario_GP_dollars  Scenario_Margin_pct                                                 Evidence_Label
+         Harbour                  0            46794.49          15923.47                                 0.0000                     0.00             46794.49                46.91 fixed-quantity accounting benchmark; recoverability unverified
+         Harbour                 25            46794.49          15923.47                                 7.5176                  3980.87             50775.36                50.90 fixed-quantity accounting benchmark; recoverability unverified
+         Harbour                 50            46794.49          15923.47                                15.0352                  7961.74             54756.23                54.89 fixed-quantity accounting benchmark; recoverability unverified
+         Harbour                100            46794.49          15923.47                                30.0703                 15923.47             62717.96                62.88 fixed-quantity accounting benchmark; recoverability unverified
+          Uptown                  0            46794.49          17409.78                                 0.0000                     0.00             46794.49                46.91 fixed-quantity accounting benchmark; recoverability unverified
+          Uptown                 25            46794.49          17409.78                                 8.2193                  4352.44             51146.94                51.28 fixed-quantity accounting benchmark; recoverability unverified
+          Uptown                 50            46794.49          17409.78                                16.4386                  8704.89             55499.38                55.64 fixed-quantity accounting benchmark; recoverability unverified
+          Uptown                100            46794.49          17409.78                                32.8771                 17409.78             64204.27                64.37 fixed-quantity accounting benchmark; recoverability unverified
+
+Done. All numbers above are ACCOUNTING SCENARIOS.
+
+STDERR

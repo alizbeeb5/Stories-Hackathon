@@ -1,0 +1,33 @@
+STDOUT
+Garden 4.1919 -> Harbour 5.9847: gap 1.7928, formula gap 1.7928, rounding -0.00005
+Garden 4.1919 -> Uptown 5.4589: gap 1.2669, formula gap 1.2670, rounding -0.00003
+                                                   declared_order_$  share_of_gap_%  reverse_order_$  all_orders_average_$
+comparison        component                                                                                               
+Garden -> Harbour Recorded unit costs                         1.426          79.567            1.388                 1.407
+                  List prices                                 0.447          24.914            0.438                 0.443
+                  Realized discounts                         -0.031          -1.734           -0.027                -0.029
+                  Units per basket                           -0.000          -0.009           -0.000                -0.000
+                  Product mix                                -0.049          -2.734           -0.007                -0.028
+                  Cent rounding of recorded lines            -0.000          -0.003           -0.000                -0.000
+                  TOTAL = observed gap                        1.793         100.000            1.793                 1.793
+Garden -> Uptown  Recorded unit costs                         1.560         123.101            1.596                 1.578
+                  List prices                                -0.359         -28.324           -0.365                -0.362
+                  Realized discounts                         -0.002          -0.133           -0.002                -0.002
+                  Units per basket                           -0.025          -1.963           -0.020                -0.022
+                  Product mix                                 0.093           7.321            0.058                 0.075
+                  Cent rounding of recorded lines            -0.000          -0.002           -0.000                -0.000
+                  TOTAL = observed gap                        1.267         100.000            1.267                 1.267
+comparison                                   Harbour minus Garden  Uptown minus Garden
+transactions_Garden                                      11163.00             11163.00
+transactions_target                                      16334.00              6390.00
+GP_per_tx_Garden_$                                           4.19                 4.19
+GP_per_tx_target_$                                           5.98                 5.46
+total_GP_Garden_$                                        46794.49             46794.49
+total_GP_target_$                                        97753.94             34882.06
+total_GP_difference_$                                    50959.45            -11912.43
+volume_part_$ [(Nt-Ng) x Garden GP/tx]                   21676.46            -20008.07
+basket_profitability_part_$ [Nt x (gt-gg)]               29282.99              8095.64
+alt_order_volume_$ [(Nt-Ng) x target GP/tx]              30946.84            -26055.10
+alt_order_profitability_$ [Ng x (gt-gg)]                 20012.61             14142.67
+
+STDERR

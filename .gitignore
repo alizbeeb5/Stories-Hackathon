@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+outputs/decision/qa_render/
+outputs/decision/qa_final/
+outputs/final_review/render/
+outputs/final_review/source/

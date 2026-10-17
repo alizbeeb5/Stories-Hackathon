@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "All 16 scenarios appear in the integrated report",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree BASE",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree H-P",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree U-P",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree H-C025",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree H-C050",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree H-C100",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree U-C025",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree U-C050",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree U-C100",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree H-CP025",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree H-CP050",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree H-CP100",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree U-CP025",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree U-CP050",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree U-CP100",
+      "passed": true
+    },
+    {
+      "check": "Scenario amounts agree NO-DISC",
+      "passed": true
+    },
+    {
+      "check": "All 15 action break-even rows included",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree H-P",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree U-P",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree H-C025",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree H-C050",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree H-C100",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree U-C025",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree U-C050",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree U-C100",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree H-CP025",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree H-CP050",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree H-CP100",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree U-CP025",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree U-CP050",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree U-CP100",
+      "passed": true
+    },
+    {
+      "check": "Break-even levels agree NO-DISC",
+      "passed": true
+    },
+    {
+      "check": "All 14 PDF pages present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "All four evidence figures embedded",
+      "passed": true
+    },
+    {
+      "check": "Three editable model equations present",
+      "passed": true
+    },
+    {
+      "check": "No tracked changes or comments",
+      "passed": true
+    },
+    {
+      "check": "No replacement glyphs in PDF",
+      "passed": true
+    },
+    {
+      "check": "PDF equals visually reviewed rendering",
+      "passed": true
+    },
+    {
+      "check": "All 28 Python files parse",
+      "passed": true
+    },
+    {
+      "check": "Transaction source unchanged",
+      "passed": true
+    }
+  ],
+  "passed_checks": 41,
+  "visual_review": {
+    "pages": 14,
+    "all_pages_inspected": true,
+    "result": "Readable figures and equations, complete tables, correct page sequence; no clipping or overflow observed"
+  },
+  "artifacts": {
+    "outputs/final_report/Stories_Integrated_Report.docx": {
+      "sha256": "ac4396e7cf07951fa1ea44ea2871a73134e25058a7e3e18a77b98aa6c7b6dc2c",
+      "bytes": 601051
+    },
+    "outputs/final_report/Stories_Integrated_Report.pdf": {
+      "sha256": "5c5b35b8789784f3101e0d0c6a20381190d21047d79b187e0942504d5c4272a9",
+      "bytes": 770285
+    }
+  },
+  "limitations": [
+    "Field feasibility, cost avoidability and demand response remain unmeasured; required evidence and prospective test rules are declared.",
+    "No trial has been conducted; stress values are hypothetical, not forecasts."
+  ]
+}

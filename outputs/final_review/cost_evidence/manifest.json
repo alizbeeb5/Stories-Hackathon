@@ -1,0 +1,78 @@
+{
+  "source": {
+    "filename": "stories_transactions.csv",
+    "sha256": "f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1",
+    "date_start": "2026-01-01",
+    "date_end": "2026-06-30",
+    "rows": 51177,
+    "transactions": 33887,
+    "branches": [
+      "Garden",
+      "Harbour",
+      "Uptown"
+    ],
+    "products": 45,
+    "branch_product_groups": 135
+  },
+  "primary_policy": "All rows retained; supplied revenue and gross profit preserved",
+  "baseline_authority": [
+    "branch_baseline.csv",
+    "branch_product_baseline.csv"
+  ],
+  "rounding": {
+    "observed": "Preserve supplied financial amounts; Decimal arithmetic for checks",
+    "cost_rules": "Decimal ROUND_HALF_UP to USD 0.01; no half-cent ties in either tested factor",
+    "benchmarks": "Quantity times cent-denominated recorded unit costs, summed exactly; no per-unit intermediate rounding",
+    "display": "Monetary displays rounded to two decimal places, ROUND_HALF_UP",
+    "margin": "Full-precision gross profit / revenue; percentages are displayed as ratio times 100"
+  },
+  "cost_premium_interpretation": "Recorded cost benchmark at Garden quantities, not verified recoverable savings",
+  "independent_supplier_observations": "Not inferable. Repeated sales rows reuse fixed branch-product schedules.",
+  "check_count": 215,
+  "all_checks_match": true,
+  "output_sha256": {
+    "baseline_quality_checks.csv": "4f419f4dcb8fbf6bc4ffea0de1be7b779f69ca4edb5fcd5d79e08d434fbfaa99",
+    "branch_baseline.csv": "7f390354f145f93f77f6c0b776afaf7bd21be69086841a63a9529f6aea53d460",
+    "branch_product_baseline.csv": "4513ab6a70031c9baeffe8fcf0ff75b62c4e2b8cf58d0e6ce19683c0186dc4c4",
+    "claim_checks.csv": "6f67c9b47640b1174f9010d85438f0f99c2edda1a00c5e2c4d0ddda7f1b711aa",
+    "cost_rule_product_checks.csv": "757b31b47defebd896c5f17348e1412b446001d1e8af658284ad5f82d2a5827b",
+    "cost_rule_verification.csv": "89fd84fc8eebaf7cb1d7da3ab6359ff97d256182ee2789b2429c7cbff56b92d7",
+    "duplicate_cost_premium_sensitivity.csv": "64833877b0f7893aedb6b14b87a42a6acc62c4b068fc5cb05801dbe505bd6347",
+    "duplicate_counts.csv": "526c3eff51592dada284a0f82106cc89b61eb1ee3945e4038ddd2e919d49af8b",
+    "duplicate_headline_sensitivity.csv": "3aeafbf1fe47375a21ed56e2124e2fc99240f83d4a4b04c1d9df3a70f01f09ec",
+    "explanation_ledger.csv": "343ee43717c65bfd36a13a966bf62655ed8e090aa02871fedb372edd93edd349",
+    "price_cost_stability.csv": "946a3c92d7478f7b732c926f18af63b0483ed5e15c984a6c09279328b7bfeabc",
+    "product_cost_premium_contributions.csv": "9d9928a2bc037d1af2d74aabc0e85b447f3d59a2c316ee7edcf9377d7a8283b9",
+    "recorded_cost_benchmarks.csv": "af008c31402b42861c87b84e80bc1160a57445f584a399e0ec73fa5f0806d37e",
+    "report_section.txt": "f776b072b5c31efd1b46171aab7867d9454507c2dda0b62428d8e60068b7eb20"
+  },
+  "script_sha256": {
+    "08_gap_decomposition.py": "8e7bd2a1512023da2db5cca8485c2138850bb74df8bb17a27c3f84a2a7bc80d2",
+    "09_matched_baskets.py": "fbadc3702e7782e967fc66457cd4895f0c362550e36e899604b469b30ef4cb16",
+    "10_robustness.py": "1685abc3228f5b88a94774a7c176f0d321ef23d29c56b4ec87c2e2e2918b0a83",
+    "11_decomposition_figure.py": "18ebc35bae703f0ba2d413e9bd883e6a249d0245922130478690e869c4a7cdd5",
+    "_shared.py": "7010da2d47b5e990e82e50f31912f4ad93f2f9d26c450ac612febc063eafaa0e",
+    "basket_comparison.py": "96e9420ca9a47cac11c31b1fe63dc28c233a159eb4e43c72682d66b357d5218d",
+    "basket_types_and_months.py": "16d7d63a1fafa78721c23675c791d9e92955b838740ac5a01385a5179014f808",
+    "build_cost_evidence.py": "0679cf9498fc01cfbef878a02abc61e8ff66432b00cb2eb16f01b7646f75acb0",
+    "build_decision_document.py": "bcbb7bf4fb065aac7dbb8a645028160e0b720a2002ef38a8a2ab22cbd1ced618",
+    "build_final_figures.py": "348062f3aa53df4ff6ca0c9e572e85bb68940b943fa76d41e2ac7d84748377ef",
+    "build_final_report.py": "b6e4acf3ee0eb55598080bf35c28027d8d9947eb81cc1355741d00dc39c10564",
+    "category_mix.py": "50d802df84cc26afd18fc48182e050fd97757f8d1152f6030c2f3168382c02df",
+    "common_price_reference.py": "39c9c56c3f8d6795270d6c12f4a65ec0a307e6a4c41907c3773de83d854eea00",
+    "consolidated.py": "42345bdb84d2af13dd3be2ae44956f878a65a90f17df896e20870e286c1bd654",
+    "cost_audit.py": "c9e2d2ddf40c772b7acfe0d9dbfc5f1373d0420d985d66f8d83e277d3a0bf4f0",
+    "cost_gap_scenarios.py": "fde3aa3bc962f0146fdc7d1900799f3afb38d9be488c7d6b61a71edd5cd41620",
+    "discount_comparison.py": "9c4e74d2a931007af64831551b746a1c78e915e01230df77101720a7aef657b1",
+    "feasibility.py": "08d78f8e03f99c47da7c682cba719958a4111dc9cfa298b831f414df9b8d004f",
+    "order_type_demand.py": "6223ef00d668be29c7f287b2968972a830645d891e6492a291f51af00db745f1",
+    "price_matching.py": "4be9748138b889843919e5199c8a5c8732153896fa650809c4f19f22ff0e5496",
+    "run_final_validation.py": "a3e848e0e5528f990a054abeee9cebb9cbe54b493d1af4923bf16042b88233e5",
+    "shared_baseline.py": "b3ca11504cc85498e5c1a0aedc6692437dbeae82179facd194065f4a73693913",
+    "validate_baseline 2.py": "b3ca11504cc85498e5c1a0aedc6692437dbeae82179facd194065f4a73693913",
+    "validate_baseline.py": "a62d1bb39e088e9376e631d0f613f06c8fb84c3bdda0697f0dad747fa687039b",
+    "validate_final_report.py": "6cd5c1cae9bf20a79d9ebfacbaf67b483de640387beea52239235ed2cbe40875",
+    "visiualize.py": "4c8c35c68c812cb6c792a8e810d9c37ffdbff1c983ee2abb915f76fcab6e9462",
+    "where_garden_does_well.py": "84f391caecd1e0660e0381b4d87442eb65ff9b7cb33a74cac4d10335d999c57f"
+  }
+}

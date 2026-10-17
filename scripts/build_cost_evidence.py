@@ -18,7 +18,7 @@ from collections import defaultdict
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
-import validate_baseline
+import shared_baseline
 
 ROOT = Path(__file__).resolve().parent.parent
 D = Decimal
@@ -65,7 +65,7 @@ def generate(source, out):
         raise ValueError('The output directory must not contain the source CSV.')
     source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
     out.mkdir(parents=True, exist_ok=True)
-    metadata = validate_baseline.generate(source, out)
+    metadata = shared_baseline.generate(source, out)
     # Keep the pre-existing Decimal cost audit intact, including its duplicate ledger.
     subprocess.run([sys.executable, str(ROOT/'scripts'/'cost_audit.py'), str(source),
                     '--out', str(out/'audit')], check=True, capture_output=True, text=True)

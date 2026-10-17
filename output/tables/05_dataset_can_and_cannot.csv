@@ -1,0 +1,13 @@
+Question,Verdict,Why / what's needed
+"Revenue, GP, margin per branch",CAN,Sum line items.
+Cost gap magnitude by product,CAN,Compare same product across branches.
+Cost schedule regularity,CAN,All 45 Garden product costs equal Harbour cost times 1.43 rounded to cents; this does not identify the cause.
+Discount dollars by branch and order type,CAN,Per-line (Unit Price × Qty − Line Revenue).
+Fixed-qty price-matching effect,CAN,"Re-price Garden to reference, keep costs/quantities."
+Break-even volume multiplier and implementation budget,CAN (conditional accounting identity),v_break_even=(G0+K)/Gs; Kmax=v*Gs-G0. Quantities scale while product mix and unit economics remain fixed.
+Customer response to price changes,CANNOT,No A/B or cohort data.
+"Portion size, ingredient quality",CANNOT,No recipe/weight data.
+"Supplier identity, contract terms",CANNOT,No invoice data.
+Cost allocation across branches,CANNOT,No shared-services breakdown.
+"Waste, shrinkage, expiry",CANNOT,No inventory logs.
+One-off vs persistent real cost cause,CANNOT,Recorded schedules persist; source invoices and costing history are required to identify their cause.

@@ -1,0 +1,24 @@
+check,observed,interpretation
+source_sha256,f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1,Hash of unchanged source CSV bytes; all source rows retained.
+source_product_lines,51177,"Rows are product lines, not purchases."
+distinct_transaction_ids,33887,Distinct IDs define purchases; branch counts reconcile globally.
+blank_required_fields_except_customer_id,0,Zero blanks required; Customer ID is optional.
+blank_customer_ids,18691,Informational; absence does not affect branch cost calculations.
+transaction_metadata_conflicts,0,Count of transaction/metadata fields having more than one distinct value.
+gross_profit_arithmetic_mismatches,0,Supplied GP equals supplied revenue minus quantity times recorded unit cost.
+revenue_outside_half_cent,0,No supplied revenue is more than $0.005 from exact undiscounted-price calculation after discount.
+revenue_half_up_mismatches,478,Diagnostic only: compares supplied revenue with exact Decimal ROUND_HALF_UP.
+revenue_half_up_total_delta_usd,-4.78,Supplied revenue minus diagnostic half-up revenue; supplied amounts preserved.
+revenue_half_even_mismatches,221,Diagnostic only: compares supplied revenue with exact Decimal ROUND_HALF_EVEN.
+revenue_half_even_total_delta_usd,0.75,Supplied revenue minus diagnostic half-even revenue; supplied amounts preserved.
+exact_half_cent_revenue_ties,1026,Unrounded revenue lies exactly halfway between two cents; does not identify the source rounding implementation.
+exact_duplicate_groups,132,Number of identical full-row groups with at least two rows.
+exact_duplicate_rows_in_groups,264,"264 rows belong to 132 identical pairs, counting both copies."
+exact_duplicate_excess_rows,132,"132 excess copies; retaining one per group is a sensitivity, not a verified correction."
+branch_product_groups,135,135 fixed branch/product schedules; repeated transactions reuse those schedules.
+variable_price_groups,0,Zero observed price variation within each branch/product over the six months.
+variable_cost_groups,0,Zero observed cost variation; constancy alone does not refute supplier or accounting explanations.
+groups_observed_all_six_months,135,All 135 schedules are observed in January through June; transaction lines are not independent supplier-price observations.
+branch_product_reconciliations,passed,"Units, revenue, costs, GP and product lines reconcile exactly between the two shared baseline tables."
+garden_control_totals,passed,"11,163 distinct transactions; revenue $99,748.55; GP $46,794.49."
+ratio_precision,28,"Margins are fractions and GP/transaction are Decimal ratios without display rounding, using 28 significant digits."

@@ -2,7 +2,9 @@
 04_discount_comparison.py
 =========================
 Step 4 — Compare each cost-gap scenario against Garden's recorded
-discount dollars, and against the chain total.
+discount dollars, and against the chain total. Removing recorded discounts is
+a fixed-quantity accounting benchmark; the data do not identify its effect on
+sales volume or product mix.
 """
 
 from __future__ import annotations
@@ -71,8 +73,20 @@ def main() -> int:
     print(cmp[["Reference_Branch", "Closure_alpha_pct", "Scenario_Uplift_dollars",
               "Garden_Discount_Dollars", "Benefit_vs_GardenDiscount",
               "Chain_Discount_Dollars", "Benefit_vs_ChainDiscount"]].to_string(index=False))
-    print(f"\n  Garden discount dollars upper bound = ${disc.loc[disc['Branch']=='Garden','DiscountDollars'].iloc[0]:,.2f}.")
-    print("  (Removing all discounts would also change volume and mix — not modelled.)")
+    garden = df[df["Branch"] == "Garden"]
+    observed_gp = garden["Line Gross Profit (USD)"].sum()
+    garden_discounts = garden["DiscountDollars"].sum()
+    benchmark = pd.DataFrame([{
+        "Scenario": "Remove recorded discounts; Garden prices/costs",
+        "Observed_Garden_GP": round(observed_gp, 2),
+        "Fixed_Quantity_Gain": round(garden_discounts, 2),
+        "Scenario_GP_fixed_qty": round(observed_gp + garden_discounts, 2),
+        "Breakeven_volume_K0": observed_gp / (observed_gp + garden_discounts),
+        "Evidence_Label": "fixed-quantity benchmark; demand and mix responses unknown",
+    }])
+    benchmark.to_csv(OUT / "04_no_discount_benchmark.csv", index=False)
+    print(f"\n  Removing recorded Garden discounts: fixed-quantity benefit = ${garden_discounts:,.2f}.")
+    print("  Sales-volume and product-mix responses are unknown; this is not a forecast or realized-savings ceiling.")
     return 0
 
 

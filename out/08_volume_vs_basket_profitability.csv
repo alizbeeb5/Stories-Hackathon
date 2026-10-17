@@ -1,0 +1,3 @@
+comparison,transactions_Garden,transactions_target,GP_per_tx_Garden_$,GP_per_tx_target_$,total_GP_Garden_$,total_GP_target_$,total_GP_difference_$,volume_part_$ [(Nt-Ng) x Garden GP/tx],basket_profitability_part_$ [Nt x (gt-gg)],alt_order_volume_$ [(Nt-Ng) x target GP/tx],alt_order_profitability_$ [Ng x (gt-gg)]
+Harbour minus Garden,11163,16334,4.19,5.98,46794.49,97753.94,50959.45,21676.46,29282.99,30946.84,20012.61
+Uptown minus Garden,11163,6390,4.19,5.46,46794.49,34882.06,-11912.43,-20008.07,8095.64,-26055.1,14142.67

@@ -1,0 +1,4 @@
+branch,baskets,avg_items,avg_lines,avg_basket_value,avg_gp_per_basket,total_revenue,total_gp,margin_%,share_1_line_baskets_%,share_2_line_baskets_%,share_3_line_baskets_%,repeated_lines_kept
+Garden,11163,1.6,1.51,8.94,4.19,99748.55,46794.49,46.91,53.18,42.18,4.64,38
+Harbour,16334,1.6,1.51,9.21,5.98,150483.58,97753.94,64.96,53.67,41.73,4.6,68
+Uptown,6390,1.59,1.5,8.72,5.46,55693.01,34882.06,62.63,54.33,40.85,4.82,26

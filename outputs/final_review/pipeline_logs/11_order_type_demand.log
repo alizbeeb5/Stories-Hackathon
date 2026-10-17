@@ -1,0 +1,13 @@
+STDOUT
+                  baskets  avg_items  ...  share_of_branch_baskets_%  margin_%
+branch  otype                         ...                                     
+Garden  Dine-in      6552       1.60  ...                      58.69     46.84
+        Takeaway     4611       1.60  ...                      41.31     47.02
+Harbour Dine-in      9631       1.60  ...                      58.96     64.99
+        Takeaway     6703       1.59  ...                      41.04     64.91
+Uptown  Dine-in      3850       1.60  ...                      60.25     62.69
+        Takeaway     2540       1.58  ...                      39.75     62.54
+
+[6 rows x 6 columns]
+
+STDERR

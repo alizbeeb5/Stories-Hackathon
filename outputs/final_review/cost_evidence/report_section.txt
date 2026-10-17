@@ -1,0 +1,11 @@
+3 - What does Garden's recorded cost premium establish, and which explanations remain possible?
+
+Across January-June 2026, Garden records 11,163 distinct transactions, $99,748.55 revenue and $46,794.49 gross profit (46.91% margin; $4.19 GP per transaction). These figures and product-level comparisons use the two shared baseline tables.
+
+All 45 products satisfy Garden cost = round(Harbour cost x 1.43, 2), and Uptown cost = round(Harbour cost x 0.96, 2), with zero exceptions. All 135 branch-product groups have fixed recorded prices and costs across all six months. Repeated transactions reuse these schedules; they are not thousands of independent supplier-price observations. A direct Garden/Uptown multiplier does not fit every rounded cent; both Harbour-based rules still hold.
+
+The recorded cost premium, sum of Garden quantity x (Garden recorded unit cost - reference recorded unit cost), is $15,923.47 versus Harbour and $17,409.78 versus Uptown. These are fixed-basket benchmarks, not verified recoverable savings. The top five products explain 22.30% of the Harbour benchmark. At Harbour costs, Garden's benchmark margin is 62.88%, below Harbour's 64.96%.
+
+The 132 identical pairs contain 264 rows, including 132 excess copies. All rows remain in the primary baseline. Keeping one copy per pair gives Garden $99,530.55 revenue and $46,696.16 gross profit, with unchanged transactions. Benchmarks become $15,887.50/$17,370.46, about 0.23% lower; cost rules remain unchanged. The 34 nonidentical repeated-item groups are retained. Supplied financial amounts are preserved. Modeled rounding uses Decimal ROUND_HALF_UP; GP reconciles exactly and revenue tie differences remain within half a cent.
+
+This establishes a consistent recorded accounting pattern without verifying supplier payments or its cause. Supplier terms, portions or ingredients, shared-cost allocation, standard waste allowances, persistent entry/mapping errors and purchasing-volume discounts remain possible. Constancy refutes none of them. The explanation ledger identifies evidence and conditional actions. Allocation or mapping corrections can change reported branch GP without reducing cash expenditure. Net profitability remains unknown without operating expenses.

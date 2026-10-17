@@ -14,7 +14,13 @@ Then the DEMAND BREAK-EVEN question:
   "If the price change causes Garden's volume to fall/rise by X%, at what X
    does the combined cost-closure + price change stop adding gross profit?"
 
-Assumptions: linear demand, mix constant, cost per unit independent of volume.
+Assumptions: quantities scale while product mix and unit economics remain fixed.
+Volume multipliers and expense levels are hypothetical sensitivity inputs, not
+estimated customer responses. Garden prices are below Harbour and above Uptown.
+Scenario changes are added to recorded revenue/GP, preserving the original
+line-rounding residual so that an unchanged scenario reproduces the baseline.
+For Garden, the recorded revenue exceeds the unrounded reconstruction by
+$0.755 over six months; that residual is carried forward in price scenarios.
 """
 
 from __future__ import annotations
@@ -26,6 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "stories_transactions.csv"
 OUT = ROOT / "output" / "tables"
 OUT.mkdir(parents=True, exist_ok=True)
+HYPOTHETICAL_IMPLEMENTATION_EXPENSES = [0.0, 1000.0, 2500.0, 5000.0]
 
 
 def load():
@@ -67,8 +74,10 @@ def per_product_step(df_garden: pd.DataFrame, df_all: pd.DataFrame,
             base[f"Cost_{ref}"] - base["GardenCost"]
         )
         new_price = base[f"Price_{ref}"]
-        new_rev   = new_price * base["Quantity"] * (1.0 - base["Discount Rate"])
-        new_gp    = new_rev - new_cost * base["Quantity"]
+        price_delta = (new_price - base["GardenPrice"]) * base["Quantity"] * (1.0 - base["Discount Rate"])
+        cost_saving = (base["GardenCost"] - new_cost) * base["Quantity"]
+        new_rev   = base["ObsRev"] + price_delta
+        new_gp    = base["ObsGP"] + price_delta + cost_saving
         base[f"NewRev_{ref}"]   = new_rev
         base[f"NewGP_{ref}"]    = new_gp
         base[f"DeltaRev_{ref}"] = new_rev - base["ObsRev"]
@@ -101,25 +110,26 @@ def fixed_quantity_summary(base: pd.DataFrame, alpha: float) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def demand_breakeven(base: pd.DataFrame, alpha: float) -> pd.DataFrame:
+def demand_breakeven(base: pd.DataFrame, alpha: float,
+                     implementation_expenses=HYPOTHETICAL_IMPLEMENTATION_EXPENSES) -> pd.DataFrame:
     rows = []
     obs_gp = base["ObsGP"].sum()
     for ref in ["Harbour", "Uptown"]:
-        new_gp_per_unit = base[f"NewGP_{ref}"] / base["Quantity"]
-        sum_unit_gp_new = (new_gp_per_unit * base["Quantity"]).sum()
-        v = obs_gp / sum_unit_gp_new if sum_unit_gp_new > 0 else float("nan")
-        rows.append({
-            "Cost_Closure_alpha": alpha,
-            "Reference_Branch": ref,
-            "Observed_Garden_GP": round(obs_gp, 2),
-            "Sum_unit_GP_new": round(sum_unit_gp_new, 2),
-            "Breakeven_Volume_Multiplier_v": round(v, 4),
-            "Allowable_Volume_Drop_pct": round((1 - v) * 100, 2) if v < 1 else None,
-            "Required_Volume_Uplift_pct": round((v - 1) * 100, 2) if v > 1 else None,
-            "Note": ("Prices rise; v<1 means volume can fall" if ref == "Harbour"
-                     else "Prices fall; v>1 means more volume needed"),
-            "Evidence_Label": "accounting scenario (linear break-even)",
-        })
+        scenario_gp = base[f"NewGP_{ref}"].sum()
+        for k in implementation_expenses:
+            v = (obs_gp + k) / scenario_gp if scenario_gp > 0 else float("nan")
+            rows.append({
+                "Cost_Closure_alpha": alpha,
+                "Reference_Branch": ref,
+                "Observed_Garden_GP": round(obs_gp, 2),
+                "Scenario_GP_at_observed_quantity": round(scenario_gp, 2),
+                "Hypothetical_Implementation_Expenses_6mo": k,
+                "Breakeven_Volume_Multiplier_v": round(v, 6),
+                "Allowable_Volume_Drop_pct": round((1 - v) * 100, 2) if v < 1 else None,
+                "Required_Volume_Uplift_pct": round((v - 1) * 100, 2) if v > 1 else None,
+                "Note": "Break-even only: quantities scale; product mix and unit economics fixed.",
+                "Evidence_Label": "hypothetical expense sensitivity; no customer-response estimate",
+            })
     return pd.DataFrame(rows)
 
 
@@ -130,6 +140,8 @@ def main() -> int:
     df = load()
     garden = df[df["Branch"] == "Garden"].copy()
     pw = price_table(df)
+    residual = (garden["Line Revenue (USD)"] - garden["Unit Price (USD)"] * garden["Quantity"] * (1 - garden["Discount Rate"])).sum()
+    print(f"Recorded-revenue rounding residual carried forward: ${residual:,.3f}")
 
     results_fixed, results_be, per_product_tables = [], [], {}
     for alpha in [0.00, 0.25, 0.50, 1.00]:

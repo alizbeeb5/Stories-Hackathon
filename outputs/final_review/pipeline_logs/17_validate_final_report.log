@@ -1,0 +1,9 @@
+STDOUT
+{
+  "status": "ALL_INDEPENDENT_NUMERIC_CHECKS_PASSED",
+  "checks": 32,
+  "claim_reviews": 18,
+  "outputs": "/Users/fatimakarnib/Desktop/Stories-Hackathon/outputs/final_review"
+}
+
+STDERR

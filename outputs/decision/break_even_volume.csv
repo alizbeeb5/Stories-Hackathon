@@ -1,0 +1,17 @@
+Scenario_ID,Scenario_Description,Retained_Volume_pct_at_K0,Retained_Volume_pct_at_K1000,Retained_Volume_pct_at_K2500,Retained_Volume_pct_at_K5000
+BASE,Do nothing (observed Garden),100.000000,102.137004,105.342509,110.685019
+H-P,Match Harbour prices only,90.371121,92.302355,95.199207,100.027292
+U-P,Match Uptown prices only,109.361697,111.698761,115.204356,121.047015
+H-C025,Close 25% of Harbour cost gap; keep Garden prices,92.159843,94.129303,97.083492,102.007140
+H-C050,Close 50% of Harbour cost gap; keep Garden prices,85.459671,87.285948,90.025362,94.591053
+H-C100,Close 100% of Harbour cost gap; keep Garden prices,74.610989,76.205428,78.597088,82.583187
+U-C025,Close 25% of Uptown cost gap; keep Garden prices,91.490311,93.445463,96.378190,101.266068
+U-C050,Close 50% of Uptown cost gap; keep Garden prices,84.315338,86.117160,88.819893,93.324448
+U-C100,Close 100% of Uptown cost gap; keep Garden prices,72.883766,74.441295,76.777588,80.671410
+H-CP025,Close 25% of Harbour cost gap and match Harbour prices,83.919407,85.712768,88.402810,92.886212
+H-CP050,Close 50% of Harbour cost gap and match Harbour prices,78.327504,80.001365,82.512158,86.696812
+H-CP100,Close 100% of Harbour cost gap and match Harbour prices,69.116461,70.593483,72.809015,76.501568
+U-CP025,Close 25% of Uptown cost gap and match Uptown prices,99.264564,101.385852,104.567783,109.871002
+U-CP050,Close 50% of Uptown cost gap and match Uptown prices,90.874331,92.816319,95.729301,100.584270
+U-CP100,Close 100% of Uptown cost gap and match Uptown prices,77.733625,79.394795,81.886551,86.039477
+NO-DISC,Remove recorded discounts (fixed-quantity benchmark),98.825986,100.937901,104.105774,109.385562

@@ -1,0 +1,29 @@
+STDOUT
+======================================================================
+STEP 1 — BASELINE VALIDATION (Garden, Harbour, Uptown)
+======================================================================
+Loaded 51,177 line items, 33,887 transactions
+Date range: 2026-01-01 → 2026-06-30
+Products: 45 unique across all branches
+
+[1] Supplied vs recomputed columns:
+    rows where supplied revenue differs from recomputed: 0
+    rows where supplied GP differs from recomputed:      0
+
+[2] Branch summary:
+ Branch  LineItems  Transactions  Units   Revenue  RecordedCost  GrossProfit  DiscountDollars  GrossMarginPct  AvgBasketRevenue  AvgBasketGP
+ Garden      16907         11163  17833  99748.55      52954.06     46794.49           555.90           46.91              8.94         4.19
+Harbour      24654         16334  26093 150483.58      52729.64     97753.94          1300.04           64.96              9.21         5.98
+ Uptown       9616          6390  10161  55693.01      20810.95     34882.06           322.15           62.63              8.72         5.46
+    ALL      51177         33887  54087 305925.14     126494.65    179430.49          2178.09           58.65              9.03         5.29
+
+[4] Price constant in 135/135 (Branch, Product) groups
+    Cost  constant in 135/135 (Branch, Product) groups
+
+[5] Duplicate rows: 264 (0.516%)
+    total revenue all rows:    305,925.14
+    total revenue unique rows: 305,183.71
+
+Done. Every number above is an OBSERVED FACT.
+
+STDERR

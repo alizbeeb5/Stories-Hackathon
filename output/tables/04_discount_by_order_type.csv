@@ -1,0 +1,7 @@
+Branch,Order Type,DiscountDollars,Lines,DiscountPerLine
+Garden,Dine-in,327.44,9890,0.033
+Garden,Takeaway,228.46,7017,0.033
+Harbour,Dine-in,778.43,14561,0.053
+Harbour,Takeaway,521.61,10093,0.052
+Uptown,Dine-in,205.51000000000002,5826,0.035
+Uptown,Takeaway,116.64000000000001,3790,0.031

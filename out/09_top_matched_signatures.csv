@@ -1,0 +1,21 @@
+sig,size_Garden,mean_Garden,size_Harbour,mean_Harbour,comparison,size_Uptown,mean_Uptown
+Iced Latte x1,266,2.94,463.0,3.87,Harbour,,
+Butter Croissant x1,239,2.01,368.0,2.67,Harbour,,
+Iced Matcha x1,238,3.22,348.0,4.64,Harbour,,
+Brownie x1,221,1.73,197.0,2.96,Harbour,,
+Frozen Yoghurt Cup x1,202,2.26,171.0,3.61,Harbour,,
+Classic Matcha x1,194,3.16,297.0,4.47,Harbour,,
+Cheesecake Slice x1,177,2.31,178.0,3.88,Harbour,,
+Tiramisu Cup x1,175,2.42,161.0,3.87,Harbour,,
+Iced Americano x1,170,2.6,262.0,3.11,Harbour,,
+Chocolate Croissant x1,156,1.97,220.0,2.85,Harbour,,
+Iced Latte x1,266,2.94,,,Uptown,159.0,3.52
+Butter Croissant x1,239,2.01,,,Uptown,116.0,2.38
+Iced Matcha x1,238,3.22,,,Uptown,126.0,4.13
+Brownie x1,221,1.73,,,Uptown,67.0,2.62
+Frozen Yoghurt Cup x1,202,2.26,,,Uptown,74.0,3.27
+Classic Matcha x1,194,3.16,,,Uptown,100.0,3.97
+Cheesecake Slice x1,177,2.31,,,Uptown,62.0,3.5
+Tiramisu Cup x1,175,2.42,,,Uptown,47.0,3.54
+Iced Americano x1,170,2.6,,,Uptown,89.0,2.85
+Chocolate Croissant x1,156,1.97,,,Uptown,98.0,2.54

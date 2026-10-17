@@ -1,0 +1,133 @@
+source_row,first_source_row,Transaction ID,Date,Time,Branch,Customer ID,Order Type,Product,Category,Quantity,Unit Price (USD),Discount Rate,Unit Cost (USD),Line Revenue (USD),Line Gross Profit (USD)
+207,206,SYN-0000142,2026-01-01,19:47:18,Garden,C03183,Dine-in,Iced Matcha,Matcha & Tea,1,6.85,0.0,3.59,6.85,3.26
+902,900,SYN-0000599,2026-01-05,11:03:56,Harbour,,Takeaway,Turkey & Cheese Sandwich,Sandwiches,1,10.13,0.0,4.72,10.13,5.41
+1022,1021,SYN-0000685,2026-01-06,15:43:36,Garden,C01682,Takeaway,Espresso,Hot Coffee,1,2.65,0.0,0.93,2.65,1.72
+1245,1244,SYN-0000829,2026-01-06,21:00:54,Uptown,C01193,Dine-in,Butter Croissant,Bakery,1,3.5,0.0,1.09,3.5,2.41
+1337,1336,SYN-0000890,2026-01-07,12:33:05,Harbour,C00502,Takeaway,Cheesecake Slice,Desserts,1,7.09,0.0,3.08,7.09,4.01
+1668,1667,SYN-0001117,2026-01-08,15:29:46,Uptown,,Takeaway,Classic Matcha,Matcha & Tea,1,6.19,0.0,2.18,6.19,4.01
+1921,1920,SYN-0001290,2026-01-09,09:54:40,Uptown,C03014,Takeaway,Turkey & Cheese Sandwich,Sandwiches,1,9.26,0.0,4.53,9.26,4.73
+2073,2072,SYN-0001389,2026-01-10,13:27:58,Uptown,,Takeaway,Turkey & Cheese Sandwich,Sandwiches,1,9.26,0.0,4.53,9.26,4.73
+2576,2575,SYN-0001716,2026-01-13,21:10:04,Harbour,C03379,Takeaway,Classic Matcha,Matcha & Tea,1,6.77,0.0,2.27,6.77,4.5
+2796,2794,SYN-0001861,2026-01-13,20:24:43,Uptown,,Dine-in,Iced Americano,Cold Coffee,1,3.7,0.0,0.83,3.7,2.87
+3048,3047,SYN-0002030,2026-01-14,21:26:11,Uptown,C03281,Dine-in,Iced Latte,Cold Coffee,1,5.14,0.0,1.59,5.14,3.55
+4623,4622,SYN-0003087,2026-01-21,18:07:29,Garden,,Dine-in,Iced Latte,Cold Coffee,1,5.35,0.0,2.37,5.35,2.98
+4667,4666,SYN-0003115,2026-01-22,18:11:57,Harbour,C02383,Takeaway,Chocolate Cookie,Bakery,1,3.31,0.0,0.91,3.31,2.4
+4691,4689,SYN-0003130,2026-01-22,09:42:31,Harbour,,Dine-in,Classic Matcha,Matcha & Tea,1,6.77,0.0,2.27,6.77,4.5
+5097,5096,SYN-0003396,2026-01-24,20:57:52,Harbour,,Takeaway,Halloumi Wrap,Sandwiches,1,10.45,0.0,4.14,10.45,6.31
+5329,5327,SYN-0003550,2026-01-25,09:44:10,Garden,,Takeaway,Chocolate Croissant,Bakery,1,4.25,0.0,2.26,4.25,1.99
+5469,5468,SYN-0003639,2026-01-26,19:13:11,Harbour,C00033,Takeaway,Avocado Toast,Breakfast,1,9.92,0.0,4.18,9.92,5.74
+5711,5710,SYN-0003803,2026-01-27,17:38:05,Harbour,C03274,Takeaway,Chocolate Croissant,Bakery,1,4.46,0.0,1.58,4.46,2.88
+5786,5785,SYN-0003859,2026-01-27,21:36:56,Harbour,C01891,Takeaway,Chocolate Cookie,Bakery,1,3.31,0.0,0.91,3.31,2.4
+5929,5928,SYN-0003958,2026-01-27,17:19:26,Harbour,C01822,Dine-in,Cinnamon Roll,Bakery,1,5.41,0.0,2.24,5.41,3.17
+6663,6662,SYN-0004426,2026-01-30,19:04:43,Harbour,,Dine-in,Iced Matcha,Matcha & Tea,1,7.19,0.0,2.51,7.19,4.68
+7078,7076,SYN-0004699,2026-02-02,12:54:02,Garden,,Takeaway,Lemonade,Cold Drinks,1,4.65,0.0,1.67,4.65,2.98
+7597,7595,SYN-0005048,2026-02-03,18:45:11,Harbour,C01860,Takeaway,Iced Latte,Cold Coffee,1,5.62,0.0,1.66,5.62,3.96
+7845,7844,SYN-0005217,2026-02-04,13:59:18,Uptown,C00700,Dine-in,Chocolate Cookie,Bakery,1,3.02,0.0,0.87,3.02,2.15
+8231,8230,SYN-0005471,2026-02-06,10:41:13,Harbour,,Takeaway,Tiramisu Cup,Desserts,1,6.88,0.0,2.85,6.88,4.03
+8866,8865,SYN-0005876,2026-02-08,14:34:59,Harbour,C01432,Dine-in,Butter Croissant,Bakery,1,3.83,0.0,1.14,3.83,2.69
+9063,9061,SYN-0006009,2026-02-09,14:13:27,Garden,C02634,Takeaway,Butter Croissant,Bakery,1,3.65,0.0,1.63,3.65,2.02
+9310,9308,SYN-0006163,2026-02-10,20:41:19,Harbour,C02570,Dine-in,Still Water,Cold Drinks,1,2.05,0.0,0.65,2.05,1.4
+9567,9566,SYN-0006339,2026-02-11,09:55:53,Garden,,Dine-in,Almond Croissant,Bakery,1,4.85,0.0,2.73,4.85,2.12
+9826,9824,SYN-0006512,2026-02-12,12:39:55,Garden,C03034,Takeaway,Chocolate Cookie,Bakery,1,3.15,0.0,1.3,3.15,1.85
+9935,9933,SYN-0006580,2026-02-12,23:27:55,Uptown,C01619,Dine-in,Still Water,Cold Drinks,1,1.87,0.0,0.62,1.87,1.25
+10495,10494,SYN-0006945,2026-02-15,14:45:37,Uptown,C02954,Takeaway,Cinnamon Roll,Bakery,1,4.94,0.0,2.15,4.94,2.79
+10586,10585,SYN-0006999,2026-02-15,19:20:05,Uptown,,Takeaway,Iced Latte,Cold Coffee,1,5.14,0.0,1.59,5.14,3.55
+11287,11286,SYN-0007471,2026-02-18,14:02:53,Harbour,C01289,Dine-in,Blueberry Muffin,Bakery,1,4.15,0.0,1.31,4.15,2.84
+11423,11422,SYN-0007558,2026-02-18,20:24:06,Harbour,C00387,Takeaway,Classic Matcha,Matcha & Tea,1,6.77,0.0,2.27,6.77,4.5
+11773,11771,SYN-0007791,2026-02-20,16:36:24,Garden,,Takeaway,Cheesecake Slice,Desserts,1,6.75,0.0,4.4,6.75,2.35
+12025,12023,SYN-0007953,2026-02-21,18:25:11,Harbour,C00025,Dine-in,Brownie,Desserts,1,5.41,0.0,2.37,5.41,3.04
+13128,13127,SYN-0008676,2026-02-25,23:35:12,Garden,C00817,Takeaway,Brownie,Desserts,1,5.15,0.0,3.39,5.15,1.76
+13255,13254,SYN-0008763,2026-02-26,18:57:10,Garden,C02063,Dine-in,Still Water,Cold Drinks,1,1.95,0.0,0.93,1.95,1.02
+13368,13367,SYN-0008835,2026-02-26,13:21:08,Uptown,C03212,Dine-in,Iced Latte,Cold Coffee,1,5.14,0.0,1.59,5.14,3.55
+13463,13462,SYN-0008898,2026-02-27,21:52:43,Harbour,C02154,Dine-in,Chocolate Croissant,Bakery,1,4.46,0.0,1.58,4.46,2.88
+13543,13541,SYN-0008952,2026-02-27,20:58:42,Garden,C01415,Dine-in,Butter Croissant,Bakery,1,3.65,0.0,1.63,3.65,2.02
+13635,13634,SYN-0009014,2026-02-27,16:35:41,Garden,C01280,Takeaway,Granola Yoghurt,Breakfast,1,7.85,0.0,4.75,7.85,3.1
+14275,14274,SYN-0009437,2026-03-02,09:18:55,Harbour,C01960,Dine-in,Flat White,Hot Coffee,1,4.57,0.0,1.24,4.57,3.33
+15347,15346,SYN-0010149,2026-03-06,08:49:23,Garden,,Dine-in,Cappuccino,Hot Coffee,1,4.05,0.0,1.6,4.05,2.45
+15429,15427,SYN-0010204,2026-03-06,21:09:03,Harbour,,Dine-in,Soup of the Day,Meals,1,7.51,0.0,2.79,7.51,4.72
+15726,15725,SYN-0010399,2026-03-07,22:23:47,Harbour,C02663,Dine-in,Cinnamon Roll,Bakery,1,5.41,0.0,2.24,5.41,3.17
+16542,16541,SYN-0010944,2026-03-10,08:42:18,Harbour,,Takeaway,Almond Croissant,Bakery,1,5.09,0.0,1.91,5.09,3.18
+16661,16660,SYN-0011017,2026-03-10,16:09:20,Uptown,C01665,Dine-in,Almond Croissant,Bakery,1,4.66,0.0,1.83,4.66,2.83
+16741,16740,SYN-0011069,2026-03-11,12:02:52,Harbour,C02177,Dine-in,Sparkling Water,Cold Drinks,1,2.89,0.0,1.35,2.89,1.54
+16862,16860,SYN-0011146,2026-03-11,23:11:23,Harbour,,Dine-in,Strawberry Matcha,Matcha & Tea,1,8.03,0.0,3.18,8.03,4.85
+17431,17429,SYN-0011527,2026-03-13,10:06:09,Garden,C02402,Dine-in,Butter Croissant,Bakery,1,3.65,0.0,1.63,3.65,2.02
+17753,17752,SYN-0011732,2026-03-15,21:48:52,Harbour,C03311,Dine-in,Iced Americano,Cold Coffee,1,4.04,0.15,0.86,3.43,2.57
+18362,18360,SYN-0012131,2026-03-17,23:43:41,Uptown,C01653,Dine-in,Iced Latte,Cold Coffee,1,5.14,0.0,1.59,5.14,3.55
+18479,18478,SYN-0012207,2026-03-17,14:55:28,Harbour,,Takeaway,Almond Croissant,Bakery,1,5.09,0.0,1.91,5.09,3.18
+19164,19163,SYN-0012668,2026-03-20,08:43:10,Harbour,C03222,Dine-in,Flat White,Hot Coffee,1,4.57,0.0,1.24,4.57,3.33
+20001,20000,SYN-0013229,2026-03-24,22:02:54,Uptown,C00126,Dine-in,Butter Croissant,Bakery,1,3.5,0.0,1.09,3.5,2.41
+20835,20833,SYN-0013772,2026-03-26,20:28:25,Uptown,C00744,Dine-in,Spanish Latte,Hot Coffee,1,5.71,0.0,1.9,5.71,3.81
+21141,21139,SYN-0013974,2026-03-27,21:34:22,Harbour,,Dine-in,Frozen Yoghurt Cup,Desserts,1,6.46,0.0,2.69,6.46,3.77
+21552,21551,SYN-0014251,2026-03-29,14:05:36,Uptown,,Takeaway,Peach Iced Tea,Cold Drinks,1,4.27,0.0,1.1,4.27,3.17
+21713,21712,SYN-0014346,2026-03-30,22:56:05,Harbour,C01286,Dine-in,Frozen Yoghurt Cup,Desserts,1,6.46,0.0,2.69,6.46,3.77
+21855,21853,SYN-0014437,2026-03-30,22:58:32,Garden,,Takeaway,Cheesecake Slice,Desserts,1,6.75,0.0,4.4,6.75,2.35
+21892,21891,SYN-0014461,2026-03-30,22:06:32,Harbour,C02880,Dine-in,Iced Latte,Cold Coffee,1,5.62,0.0,1.66,5.62,3.96
+22234,22233,SYN-0014685,2026-03-31,15:48:33,Harbour,,Takeaway,Cold Brew,Cold Coffee,1,5.41,0.0,1.16,5.41,4.25
+22510,22509,SYN-0014869,2026-04-01,20:35:32,Harbour,C00739,Dine-in,Brownie,Desserts,1,5.41,0.0,2.37,5.41,3.04
+22584,22582,SYN-0014918,2026-04-01,14:57:53,Harbour,C02030,Dine-in,Cold Brew,Cold Coffee,1,5.41,0.0,1.16,5.41,4.25
+22738,22737,SYN-0015014,2026-04-02,20:13:28,Garden,,Dine-in,Iced Americano,Cold Coffee,1,3.85,0.0,1.23,3.85,2.62
+22916,22915,SYN-0015129,2026-04-02,21:23:47,Uptown,C02537,Dine-in,Iced Latte,Cold Coffee,1,5.14,0.0,1.59,5.14,3.55
+22942,22940,SYN-0015148,2026-04-02,17:44:43,Garden,,Takeaway,Chocolate Croissant,Bakery,1,4.25,0.0,2.26,4.25,1.99
+22955,22953,SYN-0015157,2026-04-02,15:42:55,Harbour,C03418,Takeaway,Iced Latte,Cold Coffee,1,5.62,0.0,1.66,5.62,3.96
+23244,23243,SYN-0015345,2026-04-03,21:49:02,Harbour,C02137,Dine-in,Chai Latte,Matcha & Tea,1,5.51,0.0,1.48,5.51,4.03
+23306,23304,SYN-0015390,2026-04-03,21:04:30,Harbour,C01989,Dine-in,Classic Matcha,Matcha & Tea,1,6.77,0.0,2.27,6.77,4.5
+23320,23319,SYN-0015398,2026-04-03,15:41:06,Uptown,C02894,Dine-in,Classic Matcha,Matcha & Tea,1,6.19,0.0,2.18,6.19,4.01
+23892,23891,SYN-0015780,2026-04-06,10:34:39,Uptown,C00452,Dine-in,Chocolate Cookie,Bakery,1,3.02,0.0,0.87,3.02,2.15
+25410,25408,SYN-0016801,2026-04-11,09:22:14,Harbour,C02225,Dine-in,Caramel Latte,Hot Coffee,1,6.04,0.0,1.87,6.04,4.17
+25639,25638,SYN-0016957,2026-04-12,19:30:46,Harbour,C02442,Dine-in,Cheesecake Slice,Desserts,1,7.09,0.0,3.08,7.09,4.01
+26437,26435,SYN-0017480,2026-04-14,23:13:24,Harbour,C02060,Dine-in,Cinnamon Roll,Bakery,1,5.41,0.0,2.24,5.41,3.17
+26543,26542,SYN-0017550,2026-04-15,09:50:02,Harbour,C02636,Takeaway,Americano,Hot Coffee,1,3.31,0.0,0.72,3.31,2.59
+27814,27813,SYN-0018382,2026-04-20,10:39:56,Garden,C01491,Dine-in,Strawberry Matcha,Matcha & Tea,1,7.65,0.0,4.55,7.65,3.1
+27844,27843,SYN-0018402,2026-04-20,15:43:25,Garden,C01751,Dine-in,Chicken Pesto Sandwich,Sandwiches,1,10.75,0.0,7.39,10.75,3.36
+28011,28009,SYN-0018514,2026-04-20,19:45:06,Garden,,Takeaway,Tiramisu Cup,Desserts,1,6.55,0.0,4.08,6.55,2.47
+28258,28257,SYN-0018680,2026-04-21,22:33:32,Harbour,,Dine-in,Iced Latte,Cold Coffee,1,5.62,0.0,1.66,5.62,3.96
+28478,28477,SYN-0018833,2026-04-22,12:48:31,Garden,,Dine-in,Spanish Latte,Hot Coffee,1,5.95,0.0,2.83,5.95,3.12
+28637,28636,SYN-0018939,2026-04-22,07:57:23,Harbour,C00133,Takeaway,Vanilla Latte,Hot Coffee,1,5.72,0.0,1.72,5.72,4.0
+29082,29080,SYN-0019239,2026-04-24,19:42:01,Garden,,Dine-in,Halloumi Wrap,Sandwiches,1,9.95,0.0,5.92,9.95,4.03
+29557,29556,SYN-0019551,2026-04-26,22:51:15,Uptown,,Dine-in,Cheesecake Slice,Desserts,1,6.48,0.0,2.96,6.48,3.52
+30009,30008,SYN-0019851,2026-04-28,23:45:35,Harbour,C02226,Takeaway,Cold Brew,Cold Coffee,1,5.41,0.0,1.16,5.41,4.25
+30418,30416,SYN-0020119,2026-04-29,09:52:32,Harbour,,Takeaway,Chocolate Croissant,Bakery,1,4.46,0.0,1.58,4.46,2.88
+30512,30511,SYN-0020187,2026-04-29,23:05:17,Garden,,Dine-in,Fresh Orange Juice,Cold Drinks,1,5.75,0.0,3.03,5.75,2.72
+31032,31030,SYN-0020543,2026-05-01,22:40:31,Garden,C00615,Dine-in,Cheesecake Slice,Desserts,1,6.75,0.0,4.4,6.75,2.35
+31435,31434,SYN-0020819,2026-05-02,14:46:46,Garden,C00104,Dine-in,Lemonade,Cold Drinks,1,4.65,0.0,1.67,4.65,2.98
+31461,31460,SYN-0020835,2026-05-02,19:51:21,Uptown,C01851,Dine-in,Strawberry Matcha,Matcha & Tea,1,7.34,0.0,3.05,7.34,4.29
+32641,32640,SYN-0021632,2026-05-06,07:53:21,Harbour,C01424,Dine-in,Almond Croissant,Bakery,1,5.09,0.0,1.91,5.09,3.18
+32706,32705,SYN-0021671,2026-05-06,07:40:25,Garden,C00098,Takeaway,Tuna Sandwich,Sandwiches,1,8.85,0.0,5.33,8.85,3.52
+33497,33495,SYN-0022202,2026-05-08,13:54:06,Uptown,C02784,Dine-in,Halloumi Wrap,Sandwiches,1,9.55,0.0,3.97,9.55,5.58
+34421,34419,SYN-0022812,2026-05-12,23:59:56,Harbour,C03464,Dine-in,Classic Matcha,Matcha & Tea,1,6.77,0.0,2.27,6.77,4.5
+34764,34763,SYN-0023044,2026-05-12,18:49:55,Harbour,C01924,Dine-in,Cappuccino,Hot Coffee,1,4.25,0.0,1.12,4.25,3.13
+35079,35078,SYN-0023250,2026-05-13,15:16:24,Harbour,C00838,Dine-in,Banana Bread,Bakery,1,4.67,0.0,1.57,4.67,3.1
+35375,35374,SYN-0023446,2026-05-14,22:11:20,Harbour,,Dine-in,Iced Latte,Cold Coffee,1,5.62,0.15,1.66,4.78,3.12
+35535,35534,SYN-0023557,2026-05-15,21:37:03,Garden,C01455,Dine-in,Iced Americano,Cold Coffee,1,3.85,0.0,1.23,3.85,2.62
+36947,36946,SYN-0024477,2026-05-19,11:05:58,Harbour,C01023,Dine-in,Iced Matcha,Matcha & Tea,1,7.19,0.0,2.51,7.19,4.68
+37299,37298,SYN-0024700,2026-05-21,22:33:13,Garden,C00112,Dine-in,Strawberry Matcha,Matcha & Tea,1,7.65,0.0,4.55,7.65,3.1
+37560,37558,SYN-0024872,2026-05-21,17:08:09,Garden,C03164,Takeaway,Avocado Toast,Breakfast,1,9.45,0.0,5.98,9.45,3.47
+37593,37592,SYN-0024893,2026-05-21,07:54:06,Harbour,,Dine-in,Spanish Latte,Hot Coffee,1,6.25,0.1,1.98,5.62,3.64
+38152,38151,SYN-0025254,2026-05-23,16:21:46,Harbour,C02389,Dine-in,Almond Croissant,Bakery,1,5.09,0.0,1.91,5.09,3.18
+39723,39721,SYN-0026296,2026-05-28,22:54:10,Uptown,,Takeaway,Brownie,Desserts,1,4.94,0.0,2.28,4.94,2.66
+39846,39844,SYN-0026377,2026-05-28,09:59:16,Uptown,,Takeaway,Chocolate Croissant,Bakery,1,4.08,0.0,1.52,4.08,2.56
+40939,40938,SYN-0027100,2026-06-01,23:55:06,Harbour,C00986,Takeaway,Iced Mocha,Cold Coffee,1,6.56,0.0,2.23,6.56,4.33
+41471,41470,SYN-0027451,2026-06-02,13:08:37,Harbour,C02852,Dine-in,Iced Matcha,Matcha & Tea,1,7.19,0.0,2.51,7.19,4.68
+42022,42020,SYN-0027810,2026-06-04,20:28:48,Harbour,C01326,Dine-in,Iced Matcha,Matcha & Tea,1,7.19,0.0,2.51,7.19,4.68
+42706,42704,SYN-0028276,2026-06-06,21:29:18,Garden,,Takeaway,Frozen Yoghurt Cup,Desserts,1,6.15,0.0,3.85,6.15,2.3
+42820,42819,SYN-0028356,2026-06-06,14:20:37,Harbour,C02884,Dine-in,Vanilla Latte,Hot Coffee,1,5.72,0.0,1.72,5.72,4.0
+42873,42872,SYN-0028391,2026-06-07,10:41:46,Garden,C00198,Takeaway,Halloumi Wrap,Sandwiches,1,9.95,0.0,5.92,9.95,4.03
+42897,42896,SYN-0028409,2026-06-07,14:48:53,Garden,,Takeaway,Coffee Frappe,Cold Coffee,1,6.55,0.0,3.62,6.55,2.93
+43201,43200,SYN-0028619,2026-06-08,18:56:42,Harbour,C01970,Dine-in,Blueberry Muffin,Bakery,1,4.15,0.0,1.31,4.15,2.84
+43405,43404,SYN-0028756,2026-06-08,21:55:06,Harbour,C01736,Dine-in,Butter Croissant,Bakery,1,3.83,0.0,1.14,3.83,2.69
+43820,43818,SYN-0029026,2026-06-09,10:10:53,Harbour,,Dine-in,Strawberry Matcha,Matcha & Tea,1,8.03,0.0,3.18,8.03,4.85
+44725,44724,SYN-0029617,2026-06-12,22:41:14,Garden,C03020,Dine-in,Cheesecake Slice,Desserts,1,6.75,0.0,4.4,6.75,2.35
+44904,44902,SYN-0029745,2026-06-12,15:02:58,Harbour,C01118,Dine-in,Chocolate Croissant,Bakery,1,4.46,0.0,1.58,4.46,2.88
+45098,45097,SYN-0029869,2026-06-13,21:14:39,Harbour,,Dine-in,Iced Matcha,Matcha & Tea,1,7.19,0.0,2.51,7.19,4.68
+45166,45165,SYN-0029910,2026-06-14,20:04:46,Harbour,C00868,Dine-in,Iced Matcha,Matcha & Tea,1,7.19,0.0,2.51,7.19,4.68
+45781,45780,SYN-0030312,2026-06-16,14:49:21,Uptown,C01103,Takeaway,Iced Latte,Cold Coffee,1,5.14,0.0,1.59,5.14,3.55
+45859,45858,SYN-0030365,2026-06-16,20:25:42,Uptown,C01903,Dine-in,Iced Matcha,Matcha & Tea,1,6.58,0.0,2.41,6.58,4.17
+46655,46654,SYN-0030894,2026-06-18,20:11:00,Harbour,C01622,Dine-in,Cold Brew,Cold Coffee,1,5.41,0.0,1.16,5.41,4.25
+46830,46829,SYN-0031013,2026-06-18,12:24:56,Garden,,Dine-in,Cappuccino,Hot Coffee,1,4.05,0.0,1.6,4.05,2.45
+46853,46852,SYN-0031026,2026-06-18,14:41:18,Garden,C01021,Takeaway,Pistachio Cookie,Bakery,1,3.45,0.0,1.69,3.45,1.76
+47339,47338,SYN-0031347,2026-06-20,23:53:56,Harbour,,Dine-in,Still Water,Cold Drinks,1,2.05,0.0,0.65,2.05,1.4
+48060,48059,SYN-0031813,2026-06-22,14:21:09,Harbour,,Dine-in,Coffee Frappe,Cold Coffee,1,6.88,0.0,2.53,6.88,4.35
+48360,48359,SYN-0032011,2026-06-23,21:51:28,Garden,,Dine-in,Chocolate Croissant,Bakery,1,4.25,0.0,2.26,4.25,1.99
+48730,48729,SYN-0032263,2026-06-23,18:04:41,Harbour,C01959,Dine-in,Butter Croissant,Bakery,1,3.83,0.0,1.14,3.83,2.69
+49120,49118,SYN-0032526,2026-06-25,16:48:18,Garden,C01299,Dine-in,Caramel Latte,Hot Coffee,1,5.75,0.0,2.67,5.75,3.08
+50153,50151,SYN-0033199,2026-06-28,23:59:40,Harbour,,Takeaway,Almond Croissant,Bakery,1,5.09,0.0,1.91,5.09,3.18

@@ -1,0 +1,216 @@
+check,observed,expected,result
+Garden distinct transactions,11163,11163,MATCH
+Garden reported revenue USD,99748.55,99748.55,MATCH
+Garden reported gross profit USD,46794.49,46794.49,MATCH
+Unique branch-product rows,135,135,MATCH
+Independent cost audit / Garden / transactions,11163,11163,MATCH
+Independent cost audit / Garden / units,17833,17833,MATCH
+Independent cost audit / Garden / revenue_usd,99748.55,99748.55,MATCH
+Independent cost audit / Garden / recorded_costs_usd,52954.06,52954.06,MATCH
+Independent cost audit / Garden / gross_profit_usd,46794.49,46794.49,MATCH
+Independent cost audit / Harbour / transactions,16334,16334,MATCH
+Independent cost audit / Harbour / units,26093,26093,MATCH
+Independent cost audit / Harbour / revenue_usd,150483.58,150483.58,MATCH
+Independent cost audit / Harbour / recorded_costs_usd,52729.64,52729.64,MATCH
+Independent cost audit / Harbour / gross_profit_usd,97753.94,97753.94,MATCH
+Independent cost audit / Uptown / transactions,6390,6390,MATCH
+Independent cost audit / Uptown / units,10161,10161,MATCH
+Independent cost audit / Uptown / revenue_usd,55693.01,55693.01,MATCH
+Independent cost audit / Uptown / recorded_costs_usd,20810.95,20810.95,MATCH
+Independent cost audit / Uptown / gross_profit_usd,34882.06,34882.06,MATCH
+Garden rule: matching products,45,45,MATCH
+Garden rule: exceptions,0,0,MATCH
+Garden rule: half-cent ties,0,0,MATCH
+Uptown rule: matching products,45,45,MATCH
+Uptown rule: exceptions,0,0,MATCH
+Uptown rule: half-cent ties,0,0,MATCH
+Direct Garden / recorded Uptown common multiplier exists,0,0,MATCH
+Garden recorded cost premium vs Harbour,15923.47,15923.47,MATCH
+Garden recorded cost premium vs Uptown,17409.78,17409.78,MATCH
+Identical groups,132,132,MATCH
+All rows belonging to identical groups,264,264,MATCH
+Excess identical copies,132,132,MATCH
+Distinct transactions unchanged after exact-repeat sensitivity / Garden,11163,11163,MATCH
+Distinct transactions unchanged after exact-repeat sensitivity / Harbour,16334,16334,MATCH
+Distinct transactions unchanged after exact-repeat sensitivity / Uptown,6390,6390,MATCH
+Exact-repeat sensitivity cost / Garden / Iced Matcha vs Harbour,3.59,3.59,MATCH
+Exact-repeat sensitivity cost / Harbour / Iced Matcha,2.51,2.51,MATCH
+Exact-repeat sensitivity cost / Garden / Chicken Pesto Sandwich vs Harbour,7.39,7.39,MATCH
+Exact-repeat sensitivity cost / Harbour / Chicken Pesto Sandwich,5.17,5.17,MATCH
+Exact-repeat sensitivity cost / Garden / Strawberry Matcha vs Harbour,4.55,4.55,MATCH
+Exact-repeat sensitivity cost / Harbour / Strawberry Matcha,3.18,3.18,MATCH
+Exact-repeat sensitivity cost / Garden / Turkey & Cheese Sandwich vs Harbour,6.75,6.75,MATCH
+Exact-repeat sensitivity cost / Harbour / Turkey & Cheese Sandwich,4.72,4.72,MATCH
+Exact-repeat sensitivity cost / Garden / Classic Matcha vs Harbour,3.25,3.25,MATCH
+Exact-repeat sensitivity cost / Harbour / Classic Matcha,2.27,2.27,MATCH
+Exact-repeat sensitivity cost / Garden / Cheesecake Slice vs Harbour,4.4,4.4,MATCH
+Exact-repeat sensitivity cost / Harbour / Cheesecake Slice,3.08,3.08,MATCH
+Exact-repeat sensitivity cost / Garden / Iced Latte vs Harbour,2.37,2.37,MATCH
+Exact-repeat sensitivity cost / Harbour / Iced Latte,1.66,1.66,MATCH
+Exact-repeat sensitivity cost / Garden / Brownie vs Harbour,3.39,3.39,MATCH
+Exact-repeat sensitivity cost / Harbour / Brownie,2.37,2.37,MATCH
+Exact-repeat sensitivity cost / Garden / Frozen Yoghurt Cup vs Harbour,3.85,3.85,MATCH
+Exact-repeat sensitivity cost / Harbour / Frozen Yoghurt Cup,2.69,2.69,MATCH
+Exact-repeat sensitivity cost / Garden / Tiramisu Cup vs Harbour,4.08,4.08,MATCH
+Exact-repeat sensitivity cost / Harbour / Tiramisu Cup,2.85,2.85,MATCH
+Exact-repeat sensitivity cost / Garden / Avocado Toast vs Harbour,5.98,5.98,MATCH
+Exact-repeat sensitivity cost / Harbour / Avocado Toast,4.18,4.18,MATCH
+Exact-repeat sensitivity cost / Garden / Halloumi Wrap vs Harbour,5.92,5.92,MATCH
+Exact-repeat sensitivity cost / Harbour / Halloumi Wrap,4.14,4.14,MATCH
+Exact-repeat sensitivity cost / Garden / Egg Sandwich vs Harbour,4.45,4.45,MATCH
+Exact-repeat sensitivity cost / Harbour / Egg Sandwich,3.11,3.11,MATCH
+Exact-repeat sensitivity cost / Garden / Cinnamon Roll vs Harbour,3.2,3.2,MATCH
+Exact-repeat sensitivity cost / Harbour / Cinnamon Roll,2.24,2.24,MATCH
+Exact-repeat sensitivity cost / Garden / Chicken Salad Bowl vs Harbour,8.08,8.08,MATCH
+Exact-repeat sensitivity cost / Harbour / Chicken Salad Bowl,5.65,5.65,MATCH
+Exact-repeat sensitivity cost / Garden / Quinoa Bowl vs Harbour,7.04,7.04,MATCH
+Exact-repeat sensitivity cost / Harbour / Quinoa Bowl,4.92,4.92,MATCH
+Exact-repeat sensitivity cost / Garden / Coffee Frappe vs Harbour,3.62,3.62,MATCH
+Exact-repeat sensitivity cost / Harbour / Coffee Frappe,2.53,2.53,MATCH
+Exact-repeat sensitivity cost / Garden / Spanish Latte vs Harbour,2.83,2.83,MATCH
+Exact-repeat sensitivity cost / Harbour / Spanish Latte,1.98,1.98,MATCH
+Exact-repeat sensitivity cost / Garden / Iced Mocha vs Harbour,3.19,3.19,MATCH
+Exact-repeat sensitivity cost / Harbour / Iced Mocha,2.23,2.23,MATCH
+Exact-repeat sensitivity cost / Garden / Chocolate Croissant vs Harbour,2.26,2.26,MATCH
+Exact-repeat sensitivity cost / Harbour / Chocolate Croissant,1.58,1.58,MATCH
+Exact-repeat sensitivity cost / Garden / Vanilla Latte vs Harbour,2.46,2.46,MATCH
+Exact-repeat sensitivity cost / Harbour / Vanilla Latte,1.72,1.72,MATCH
+Exact-repeat sensitivity cost / Garden / Tuna Sandwich vs Harbour,5.33,5.33,MATCH
+Exact-repeat sensitivity cost / Harbour / Tuna Sandwich,3.73,3.73,MATCH
+Exact-repeat sensitivity cost / Garden / Butter Croissant vs Harbour,1.63,1.63,MATCH
+Exact-repeat sensitivity cost / Harbour / Butter Croissant,1.14,1.14,MATCH
+Exact-repeat sensitivity cost / Garden / Almond Croissant vs Harbour,2.73,2.73,MATCH
+Exact-repeat sensitivity cost / Harbour / Almond Croissant,1.91,1.91,MATCH
+Exact-repeat sensitivity cost / Garden / Fresh Orange Juice vs Harbour,3.03,3.03,MATCH
+Exact-repeat sensitivity cost / Harbour / Fresh Orange Juice,2.12,2.12,MATCH
+Exact-repeat sensitivity cost / Garden / Caramel Latte vs Harbour,2.67,2.67,MATCH
+Exact-repeat sensitivity cost / Harbour / Caramel Latte,1.87,1.87,MATCH
+Exact-repeat sensitivity cost / Garden / Banana Bread vs Harbour,2.25,2.25,MATCH
+Exact-repeat sensitivity cost / Harbour / Banana Bread,1.57,1.57,MATCH
+Exact-repeat sensitivity cost / Garden / Granola Yoghurt vs Harbour,4.75,4.75,MATCH
+Exact-repeat sensitivity cost / Harbour / Granola Yoghurt,3.32,3.32,MATCH
+Exact-repeat sensitivity cost / Garden / Cappuccino vs Harbour,1.6,1.6,MATCH
+Exact-repeat sensitivity cost / Harbour / Cappuccino,1.12,1.12,MATCH
+Exact-repeat sensitivity cost / Garden / Chai Latte vs Harbour,2.12,2.12,MATCH
+Exact-repeat sensitivity cost / Harbour / Chai Latte,1.48,1.48,MATCH
+Exact-repeat sensitivity cost / Garden / Flat White vs Harbour,1.77,1.77,MATCH
+Exact-repeat sensitivity cost / Harbour / Flat White,1.24,1.24,MATCH
+Exact-repeat sensitivity cost / Garden / Cold Brew vs Harbour,1.66,1.66,MATCH
+Exact-repeat sensitivity cost / Harbour / Cold Brew,1.16,1.16,MATCH
+Exact-repeat sensitivity cost / Garden / Pistachio Cookie vs Harbour,1.69,1.69,MATCH
+Exact-repeat sensitivity cost / Harbour / Pistachio Cookie,1.18,1.18,MATCH
+Exact-repeat sensitivity cost / Garden / Chocolate Cookie vs Harbour,1.3,1.3,MATCH
+Exact-repeat sensitivity cost / Harbour / Chocolate Cookie,0.91,0.91,MATCH
+Exact-repeat sensitivity cost / Garden / Peach Iced Tea vs Harbour,1.64,1.64,MATCH
+Exact-repeat sensitivity cost / Harbour / Peach Iced Tea,1.15,1.15,MATCH
+Exact-repeat sensitivity cost / Garden / Sparkling Water vs Harbour,1.93,1.93,MATCH
+Exact-repeat sensitivity cost / Harbour / Sparkling Water,1.35,1.35,MATCH
+Exact-repeat sensitivity cost / Garden / Iced Americano vs Harbour,1.23,1.23,MATCH
+Exact-repeat sensitivity cost / Harbour / Iced Americano,0.86,0.86,MATCH
+Exact-repeat sensitivity cost / Garden / Soup of the Day vs Harbour,3.99,3.99,MATCH
+Exact-repeat sensitivity cost / Harbour / Soup of the Day,2.79,2.79,MATCH
+Exact-repeat sensitivity cost / Garden / Blueberry Muffin vs Harbour,1.87,1.87,MATCH
+Exact-repeat sensitivity cost / Harbour / Blueberry Muffin,1.31,1.31,MATCH
+Exact-repeat sensitivity cost / Garden / Lemonade vs Harbour,1.67,1.67,MATCH
+Exact-repeat sensitivity cost / Harbour / Lemonade,1.17,1.17,MATCH
+Exact-repeat sensitivity cost / Garden / Americano vs Harbour,1.03,1.03,MATCH
+Exact-repeat sensitivity cost / Harbour / Americano,0.72,0.72,MATCH
+Exact-repeat sensitivity cost / Garden / Still Water vs Harbour,0.93,0.93,MATCH
+Exact-repeat sensitivity cost / Harbour / Still Water,0.65,0.65,MATCH
+Exact-repeat sensitivity cost / Garden / Espresso vs Harbour,0.93,0.93,MATCH
+Exact-repeat sensitivity cost / Harbour / Espresso,0.65,0.65,MATCH
+Exact-repeat sensitivity cost / Garden / Mint Tea vs Harbour,0.9,0.9,MATCH
+Exact-repeat sensitivity cost / Harbour / Mint Tea,0.63,0.63,MATCH
+Exact-repeat sensitivity cost / Garden / English Breakfast Tea vs Harbour,0.82,0.82,MATCH
+Exact-repeat sensitivity cost / Harbour / English Breakfast Tea,0.57,0.57,MATCH
+Exact-repeat sensitivity cost / Garden / Iced Matcha vs Uptown,3.59,3.59,MATCH
+Exact-repeat sensitivity cost / Uptown / Iced Matcha,2.41,2.41,MATCH
+Exact-repeat sensitivity cost / Garden / Chicken Pesto Sandwich vs Uptown,7.39,7.39,MATCH
+Exact-repeat sensitivity cost / Uptown / Chicken Pesto Sandwich,4.96,4.96,MATCH
+Exact-repeat sensitivity cost / Garden / Strawberry Matcha vs Uptown,4.55,4.55,MATCH
+Exact-repeat sensitivity cost / Uptown / Strawberry Matcha,3.05,3.05,MATCH
+Exact-repeat sensitivity cost / Garden / Turkey & Cheese Sandwich vs Uptown,6.75,6.75,MATCH
+Exact-repeat sensitivity cost / Uptown / Turkey & Cheese Sandwich,4.53,4.53,MATCH
+Exact-repeat sensitivity cost / Garden / Classic Matcha vs Uptown,3.25,3.25,MATCH
+Exact-repeat sensitivity cost / Uptown / Classic Matcha,2.18,2.18,MATCH
+Exact-repeat sensitivity cost / Garden / Cheesecake Slice vs Uptown,4.4,4.4,MATCH
+Exact-repeat sensitivity cost / Uptown / Cheesecake Slice,2.96,2.96,MATCH
+Exact-repeat sensitivity cost / Garden / Iced Latte vs Uptown,2.37,2.37,MATCH
+Exact-repeat sensitivity cost / Uptown / Iced Latte,1.59,1.59,MATCH
+Exact-repeat sensitivity cost / Garden / Frozen Yoghurt Cup vs Uptown,3.85,3.85,MATCH
+Exact-repeat sensitivity cost / Uptown / Frozen Yoghurt Cup,2.58,2.58,MATCH
+Exact-repeat sensitivity cost / Garden / Brownie vs Uptown,3.39,3.39,MATCH
+Exact-repeat sensitivity cost / Uptown / Brownie,2.28,2.28,MATCH
+Exact-repeat sensitivity cost / Garden / Tiramisu Cup vs Uptown,4.08,4.08,MATCH
+Exact-repeat sensitivity cost / Uptown / Tiramisu Cup,2.74,2.74,MATCH
+Exact-repeat sensitivity cost / Garden / Avocado Toast vs Uptown,5.98,5.98,MATCH
+Exact-repeat sensitivity cost / Uptown / Avocado Toast,4.01,4.01,MATCH
+Exact-repeat sensitivity cost / Garden / Halloumi Wrap vs Uptown,5.92,5.92,MATCH
+Exact-repeat sensitivity cost / Uptown / Halloumi Wrap,3.97,3.97,MATCH
+Exact-repeat sensitivity cost / Garden / Egg Sandwich vs Uptown,4.45,4.45,MATCH
+Exact-repeat sensitivity cost / Uptown / Egg Sandwich,2.99,2.99,MATCH
+Exact-repeat sensitivity cost / Garden / Cinnamon Roll vs Uptown,3.2,3.2,MATCH
+Exact-repeat sensitivity cost / Uptown / Cinnamon Roll,2.15,2.15,MATCH
+Exact-repeat sensitivity cost / Garden / Chicken Salad Bowl vs Uptown,8.08,8.08,MATCH
+Exact-repeat sensitivity cost / Uptown / Chicken Salad Bowl,5.42,5.42,MATCH
+Exact-repeat sensitivity cost / Garden / Quinoa Bowl vs Uptown,7.04,7.04,MATCH
+Exact-repeat sensitivity cost / Uptown / Quinoa Bowl,4.72,4.72,MATCH
+Exact-repeat sensitivity cost / Garden / Spanish Latte vs Uptown,2.83,2.83,MATCH
+Exact-repeat sensitivity cost / Uptown / Spanish Latte,1.9,1.9,MATCH
+Exact-repeat sensitivity cost / Garden / Coffee Frappe vs Uptown,3.62,3.62,MATCH
+Exact-repeat sensitivity cost / Uptown / Coffee Frappe,2.43,2.43,MATCH
+Exact-repeat sensitivity cost / Garden / Iced Mocha vs Uptown,3.19,3.19,MATCH
+Exact-repeat sensitivity cost / Uptown / Iced Mocha,2.14,2.14,MATCH
+Exact-repeat sensitivity cost / Garden / Chocolate Croissant vs Uptown,2.26,2.26,MATCH
+Exact-repeat sensitivity cost / Uptown / Chocolate Croissant,1.52,1.52,MATCH
+Exact-repeat sensitivity cost / Garden / Vanilla Latte vs Uptown,2.46,2.46,MATCH
+Exact-repeat sensitivity cost / Uptown / Vanilla Latte,1.65,1.65,MATCH
+Exact-repeat sensitivity cost / Garden / Butter Croissant vs Uptown,1.63,1.63,MATCH
+Exact-repeat sensitivity cost / Uptown / Butter Croissant,1.09,1.09,MATCH
+Exact-repeat sensitivity cost / Garden / Tuna Sandwich vs Uptown,5.33,5.33,MATCH
+Exact-repeat sensitivity cost / Uptown / Tuna Sandwich,3.58,3.58,MATCH
+Exact-repeat sensitivity cost / Garden / Almond Croissant vs Uptown,2.73,2.73,MATCH
+Exact-repeat sensitivity cost / Uptown / Almond Croissant,1.83,1.83,MATCH
+Exact-repeat sensitivity cost / Garden / Fresh Orange Juice vs Uptown,3.03,3.03,MATCH
+Exact-repeat sensitivity cost / Uptown / Fresh Orange Juice,2.04,2.04,MATCH
+Exact-repeat sensitivity cost / Garden / Caramel Latte vs Uptown,2.67,2.67,MATCH
+Exact-repeat sensitivity cost / Uptown / Caramel Latte,1.8,1.8,MATCH
+Exact-repeat sensitivity cost / Garden / Banana Bread vs Uptown,2.25,2.25,MATCH
+Exact-repeat sensitivity cost / Uptown / Banana Bread,1.51,1.51,MATCH
+Exact-repeat sensitivity cost / Garden / Granola Yoghurt vs Uptown,4.75,4.75,MATCH
+Exact-repeat sensitivity cost / Uptown / Granola Yoghurt,3.19,3.19,MATCH
+Exact-repeat sensitivity cost / Garden / Cappuccino vs Uptown,1.6,1.6,MATCH
+Exact-repeat sensitivity cost / Uptown / Cappuccino,1.08,1.08,MATCH
+Exact-repeat sensitivity cost / Garden / Chai Latte vs Uptown,2.12,2.12,MATCH
+Exact-repeat sensitivity cost / Uptown / Chai Latte,1.42,1.42,MATCH
+Exact-repeat sensitivity cost / Garden / Flat White vs Uptown,1.77,1.77,MATCH
+Exact-repeat sensitivity cost / Uptown / Flat White,1.19,1.19,MATCH
+Exact-repeat sensitivity cost / Garden / Cold Brew vs Uptown,1.66,1.66,MATCH
+Exact-repeat sensitivity cost / Uptown / Cold Brew,1.11,1.11,MATCH
+Exact-repeat sensitivity cost / Garden / Pistachio Cookie vs Uptown,1.69,1.69,MATCH
+Exact-repeat sensitivity cost / Uptown / Pistachio Cookie,1.13,1.13,MATCH
+Exact-repeat sensitivity cost / Garden / Chocolate Cookie vs Uptown,1.3,1.3,MATCH
+Exact-repeat sensitivity cost / Uptown / Chocolate Cookie,0.87,0.87,MATCH
+Exact-repeat sensitivity cost / Garden / Peach Iced Tea vs Uptown,1.64,1.64,MATCH
+Exact-repeat sensitivity cost / Uptown / Peach Iced Tea,1.1,1.1,MATCH
+Exact-repeat sensitivity cost / Garden / Sparkling Water vs Uptown,1.93,1.93,MATCH
+Exact-repeat sensitivity cost / Uptown / Sparkling Water,1.3,1.3,MATCH
+Exact-repeat sensitivity cost / Garden / Iced Americano vs Uptown,1.23,1.23,MATCH
+Exact-repeat sensitivity cost / Uptown / Iced Americano,0.83,0.83,MATCH
+Exact-repeat sensitivity cost / Garden / Lemonade vs Uptown,1.67,1.67,MATCH
+Exact-repeat sensitivity cost / Uptown / Lemonade,1.12,1.12,MATCH
+Exact-repeat sensitivity cost / Garden / Soup of the Day vs Uptown,3.99,3.99,MATCH
+Exact-repeat sensitivity cost / Uptown / Soup of the Day,2.68,2.68,MATCH
+Exact-repeat sensitivity cost / Garden / Blueberry Muffin vs Uptown,1.87,1.87,MATCH
+Exact-repeat sensitivity cost / Uptown / Blueberry Muffin,1.26,1.26,MATCH
+Exact-repeat sensitivity cost / Garden / Americano vs Uptown,1.03,1.03,MATCH
+Exact-repeat sensitivity cost / Uptown / Americano,0.69,0.69,MATCH
+Exact-repeat sensitivity cost / Garden / Still Water vs Uptown,0.93,0.93,MATCH
+Exact-repeat sensitivity cost / Uptown / Still Water,0.62,0.62,MATCH
+Exact-repeat sensitivity cost / Garden / Espresso vs Uptown,0.93,0.93,MATCH
+Exact-repeat sensitivity cost / Uptown / Espresso,0.62,0.62,MATCH
+Exact-repeat sensitivity cost / Garden / Mint Tea vs Uptown,0.9,0.9,MATCH
+Exact-repeat sensitivity cost / Uptown / Mint Tea,0.6,0.6,MATCH
+Exact-repeat sensitivity cost / Garden / English Breakfast Tea vs Uptown,0.82,0.82,MATCH
+Exact-repeat sensitivity cost / Uptown / English Breakfast Tea,0.55,0.55,MATCH
+Alternative explanations documented,6,6,MATCH

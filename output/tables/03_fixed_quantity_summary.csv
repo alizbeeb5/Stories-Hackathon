@@ -1,0 +1,9 @@
+Cost_Closure_alpha,Reference_Branch,Observed_Garden_GP,Scenario_GP_fixed_qty,Fixed_Qty_Gain,Evidence_Label
+0.0,Harbour,46794.49,51780.36,4985.87,accounting scenario (fixed quantity)
+0.0,Uptown,46794.49,42788.74,-4005.75,accounting scenario (fixed quantity)
+0.25,Harbour,46794.49,55761.23,8966.74,accounting scenario (fixed quantity)
+0.25,Uptown,46794.49,47141.18,346.69,accounting scenario (fixed quantity)
+0.5,Harbour,46794.49,59742.09,12947.6,accounting scenario (fixed quantity)
+0.5,Uptown,46794.49,51493.63,4699.14,accounting scenario (fixed quantity)
+1.0,Harbour,46794.49,67703.83,20909.34,accounting scenario (fixed quantity)
+1.0,Uptown,46794.49,60198.52,13404.03,accounting scenario (fixed quantity)

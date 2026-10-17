@@ -1,0 +1,700 @@
+source_row,transaction_id,branch,product,issue,delta,exact_unrounded_revenue,reported_revenue,reported_gp
+24,SYN-0000015,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+50,SYN-0000033,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+50,SYN-0000033,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+189,SYN-0000130,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+211,SYN-0000146,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+358,SYN-0000242,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+416,SYN-0000280,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+472,SYN-0000320,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+511,SYN-0000344,Garden,Quinoa Bowl,revenue differs from decimal half-even,0.01,10.485,10.49,3.45
+730,SYN-0000488,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+732,SYN-0000490,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+733,SYN-0000490,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+754,SYN-0000503,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+782,SYN-0000523,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+855,SYN-0000571,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+1029,SYN-0000690,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+1126,SYN-0000752,Garden,English Breakfast Tea,revenue differs from decimal half-even,0.01,3.105,3.11,2.29
+1216,SYN-0000810,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+1483,SYN-0000988,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+1528,SYN-0001019,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+1536,SYN-0001024,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+1562,SYN-0001042,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+1587,SYN-0001060,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+1587,SYN-0001060,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+1610,SYN-0001077,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+1610,SYN-0001077,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+1715,SYN-0001151,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+1852,SYN-0001242,Garden,Granola Yoghurt,revenue differs from decimal half-up,-0.01,7.065,7.06,2.31
+1940,SYN-0001301,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+2006,SYN-0001344,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+2097,SYN-0001405,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+2159,SYN-0001446,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+2166,SYN-0001450,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+2496,SYN-0001666,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+2584,SYN-0001720,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+2712,SYN-0001809,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+2734,SYN-0001820,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+2754,SYN-0001833,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+2811,SYN-0001872,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+2817,SYN-0001876,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+2817,SYN-0001876,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+2873,SYN-0001916,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+2918,SYN-0001945,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+2938,SYN-0001957,Garden,Quinoa Bowl,revenue differs from decimal half-even,0.01,10.485,10.49,3.45
+2951,SYN-0001967,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+3033,SYN-0002019,Garden,Quinoa Bowl,revenue differs from decimal half-even,0.01,10.485,10.49,3.45
+3197,SYN-0002132,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+3239,SYN-0002162,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+3263,SYN-0002178,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+3384,SYN-0002261,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+3493,SYN-0002335,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+3495,SYN-0002337,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+3560,SYN-0002377,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+3569,SYN-0002383,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+3646,SYN-0002437,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+3646,SYN-0002437,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+3727,SYN-0002489,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+3727,SYN-0002489,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+3904,SYN-0002606,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+4069,SYN-0002718,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+4315,SYN-0002885,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+4545,SYN-0003035,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+4761,SYN-0003179,Garden,Tuna Sandwich,revenue differs from decimal half-up,-0.01,7.965,7.96,2.63
+4776,SYN-0003189,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+4805,SYN-0003208,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+4921,SYN-0003287,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+5012,SYN-0003343,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+5012,SYN-0003343,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+5013,SYN-0003344,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+5060,SYN-0003374,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+5211,SYN-0003469,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+5288,SYN-0003521,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+5292,SYN-0003525,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+5377,SYN-0003582,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+5479,SYN-0003645,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+5533,SYN-0003681,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+5655,SYN-0003766,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+5780,SYN-0003855,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+5954,SYN-0003972,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+5954,SYN-0003972,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+5958,SYN-0003974,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+5980,SYN-0003987,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+6014,SYN-0004007,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+6127,SYN-0004078,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+6164,SYN-0004102,Garden,Granola Yoghurt,revenue differs from decimal half-up,-0.01,7.065,7.06,2.31
+6189,SYN-0004119,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+6257,SYN-0004165,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+6257,SYN-0004165,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+6313,SYN-0004199,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+6313,SYN-0004199,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+6333,SYN-0004211,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+6335,SYN-0004212,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+6450,SYN-0004284,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+6576,SYN-0004364,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+6585,SYN-0004369,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+6629,SYN-0004402,Garden,Granola Yoghurt,revenue differs from decimal half-up,-0.01,7.065,7.06,2.31
+7006,SYN-0004654,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+7020,SYN-0004664,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+7051,SYN-0004684,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+7085,SYN-0004703,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+7144,SYN-0004741,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+7203,SYN-0004780,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+7217,SYN-0004787,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+7296,SYN-0004841,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+7337,SYN-0004871,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+7376,SYN-0004899,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+7409,SYN-0004925,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+7448,SYN-0004947,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+7549,SYN-0005015,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+7549,SYN-0005015,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+7723,SYN-0005130,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+7781,SYN-0005173,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+7921,SYN-0005267,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+7928,SYN-0005272,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+7989,SYN-0005313,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+8028,SYN-0005335,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+8028,SYN-0005335,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+8222,SYN-0005467,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+8327,SYN-0005532,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+8351,SYN-0005547,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+8352,SYN-0005547,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+8360,SYN-0005553,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+8429,SYN-0005600,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+8453,SYN-0005615,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+8612,SYN-0005715,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+8618,SYN-0005720,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+8659,SYN-0005745,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+8706,SYN-0005779,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+8710,SYN-0005781,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+8710,SYN-0005781,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+8881,SYN-0005887,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+8881,SYN-0005887,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+8913,SYN-0005909,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+9006,SYN-0005970,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+9105,SYN-0006033,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+9183,SYN-0006085,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+9192,SYN-0006090,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+9237,SYN-0006121,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+9246,SYN-0006126,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+9306,SYN-0006162,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+9324,SYN-0006172,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+9327,SYN-0006175,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+9335,SYN-0006180,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+9335,SYN-0006180,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+9343,SYN-0006186,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+9343,SYN-0006186,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+9396,SYN-0006223,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+9437,SYN-0006251,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+9446,SYN-0006255,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+9450,SYN-0006258,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+9464,SYN-0006267,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+9554,SYN-0006332,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+9819,SYN-0006509,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+9838,SYN-0006518,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+9868,SYN-0006538,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+9868,SYN-0006538,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+9895,SYN-0006553,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+9895,SYN-0006553,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+9913,SYN-0006567,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+9930,SYN-0006578,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+10132,SYN-0006710,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+10171,SYN-0006737,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+10171,SYN-0006737,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+10372,SYN-0006871,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+10458,SYN-0006924,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+10477,SYN-0006934,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+10709,SYN-0007084,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+10728,SYN-0007096,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+10796,SYN-0007145,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+11000,SYN-0007283,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+11000,SYN-0007283,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+11104,SYN-0007353,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+11104,SYN-0007353,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+11863,SYN-0007844,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+12041,SYN-0007964,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+12122,SYN-0008016,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+12159,SYN-0008038,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+12264,SYN-0008108,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+12369,SYN-0008178,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+12389,SYN-0008192,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+12481,SYN-0008249,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+12536,SYN-0008286,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+12624,SYN-0008341,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+12638,SYN-0008352,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+12723,SYN-0008409,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+12827,SYN-0008478,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+12836,SYN-0008485,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+12839,SYN-0008487,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+12992,SYN-0008584,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+13067,SYN-0008631,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+13122,SYN-0008672,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+13157,SYN-0008696,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+13214,SYN-0008737,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+13222,SYN-0008741,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+13224,SYN-0008743,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+13253,SYN-0008762,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+13281,SYN-0008779,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+13378,SYN-0008843,Garden,English Breakfast Tea,revenue differs from decimal half-even,0.01,3.105,3.11,2.29
+13442,SYN-0008887,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+13454,SYN-0008893,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+13550,SYN-0008957,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+13700,SYN-0009055,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+13700,SYN-0009055,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+13874,SYN-0009170,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+13931,SYN-0009209,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+13945,SYN-0009219,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+14077,SYN-0009309,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+14084,SYN-0009314,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+14163,SYN-0009365,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+14293,SYN-0009447,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+14419,SYN-0009532,Garden,Quinoa Bowl,revenue differs from decimal half-even,0.01,10.485,10.49,3.45
+14424,SYN-0009535,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+14532,SYN-0009612,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+14585,SYN-0009648,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+14753,SYN-0009760,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+14787,SYN-0009785,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+14902,SYN-0009864,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+14919,SYN-0009876,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+15063,SYN-0009966,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+15063,SYN-0009966,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+15068,SYN-0009969,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+15126,SYN-0010006,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+15192,SYN-0010051,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+15331,SYN-0010142,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+15697,SYN-0010381,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+15837,SYN-0010468,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+15914,SYN-0010519,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+16040,SYN-0010600,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+16077,SYN-0010620,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+16077,SYN-0010620,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+16129,SYN-0010653,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+16140,SYN-0010660,Garden,Tuna Sandwich,revenue differs from decimal half-up,-0.01,7.965,7.96,2.63
+16273,SYN-0010756,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+16383,SYN-0010837,Garden,Tuna Sandwich,revenue differs from decimal half-up,-0.01,7.965,7.96,2.63
+16511,SYN-0010923,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+16531,SYN-0010936,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+16692,SYN-0011038,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+16792,SYN-0011103,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+17121,SYN-0011319,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+17183,SYN-0011360,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+17233,SYN-0011397,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+17267,SYN-0011420,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+17346,SYN-0011475,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+17358,SYN-0011483,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+17369,SYN-0011490,Garden,English Breakfast Tea,revenue differs from decimal half-even,0.01,3.105,3.11,2.29
+17415,SYN-0011519,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+17415,SYN-0011519,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+17449,SYN-0011539,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+17747,SYN-0011728,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+17750,SYN-0011730,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+17860,SYN-0011807,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+17920,SYN-0011845,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+18195,SYN-0012022,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+18206,SYN-0012028,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+18291,SYN-0012083,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+18339,SYN-0012119,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+18342,SYN-0012121,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+18343,SYN-0012121,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+18385,SYN-0012147,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+18390,SYN-0012152,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+18481,SYN-0012208,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+18487,SYN-0012212,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+18506,SYN-0012227,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+18506,SYN-0012227,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+18708,SYN-0012358,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+18805,SYN-0012427,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+19043,SYN-0012590,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+19170,SYN-0012672,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+19237,SYN-0012719,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+19541,SYN-0012925,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+19607,SYN-0012967,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+19818,SYN-0013109,Garden,Quinoa Bowl,revenue differs from decimal half-even,0.01,10.485,10.49,3.45
+19866,SYN-0013142,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+19871,SYN-0013145,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+19906,SYN-0013168,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+19943,SYN-0013190,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+20065,SYN-0013272,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+20078,SYN-0013279,Garden,Granola Yoghurt,revenue differs from decimal half-up,-0.01,7.065,7.06,2.31
+20364,SYN-0013467,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+20364,SYN-0013467,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+20365,SYN-0013467,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+20459,SYN-0013532,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+20634,SYN-0013646,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+20799,SYN-0013751,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+20876,SYN-0013797,Garden,Quinoa Bowl,revenue differs from decimal half-even,0.01,10.485,10.49,3.45
+21006,SYN-0013886,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+21013,SYN-0013890,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+21030,SYN-0013902,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+21030,SYN-0013902,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+21056,SYN-0013919,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+21144,SYN-0013976,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+21150,SYN-0013981,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+21150,SYN-0013981,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+21175,SYN-0013997,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+21341,SYN-0014101,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+21341,SYN-0014101,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+21542,SYN-0014245,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+21676,SYN-0014323,Garden,Granola Yoghurt,revenue differs from decimal half-up,-0.01,7.065,7.06,2.31
+21710,SYN-0014345,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+21710,SYN-0014345,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+21928,SYN-0014484,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+21952,SYN-0014499,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+21952,SYN-0014499,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+22230,SYN-0014683,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+22314,SYN-0014737,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+22314,SYN-0014737,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+22390,SYN-0014788,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+22515,SYN-0014873,Garden,Quinoa Bowl,revenue differs from decimal half-even,0.01,10.485,10.49,3.45
+22587,SYN-0014920,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+22861,SYN-0015094,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+22939,SYN-0015147,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+22975,SYN-0015168,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+22976,SYN-0015169,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+23054,SYN-0015219,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+23103,SYN-0015249,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+23107,SYN-0015252,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+23116,SYN-0015259,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+23152,SYN-0015284,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+23348,SYN-0015414,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+23418,SYN-0015462,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+23428,SYN-0015470,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+23606,SYN-0015595,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+23675,SYN-0015643,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+23680,SYN-0015646,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+23770,SYN-0015706,Garden,English Breakfast Tea,revenue differs from decimal half-even,0.01,3.105,3.11,2.29
+23780,SYN-0015711,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+23873,SYN-0015770,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+23924,SYN-0015802,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+23994,SYN-0015849,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+24016,SYN-0015863,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+24045,SYN-0015884,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+24305,SYN-0016057,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+24305,SYN-0016057,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+24410,SYN-0016125,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+24726,SYN-0016336,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+24910,SYN-0016454,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+24981,SYN-0016509,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+25004,SYN-0016525,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+25075,SYN-0016569,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+25102,SYN-0016589,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+25106,SYN-0016592,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+25207,SYN-0016662,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+25215,SYN-0016668,Garden,Granola Yoghurt,revenue differs from decimal half-up,-0.01,7.065,7.06,2.31
+25250,SYN-0016695,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+25324,SYN-0016745,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+25441,SYN-0016820,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+25471,SYN-0016841,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+25547,SYN-0016893,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+25547,SYN-0016893,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+25578,SYN-0016915,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+25697,SYN-0016992,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+25697,SYN-0016992,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+25781,SYN-0017046,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+25801,SYN-0017061,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+25830,SYN-0017081,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+25832,SYN-0017083,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+25835,SYN-0017085,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+25835,SYN-0017085,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+25891,SYN-0017120,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+25914,SYN-0017137,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+26071,SYN-0017243,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+26105,SYN-0017266,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+26105,SYN-0017266,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+26141,SYN-0017293,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+26149,SYN-0017298,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+26211,SYN-0017337,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+26307,SYN-0017399,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+26400,SYN-0017458,Garden,Granola Yoghurt,revenue differs from decimal half-up,-0.01,7.065,7.06,2.31
+26618,SYN-0017599,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+26761,SYN-0017692,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+26874,SYN-0017774,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+27000,SYN-0017852,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+27058,SYN-0017889,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+27058,SYN-0017889,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+27070,SYN-0017899,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+27121,SYN-0017933,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+27121,SYN-0017933,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+27139,SYN-0017946,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+27171,SYN-0017968,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+27225,SYN-0018002,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+27543,SYN-0018204,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+27571,SYN-0018221,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+27740,SYN-0018330,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+27829,SYN-0018393,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+27829,SYN-0018393,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+27842,SYN-0018402,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+27896,SYN-0018440,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+27926,SYN-0018459,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+28046,SYN-0018538,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+28157,SYN-0018608,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+28166,SYN-0018614,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+28244,SYN-0018671,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+28244,SYN-0018671,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+28454,SYN-0018818,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+28454,SYN-0018818,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+28599,SYN-0018916,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+28599,SYN-0018916,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+28647,SYN-0018946,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+28652,SYN-0018949,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+29015,SYN-0019196,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+29083,SYN-0019240,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+29223,SYN-0019337,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+29240,SYN-0019346,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+29290,SYN-0019379,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+29305,SYN-0019389,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+29311,SYN-0019393,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+29416,SYN-0019463,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+29534,SYN-0019536,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+29547,SYN-0019545,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+29647,SYN-0019617,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+29674,SYN-0019633,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+29815,SYN-0019725,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+29815,SYN-0019725,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+29948,SYN-0019810,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+29987,SYN-0019839,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+30075,SYN-0019896,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+30090,SYN-0019906,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+30208,SYN-0019981,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+30363,SYN-0020084,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+30471,SYN-0020156,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+30471,SYN-0020156,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+30517,SYN-0020190,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+30648,SYN-0020280,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+30654,SYN-0020285,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+30689,SYN-0020309,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+30866,SYN-0020432,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+30902,SYN-0020454,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+31028,SYN-0020541,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+31190,SYN-0020653,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+31223,SYN-0020675,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+31235,SYN-0020682,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+31401,SYN-0020794,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+31409,SYN-0020801,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+31485,SYN-0020848,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+31561,SYN-0020904,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+31724,SYN-0021017,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+31775,SYN-0021050,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+31892,SYN-0021135,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+31903,SYN-0021141,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+31997,SYN-0021204,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+32003,SYN-0021208,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+32007,SYN-0021211,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+32007,SYN-0021211,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+32241,SYN-0021372,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+32425,SYN-0021495,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+32558,SYN-0021577,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+32571,SYN-0021586,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+32807,SYN-0021738,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+32807,SYN-0021738,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+32827,SYN-0021751,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+32827,SYN-0021751,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+32883,SYN-0021793,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+32986,SYN-0021860,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+32986,SYN-0021860,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+33042,SYN-0021899,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+33059,SYN-0021911,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+33173,SYN-0021993,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+33176,SYN-0021995,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+33197,SYN-0022007,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+33197,SYN-0022007,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+33207,SYN-0022014,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+33318,SYN-0022077,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+33348,SYN-0022101,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+33576,SYN-0022253,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+33621,SYN-0022282,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+33725,SYN-0022347,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+33730,SYN-0022350,Garden,Granola Yoghurt,revenue differs from decimal half-up,-0.01,7.065,7.06,2.31
+33838,SYN-0022419,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+33838,SYN-0022419,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+34011,SYN-0022535,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+34011,SYN-0022535,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+34087,SYN-0022581,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+34411,SYN-0022806,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+34411,SYN-0022806,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+34460,SYN-0022835,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+34475,SYN-0022843,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+34475,SYN-0022843,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+34551,SYN-0022898,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+34656,SYN-0022970,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+34843,SYN-0023097,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+34857,SYN-0023107,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+34985,SYN-0023189,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+35110,SYN-0023270,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+35110,SYN-0023270,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+35132,SYN-0023284,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+35132,SYN-0023284,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+35284,SYN-0023387,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+35393,SYN-0023459,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+35443,SYN-0023492,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+35622,SYN-0023614,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+35670,SYN-0023647,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+35755,SYN-0023699,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+35987,SYN-0023845,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+36062,SYN-0023896,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+36075,SYN-0023904,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+36180,SYN-0023972,Garden,Espresso,revenue differs from decimal half-up,-0.01,2.385,2.38,1.45
+36227,SYN-0024002,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+36252,SYN-0024018,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+36279,SYN-0024036,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+36281,SYN-0024038,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+36419,SYN-0024124,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+36687,SYN-0024309,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+36933,SYN-0024471,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+36933,SYN-0024471,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+36958,SYN-0024483,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+36971,SYN-0024492,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+37043,SYN-0024539,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+37068,SYN-0024555,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+37146,SYN-0024604,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+37205,SYN-0024643,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+37214,SYN-0024649,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+37308,SYN-0024708,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+37327,SYN-0024720,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+37330,SYN-0024721,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+37330,SYN-0024721,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+37394,SYN-0024763,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+37463,SYN-0024805,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+37592,SYN-0024893,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+37593,SYN-0024893,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+37657,SYN-0024935,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+37694,SYN-0024960,Garden,Tuna Sandwich,revenue differs from decimal half-up,-0.01,7.965,7.96,2.63
+37758,SYN-0024999,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+37785,SYN-0025015,Garden,Quinoa Bowl,revenue differs from decimal half-even,0.01,10.485,10.49,3.45
+37800,SYN-0025026,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+37860,SYN-0025061,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+37903,SYN-0025090,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+37921,SYN-0025102,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+37944,SYN-0025116,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+37944,SYN-0025116,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+38003,SYN-0025158,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+38042,SYN-0025185,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+38278,SYN-0025333,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+38471,SYN-0025452,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+38542,SYN-0025499,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+38599,SYN-0025538,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+38640,SYN-0025569,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+38701,SYN-0025609,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+38724,SYN-0025624,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+38766,SYN-0025652,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+38776,SYN-0025658,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+38778,SYN-0025659,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+38802,SYN-0025675,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+38906,SYN-0025745,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+38916,SYN-0025751,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+39009,SYN-0025816,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+39150,SYN-0025908,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+39158,SYN-0025914,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+39192,SYN-0025934,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+39691,SYN-0026275,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+39691,SYN-0026275,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+39930,SYN-0026431,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+39977,SYN-0026464,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+39990,SYN-0026473,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+40142,SYN-0026574,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+40170,SYN-0026593,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+40246,SYN-0026644,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+40543,SYN-0026840,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+40586,SYN-0026868,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+40594,SYN-0026872,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+40594,SYN-0026872,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+40747,SYN-0026970,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+40751,SYN-0026972,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+40765,SYN-0026981,Garden,Tuna Sandwich,revenue differs from decimal half-up,-0.01,7.965,7.96,2.63
+40846,SYN-0027039,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+40894,SYN-0027070,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+40950,SYN-0027107,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+40957,SYN-0027112,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+41015,SYN-0027153,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+41038,SYN-0027169,Garden,Chicken Salad Bowl,revenue differs from decimal half-up,-0.01,11.205,11.2,3.12
+41047,SYN-0027175,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+41149,SYN-0027243,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+41217,SYN-0027289,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+41224,SYN-0027293,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+41431,SYN-0027428,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+41456,SYN-0027444,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+41618,SYN-0027551,Garden,English Breakfast Tea,revenue differs from decimal half-even,0.01,3.105,3.11,2.29
+41785,SYN-0027659,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+41868,SYN-0027713,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+42116,SYN-0027878,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+42188,SYN-0027925,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+42311,SYN-0028009,Garden,Tuna Sandwich,revenue differs from decimal half-up,-0.01,7.965,7.96,2.63
+42460,SYN-0028109,Garden,Tuna Sandwich,revenue differs from decimal half-up,-0.01,7.965,7.96,2.63
+42467,SYN-0028114,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+42617,SYN-0028213,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+42738,SYN-0028299,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+42738,SYN-0028299,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+42855,SYN-0028380,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+42855,SYN-0028380,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+42886,SYN-0028400,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+42955,SYN-0028450,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+42987,SYN-0028474,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+43036,SYN-0028508,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+43044,SYN-0028515,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+43127,SYN-0028574,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+43277,SYN-0028671,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+43277,SYN-0028671,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+43292,SYN-0028680,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+43317,SYN-0028697,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+43399,SYN-0028752,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+43415,SYN-0028761,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+43424,SYN-0028767,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+43544,SYN-0028850,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+43666,SYN-0028930,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+43708,SYN-0028956,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+43708,SYN-0028956,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+43757,SYN-0028986,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+43784,SYN-0029003,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+44010,SYN-0029155,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+44078,SYN-0029202,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+44260,SYN-0029320,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+44260,SYN-0029320,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+44261,SYN-0029321,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+44340,SYN-0029368,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+44779,SYN-0029655,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+44861,SYN-0029713,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+44874,SYN-0029724,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+44897,SYN-0029743,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+45020,SYN-0029818,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+45029,SYN-0029824,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+45067,SYN-0029850,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+45069,SYN-0029851,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+45200,SYN-0029933,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+45396,SYN-0030058,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+45396,SYN-0030058,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+45412,SYN-0030068,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+45452,SYN-0030092,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+45672,SYN-0030238,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+45690,SYN-0030249,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+45796,SYN-0030323,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+45854,SYN-0030363,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+45914,SYN-0030407,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+46022,SYN-0030481,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+46118,SYN-0030541,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+46199,SYN-0030591,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+46355,SYN-0030694,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+46402,SYN-0030727,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+46421,SYN-0030739,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+46555,SYN-0030829,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+46583,SYN-0030846,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+46624,SYN-0030872,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+46657,SYN-0030896,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+46758,SYN-0030963,Harbour,Halloumi Wrap,revenue differs from decimal half-up,-0.01,9.405,9.4,5.26
+46772,SYN-0030973,Garden,Tuna Sandwich,revenue differs from decimal half-up,-0.01,7.965,7.96,2.63
+46813,SYN-0031003,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+46897,SYN-0031054,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+46973,SYN-0031100,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+47013,SYN-0031128,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+47249,SYN-0031282,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+47459,SYN-0031430,Garden,Flat White,revenue differs from decimal half-up,-0.01,3.915,3.91,2.14
+47459,SYN-0031430,Garden,Flat White,revenue differs from decimal half-even,-0.01,3.915,3.91,2.14
+47474,SYN-0031439,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+47503,SYN-0031456,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+47554,SYN-0031488,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+47554,SYN-0031488,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+47600,SYN-0031517,Garden,Turkey & Cheese Sandwich,revenue differs from decimal half-up,-0.01,8.685,8.68,1.93
+47771,SYN-0031626,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+47795,SYN-0031642,Garden,Banana Bread,revenue differs from decimal half-up,-0.01,4.005,4.0,1.75
+47887,SYN-0031701,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+47909,SYN-0031716,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+47918,SYN-0031723,Garden,Iced Mocha,revenue differs from decimal half-up,-0.01,5.625,5.62,2.43
+48046,SYN-0031803,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+48046,SYN-0031803,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+48103,SYN-0031839,Garden,Almond Croissant,revenue differs from decimal half-up,-0.01,4.365,4.36,1.63
+48153,SYN-0031872,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+48252,SYN-0031941,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+48318,SYN-0031985,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+48339,SYN-0031996,Garden,Mint Tea,revenue differs from decimal half-up,-0.01,3.285,3.28,2.38
+48432,SYN-0032065,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+48504,SYN-0032110,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+48671,SYN-0032221,Harbour,Cappuccino,revenue differs from decimal half-up,-0.01,3.825,3.82,2.7
+48702,SYN-0032243,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+48702,SYN-0032243,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+48811,SYN-0032315,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+48894,SYN-0032372,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+48914,SYN-0032384,Garden,Pistachio Cookie,revenue differs from decimal half-even,0.01,3.105,3.11,1.42
+48980,SYN-0032430,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+49105,SYN-0032518,Garden,Iced Latte,revenue differs from decimal half-up,-0.01,4.815,4.81,2.44
+49105,SYN-0032518,Garden,Iced Latte,revenue differs from decimal half-even,-0.01,4.815,4.81,2.44
+49221,SYN-0032593,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+49337,SYN-0032667,Garden,Butter Croissant,revenue differs from decimal half-up,-0.01,3.285,3.28,1.65
+49443,SYN-0032737,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+49513,SYN-0032784,Garden,English Breakfast Tea,revenue differs from decimal half-even,0.01,3.105,3.11,2.29
+49524,SYN-0032791,Garden,Cappuccino,revenue differs from decimal half-up,-0.01,3.645,3.64,2.04
+49600,SYN-0032841,Garden,Chai Latte,revenue differs from decimal half-even,0.01,4.725,4.73,2.61
+49604,SYN-0032843,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+49715,SYN-0032912,Garden,Avocado Toast,revenue differs from decimal half-up,-0.01,8.505,8.5,2.52
+49787,SYN-0032958,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+49844,SYN-0032995,Harbour,Spanish Latte,revenue differs from decimal half-up,-0.01,5.625,5.62,3.64
+49894,SYN-0033027,Garden,Lemonade,revenue differs from decimal half-even,0.01,4.185,4.19,2.52
+50028,SYN-0033110,Garden,Iced Americano,revenue differs from decimal half-even,0.01,3.465,3.47,2.24
+50420,SYN-0033383,Garden,Vanilla Latte,revenue differs from decimal half-up,-0.01,4.905,4.9,2.44
+50509,SYN-0033439,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+50731,SYN-0033586,Garden,Iced Matcha,revenue differs from decimal half-up,-0.01,6.165,6.16,2.57
+50755,SYN-0033602,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56
+50828,SYN-0033651,Garden,Peach Iced Tea,revenue differs from decimal half-up,-0.01,4.005,4.0,2.36
+50980,SYN-0033750,Garden,Chocolate Croissant,revenue differs from decimal half-up,-0.01,3.825,3.82,1.56
+51052,SYN-0033799,Harbour,Still Water,revenue differs from decimal half-up,-0.01,1.845,1.84,1.19
+51104,SYN-0033834,Garden,Strawberry Matcha,revenue differs from decimal half-even,0.01,6.885,6.89,2.34
+51156,SYN-0033871,Garden,Classic Matcha,revenue differs from decimal half-even,0.01,5.805,5.81,2.56

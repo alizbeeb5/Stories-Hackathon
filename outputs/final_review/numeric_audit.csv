@@ -1,0 +1,19 @@
+claim,status,verified_value_or_replacement,note
+Garden branch totals/margins,VERIFIED,"See audited_branch_totals.csv; Garden GP $46,794.49, revenue $99,748.55, 11,163 transactions.",
+All branches same items/basket,QUALIFY,"Garden 1.5975, Harbour 1.5975, Uptown 1.5901 units per basket; all approximately 1.60.",
+Same 59%/41% order-type split,CORRECT,"Dine-in shares: Garden 58.69%, Harbour 58.96%, Uptown 60.25%; broadly similar, not identical.",
+Purchasing patterns explain only 0–6%,CORRECT,"Report signed peer-minus-Garden effects for each common reference; negative means Garden's baskets help, not a positive portion of its deficit.","Common reference removes discounts and changes all prices/costs; comparison is descriptive, not causal."
+"Common-reference Garden $5.36, Harbour $5.33, Uptown $5.43",VERIFIED,Chain-average list: no discounts; use audited_common_reference.csv for precise values.,
+Dessert baskets 14–17% versus 9–12%,REFINE,Garden 14.33–17.20%; Harbour 10.70–12.49%; Uptown 8.97–10.91%; Garden highest each month.,
+All top ten basket types lower GP,VERIFIED_WITH_DEFINITION,True for the ten most common category-line signatures in the full dataset.,Types count category occurrences per row; exact product-quantity matches are a separate analysis.
+92% matched coverage,REFINE,Give reference-specific Garden coverage and peer coverage from audited_matched_baskets.csv.,Weight each peer's signature mean by Garden's matched-signature counts; unmatched baskets excluded.
+132 exact repeated-row pairs and 34 nonidentical repeated-item pairs,VERIFIED,"132 exact pairs = 264 participating rows, 132 excess copies; all retained in main analysis.",
+25% cost-gap closure is 25% cost reduction,CORRECT_IF_PRESENT,"Harbour quarter-gap = $3,980.8675 = 7.5176% of Garden recorded costs, not 25%.",
+Cost premium proves supplier issue rather than waste,UNSUPPORTED_CAUSAL_CLAIM,"Fixed recorded cost schedules establish an accounting pattern; supplier terms, allocation, portions/quality, standard waste allowances, mappings and volume discounts remain unresolved.",
+Partial cost-gap closure dwarfs every other lever,FALSE_COMPARISON,"Harbour price-only uplift $4,985.868 exceeds quarter Harbour cost-gap uplift $3,980.8675 and quarter Uptown cost-gap uplift $4,352.445 before volume changes/expenses.",
+Only quality/portion/allocation reverses recommendation,FALSE_EXCLUSIVITY,"Volume loss, implementation costs, infeasible savings, supplier evidence and alternative actions can change the decision.",
+Cost story not a price or mix story,OVERSTATED,Recorded cost is the largest accounting component; prices materially amplify Harbour's gap and offset Uptown's. Mix/size effects are small but nonzero.,
+No-discount savings are guaranteed,CORRECT_IF_PRESENT,Removing discounts gives a $555.90 fixed-quantity benchmark; sales and mix responses are unestimated.,
+Net profitability established,CORRECT_IF_PRESENT,Operating expenses absent; observed gross-profit comparisons do not establish total net profit.,
+Garden serves 75% more transactions than Uptown,VERIFIED_ROUNDED,"Garden 11,163 versus Uptown 6,390: 74.6948% more; total GP $46,794.49 versus $34,882.06.",
+Customer-level evidence is complete,LIMITATION,"Customer ID is absent on 18,691 of 51,177 lines (36.52%); financial/transaction fields have no missing values.",Transaction totals remain usable; identified-customer retention cannot be fully reconstructed.

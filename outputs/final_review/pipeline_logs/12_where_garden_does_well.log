@@ -1,0 +1,40 @@
+STDOUT
+                                                                         holds in                                                   evidence
+candidate                                                                                                                                   
+A. Garden has the highest share of baskets with a dessert           6 of 6 months  Garden 14.3-17.2% vs Harbour 10.7-12.5%, Uptown 9.0-10.9%
+A2. Garden has the highest share of dessert-only baskets            6 of 6 months       Garden 6.5-8.2% vs Harbour 4.5-5.1%, Uptown 3.7-5.3%
+B. Garden revenue per basket > Uptown                               5 of 6 months                                  avg gap +$0.21 per basket
+C. At a common price/cost list, Garden's baskets earn >= Harbour's  3 of 6 months        Garden $5.36 vs Harbour $5.33 vs Uptown $5.44 (avg)
+D. Garden total gross profit > Uptown                               6 of 6 months                      Garden $46,794 vs Uptown $34,882 (H1)
+
+Baskets per month (sample sizes):
+ branch   Garden  Harbour  Uptown
+month                           
+2026-01    1497     2186     862
+2026-02    1557     2189     873
+2026-03    1843     2693    1092
+2026-04    1887     2770    1093
+2026-05    2128     3110    1201
+2026-06    2251     3386    1269
+
+Dessert baskets % by month:
+ branch   Garden  Harbour  Uptown
+month                           
+2026-01   16.57    10.70   10.44
+2026-02   16.06    10.83   10.19
+2026-03   17.20    11.55   10.71
+2026-04   17.17    11.59    8.97
+2026-05   14.33    11.22   10.91
+2026-06   15.95    12.49    9.93
+
+Common-reference GP per basket by month:
+ branch   Garden  Harbour  Uptown
+month                           
+2026-01    5.41     5.31    5.43
+2026-02    5.30     5.31    5.65
+2026-03    5.45     5.28    5.53
+2026-04    5.37     5.32    5.34
+2026-05    5.29     5.38    5.32
+2026-06    5.35     5.36    5.38
+
+STDERR

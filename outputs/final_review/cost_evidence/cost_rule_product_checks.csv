@@ -1,0 +1,91 @@
+target_branch,reference_branch,product,harbour_recorded_unit_cost_usd,multiplier,multiplied_cost_before_rounding_usd,predicted_recorded_unit_cost_usd,observed_recorded_unit_cost_usd,residual_usd,match,half_cent_tie
+Garden,Harbour,Almond Croissant,1.91,1.43,2.7313,2.73,2.73,0.00,True,False
+Garden,Harbour,Americano,0.72,1.43,1.0296,1.03,1.03,0.00,True,False
+Garden,Harbour,Avocado Toast,4.18,1.43,5.9774,5.98,5.98,0.00,True,False
+Garden,Harbour,Banana Bread,1.57,1.43,2.2451,2.25,2.25,0.00,True,False
+Garden,Harbour,Blueberry Muffin,1.31,1.43,1.8733,1.87,1.87,0.00,True,False
+Garden,Harbour,Brownie,2.37,1.43,3.3891,3.39,3.39,0.00,True,False
+Garden,Harbour,Butter Croissant,1.14,1.43,1.6302,1.63,1.63,0.00,True,False
+Garden,Harbour,Cappuccino,1.12,1.43,1.6016,1.60,1.6,0.00,True,False
+Garden,Harbour,Caramel Latte,1.87,1.43,2.6741,2.67,2.67,0.00,True,False
+Garden,Harbour,Chai Latte,1.48,1.43,2.1164,2.12,2.12,0.00,True,False
+Garden,Harbour,Cheesecake Slice,3.08,1.43,4.4044,4.40,4.4,0.00,True,False
+Garden,Harbour,Chicken Pesto Sandwich,5.17,1.43,7.3931,7.39,7.39,0.00,True,False
+Garden,Harbour,Chicken Salad Bowl,5.65,1.43,8.0795,8.08,8.08,0.00,True,False
+Garden,Harbour,Chocolate Cookie,0.91,1.43,1.3013,1.30,1.3,0.00,True,False
+Garden,Harbour,Chocolate Croissant,1.58,1.43,2.2594,2.26,2.26,0.00,True,False
+Garden,Harbour,Cinnamon Roll,2.24,1.43,3.2032,3.20,3.2,0.00,True,False
+Garden,Harbour,Classic Matcha,2.27,1.43,3.2461,3.25,3.25,0.00,True,False
+Garden,Harbour,Coffee Frappe,2.53,1.43,3.6179,3.62,3.62,0.00,True,False
+Garden,Harbour,Cold Brew,1.16,1.43,1.6588,1.66,1.66,0.00,True,False
+Garden,Harbour,Egg Sandwich,3.11,1.43,4.4473,4.45,4.45,0.00,True,False
+Garden,Harbour,English Breakfast Tea,0.57,1.43,0.8151,0.82,0.82,0.00,True,False
+Garden,Harbour,Espresso,0.65,1.43,0.9295,0.93,0.93,0.00,True,False
+Garden,Harbour,Flat White,1.24,1.43,1.7732,1.77,1.77,0.00,True,False
+Garden,Harbour,Fresh Orange Juice,2.12,1.43,3.0316,3.03,3.03,0.00,True,False
+Garden,Harbour,Frozen Yoghurt Cup,2.69,1.43,3.8467,3.85,3.85,0.00,True,False
+Garden,Harbour,Granola Yoghurt,3.32,1.43,4.7476,4.75,4.75,0.00,True,False
+Garden,Harbour,Halloumi Wrap,4.14,1.43,5.9202,5.92,5.92,0.00,True,False
+Garden,Harbour,Iced Americano,0.86,1.43,1.2298,1.23,1.23,0.00,True,False
+Garden,Harbour,Iced Latte,1.66,1.43,2.3738,2.37,2.37,0.00,True,False
+Garden,Harbour,Iced Matcha,2.51,1.43,3.5893,3.59,3.59,0.00,True,False
+Garden,Harbour,Iced Mocha,2.23,1.43,3.1889,3.19,3.19,0.00,True,False
+Garden,Harbour,Lemonade,1.17,1.43,1.6731,1.67,1.67,0.00,True,False
+Garden,Harbour,Mint Tea,0.63,1.43,0.9009,0.90,0.9,0.00,True,False
+Garden,Harbour,Peach Iced Tea,1.15,1.43,1.6445,1.64,1.64,0.00,True,False
+Garden,Harbour,Pistachio Cookie,1.18,1.43,1.6874,1.69,1.69,0.00,True,False
+Garden,Harbour,Quinoa Bowl,4.92,1.43,7.0356,7.04,7.04,0.00,True,False
+Garden,Harbour,Soup of the Day,2.79,1.43,3.9897,3.99,3.99,0.00,True,False
+Garden,Harbour,Spanish Latte,1.98,1.43,2.8314,2.83,2.83,0.00,True,False
+Garden,Harbour,Sparkling Water,1.35,1.43,1.9305,1.93,1.93,0.00,True,False
+Garden,Harbour,Still Water,0.65,1.43,0.9295,0.93,0.93,0.00,True,False
+Garden,Harbour,Strawberry Matcha,3.18,1.43,4.5474,4.55,4.55,0.00,True,False
+Garden,Harbour,Tiramisu Cup,2.85,1.43,4.0755,4.08,4.08,0.00,True,False
+Garden,Harbour,Tuna Sandwich,3.73,1.43,5.3339,5.33,5.33,0.00,True,False
+Garden,Harbour,Turkey & Cheese Sandwich,4.72,1.43,6.7496,6.75,6.75,0.00,True,False
+Garden,Harbour,Vanilla Latte,1.72,1.43,2.4596,2.46,2.46,0.00,True,False
+Uptown,Harbour,Almond Croissant,1.91,0.96,1.8336,1.83,1.83,0.00,True,False
+Uptown,Harbour,Americano,0.72,0.96,0.6912,0.69,0.69,0.00,True,False
+Uptown,Harbour,Avocado Toast,4.18,0.96,4.0128,4.01,4.01,0.00,True,False
+Uptown,Harbour,Banana Bread,1.57,0.96,1.5072,1.51,1.51,0.00,True,False
+Uptown,Harbour,Blueberry Muffin,1.31,0.96,1.2576,1.26,1.26,0.00,True,False
+Uptown,Harbour,Brownie,2.37,0.96,2.2752,2.28,2.28,0.00,True,False
+Uptown,Harbour,Butter Croissant,1.14,0.96,1.0944,1.09,1.09,0.00,True,False
+Uptown,Harbour,Cappuccino,1.12,0.96,1.0752,1.08,1.08,0.00,True,False
+Uptown,Harbour,Caramel Latte,1.87,0.96,1.7952,1.80,1.8,0.00,True,False
+Uptown,Harbour,Chai Latte,1.48,0.96,1.4208,1.42,1.42,0.00,True,False
+Uptown,Harbour,Cheesecake Slice,3.08,0.96,2.9568,2.96,2.96,0.00,True,False
+Uptown,Harbour,Chicken Pesto Sandwich,5.17,0.96,4.9632,4.96,4.96,0.00,True,False
+Uptown,Harbour,Chicken Salad Bowl,5.65,0.96,5.4240,5.42,5.42,0.00,True,False
+Uptown,Harbour,Chocolate Cookie,0.91,0.96,0.8736,0.87,0.87,0.00,True,False
+Uptown,Harbour,Chocolate Croissant,1.58,0.96,1.5168,1.52,1.52,0.00,True,False
+Uptown,Harbour,Cinnamon Roll,2.24,0.96,2.1504,2.15,2.15,0.00,True,False
+Uptown,Harbour,Classic Matcha,2.27,0.96,2.1792,2.18,2.18,0.00,True,False
+Uptown,Harbour,Coffee Frappe,2.53,0.96,2.4288,2.43,2.43,0.00,True,False
+Uptown,Harbour,Cold Brew,1.16,0.96,1.1136,1.11,1.11,0.00,True,False
+Uptown,Harbour,Egg Sandwich,3.11,0.96,2.9856,2.99,2.99,0.00,True,False
+Uptown,Harbour,English Breakfast Tea,0.57,0.96,0.5472,0.55,0.55,0.00,True,False
+Uptown,Harbour,Espresso,0.65,0.96,0.6240,0.62,0.62,0.00,True,False
+Uptown,Harbour,Flat White,1.24,0.96,1.1904,1.19,1.19,0.00,True,False
+Uptown,Harbour,Fresh Orange Juice,2.12,0.96,2.0352,2.04,2.04,0.00,True,False
+Uptown,Harbour,Frozen Yoghurt Cup,2.69,0.96,2.5824,2.58,2.58,0.00,True,False
+Uptown,Harbour,Granola Yoghurt,3.32,0.96,3.1872,3.19,3.19,0.00,True,False
+Uptown,Harbour,Halloumi Wrap,4.14,0.96,3.9744,3.97,3.97,0.00,True,False
+Uptown,Harbour,Iced Americano,0.86,0.96,0.8256,0.83,0.83,0.00,True,False
+Uptown,Harbour,Iced Latte,1.66,0.96,1.5936,1.59,1.59,0.00,True,False
+Uptown,Harbour,Iced Matcha,2.51,0.96,2.4096,2.41,2.41,0.00,True,False
+Uptown,Harbour,Iced Mocha,2.23,0.96,2.1408,2.14,2.14,0.00,True,False
+Uptown,Harbour,Lemonade,1.17,0.96,1.1232,1.12,1.12,0.00,True,False
+Uptown,Harbour,Mint Tea,0.63,0.96,0.6048,0.60,0.6,0.00,True,False
+Uptown,Harbour,Peach Iced Tea,1.15,0.96,1.1040,1.10,1.1,0.00,True,False
+Uptown,Harbour,Pistachio Cookie,1.18,0.96,1.1328,1.13,1.13,0.00,True,False
+Uptown,Harbour,Quinoa Bowl,4.92,0.96,4.7232,4.72,4.72,0.00,True,False
+Uptown,Harbour,Soup of the Day,2.79,0.96,2.6784,2.68,2.68,0.00,True,False
+Uptown,Harbour,Spanish Latte,1.98,0.96,1.9008,1.90,1.9,0.00,True,False
+Uptown,Harbour,Sparkling Water,1.35,0.96,1.2960,1.30,1.3,0.00,True,False
+Uptown,Harbour,Still Water,0.65,0.96,0.6240,0.62,0.62,0.00,True,False
+Uptown,Harbour,Strawberry Matcha,3.18,0.96,3.0528,3.05,3.05,0.00,True,False
+Uptown,Harbour,Tiramisu Cup,2.85,0.96,2.7360,2.74,2.74,0.00,True,False
+Uptown,Harbour,Tuna Sandwich,3.73,0.96,3.5808,3.58,3.58,0.00,True,False
+Uptown,Harbour,Turkey & Cheese Sandwich,4.72,0.96,4.5312,4.53,4.53,0.00,True,False
+Uptown,Harbour,Vanilla Latte,1.72,0.96,1.6512,1.65,1.65,0.00,True,False

@@ -1,0 +1,32 @@
+STDOUT
+                    GP/basket Garden $  GP/basket Harbour $  GP/basket Uptown $  Garden minus Harbour $  Garden minus Uptown $
+reference list                                                                                                                
+Chain-average list               5.359                5.331               5.431                   0.029                 -0.072
+Harbour list                     6.117                6.064               6.196                   0.053                 -0.078
+Uptown list                      5.440                5.396               5.509                   0.044                 -0.069
+Garden list                      4.242                4.234               4.280                   0.008                 -0.039
+                              Garden transactions  Harbour: gap $  Harbour: Recorded unit costs $  Harbour: List prices $  Harbour: Product mix $  Harbour: cost share %  Uptown: gap $  Uptown: Recorded unit costs $  Uptown: List prices $  Uptown: Product mix $  Uptown: cost share %
+slice                                                                                                                                                                                                                                                                                     
+All Jan-Jun (baseline)                      11163            1.79                            1.43                    0.45                   -0.05                  79.57           1.27                           1.56                  -0.36                   0.09                123.10
+2026-01                                      1497            1.76                            1.44                    0.45                   -0.01                  81.86           1.23                           1.57                  -0.36                   0.14                128.34
+2026-02                                      1557            1.84                            1.42                    0.44                   -0.03                  77.26           1.55                           1.55                  -0.36                   0.18                100.10
+2026-03                                      1843            1.61                            1.44                    0.45                   -0.07                  89.44           1.29                           1.57                  -0.36                   0.12                121.97
+2026-04                                      1887            1.81                            1.44                    0.45                   -0.08                  79.37           1.17                           1.57                  -0.36                   0.05                134.68
+2026-05                                      2128            1.84                            1.39                    0.44                   -0.01                  75.86           1.20                           1.52                  -0.35                   0.08                126.66
+2026-06                                      2251            1.87                            1.43                    0.45                   -0.09                  76.46           1.22                           1.57                  -0.36                   0.02                128.34
+Dine-in                                      6552            1.80                            1.43                    0.45                   -0.06                  79.23           1.32                           1.56                  -0.36                   0.11                118.73
+Takeaway                                     4611            1.78                            1.42                    0.45                   -0.03                  80.06           1.19                           1.56                  -0.36                   0.07                130.33
+Exact repeated lines removed                11163            1.79                            1.42                    0.45                   -0.05                  79.68           1.26                           1.56                  -0.36                   0.09                123.30
+                                   min     max
+Harbour: gap $                    1.61    1.87
+Harbour: Recorded unit costs $    1.39    1.44
+Harbour: List prices $            0.44    0.45
+Harbour: Product mix $           -0.09   -0.01
+Harbour: cost share %            75.86   89.44
+Uptown: gap $                     1.17    1.55
+Uptown: Recorded unit costs $     1.52    1.57
+Uptown: List prices $            -0.36   -0.35
+Uptown: Product mix $             0.02    0.18
+Uptown: cost share %            100.10  134.68
+
+STDERR

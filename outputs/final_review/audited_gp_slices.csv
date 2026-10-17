@@ -1,0 +1,19 @@
+slice_type,slice,garden_gp_per_basket,harbour_gp_per_basket,uptown_gp_per_basket,garden_lowest
+category_line_signature,Bakery,2.0675124378,2.9735318488,2.6261614731,True
+category_line_signature,Bakery + Cold Coffee,5.1736170213,7.0115934066,6.3197382199,True
+category_line_signature,Bakery + Hot Coffee,4.8756976744,6.5509907121,5.8087096774,True
+category_line_signature,Bakery + Matcha & Tea,5.3960784314,7.5525575758,6.5987878788,True
+category_line_signature,Cold Coffee,3.1037662338,4.1114825175,3.6823895582,True
+category_line_signature,Cold Drinks,2.1418212479,2.9876897321,2.5306849315,True
+category_line_signature,Desserts,2.2566953317,3.7771143617,3.4997069597,True
+category_line_signature,Hot Coffee,2.7207614782,3.5605479452,3.2084990958,True
+category_line_signature,Matcha & Tea,3.2417013464,4.5528479485,4.1211440678,True
+category_line_signature,Sandwiches,3.5878235294,6.1485127202,5.4494827586,True
+month,2026-01,4.2272545090,5.9848947850,5.4530394432,True
+month,2026-02,4.1368336545,5.9774189127,5.6901718213,True
+month,2026-03,4.2727129680,5.8827107315,5.5633974359,True
+month,2026-04,4.1930630631,6.0041660650,5.3599542543,True
+month,2026-05,4.1464238722,5.9833440514,5.3493838468,True
+month,2026-06,4.1824655709,6.0556733609,5.4024822695,True
+order_type,Dine-in,4.1839850427,5.9864354688,5.4990363636,True
+order_type,Takeaway,4.2032140534,5.9821840967,5.3979409449,True

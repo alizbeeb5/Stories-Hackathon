@@ -1,0 +1,5 @@
+policy,reference_branch,recorded_cost_premium_usd,change_from_primary_usd,change_from_primary_fraction,garden_harbour_rule_matching_products,uptown_harbour_rule_matching_products
+Retain all rows (primary),Harbour,15923.47,0.00,0,45,45
+Retain all rows (primary),Uptown,17409.78,0.00,0,45,45
+Retain one copy per identical group (sensitivity),Harbour,15887.50,-35.97,-0.002258929743328558410949372216,45,45
+Retain one copy per identical group (sensitivity),Uptown,17370.46,-39.32,-0.002258500681800689038000480190,45,45

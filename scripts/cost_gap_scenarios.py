@@ -16,6 +16,8 @@ We then compute Garden's gross profit under four "closure" assumptions
     scenario_GP = observed_Garden_GP + alpha * gap_dollars
 
 These are ACCOUNTING SCENARIOS, not predictions.
+Closure is a fraction of the reference cost gap, not a percentage reduction in
+Garden's costs. Recorded cost differences are not verified avoidable expenses.
 """
 
 from __future__ import annotations
@@ -73,6 +75,7 @@ def per_product_gap(garden_df: pd.DataFrame) -> pd.DataFrame:
 
 def scenario_table(observed_gp: float, observed_rev: float,
                    gap_harbour: float, gap_uptown: float) -> pd.DataFrame:
+    observed_cost = observed_rev - observed_gp
     rows = []
     for ref, gap in [("Harbour", gap_harbour), ("Uptown", gap_uptown)]:
         for a in CLOSURES:
@@ -82,10 +85,11 @@ def scenario_table(observed_gp: float, observed_rev: float,
                 "Closure_alpha_pct": int(a * 100),
                 "Recorded_Garden_GP": round(observed_gp, 2),
                 "Cost_Gap_dollars": round(gap, 2),
+                "Reduction_in_Garden_recorded_cost_pct": round(uplift / observed_cost * 100, 4),
                 "Scenario_Uplift_dollars": round(uplift, 2),
                 "Scenario_GP_dollars": round(observed_gp + uplift, 2),
                 "Scenario_Margin_pct": round((observed_gp + uplift) / observed_rev * 100, 2),
-                "Evidence_Label": "accounting scenario",
+                "Evidence_Label": "fixed-quantity accounting benchmark; recoverability unverified",
             })
     return pd.DataFrame(rows)
 
@@ -111,6 +115,9 @@ def main() -> int:
     print(f"TOTAL cost gap vs Uptown:  ${gap_uptown:,.2f}")
     print(f"  Garden cost / Harbour cost = {obs_cost / (obs_cost - gap_harbour):.3f}")
     print(f"  Garden cost / Uptown cost  = {obs_cost / (obs_cost - gap_uptown):.3f}")
+    print(f"\n25% Harbour-gap closure reduces Garden recorded costs by {0.25 * gap_harbour / obs_cost * 100:.2f}%.")
+    print(f"  Benefit at unchanged volume, before implementation expenses: ${0.25 * gap_harbour:,.2f}")
+    print(f"  Benefit at 95% volume, before implementation expenses: ${0.95 * (obs_gp + 0.25 * gap_harbour) - obs_gp:,.2f}")
 
     pg = per_product_gap(garden_df)
     pg.to_csv(OUT / "02_cost_gap_by_product.csv", index=False)

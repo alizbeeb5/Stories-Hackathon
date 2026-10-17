@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "scenario_count": 16,
+  "sensitivity_cells": 384,
+  "checks": [
+    "observed accounting identities",
+    "reference coverage and fixed branch/product unit prices/costs",
+    "Garden price ordering: below Harbour, above Uptown",
+    "complete 16-scenario comparison",
+    "cost/price decomposition identities",
+    "break-even and maximum expense identities",
+    "volume/expense monotonicity",
+    "requested H25 illustrative figures"
+  ],
+  "rounding_policy": "Keep full floating-point precision during calculation; CSV dollar fields retain six decimals; display dollars to two decimals and percentages to two decimals. Repricing preserves the exact observed baseline and its aggregate line-rounding residual.",
+  "inputs": {
+    "period_start": "2026-01-01",
+    "period_end": "2026-06-30",
+    "observed_garden_gp_dollars": 46794.49,
+    "observed_garden_revenue_dollars": 99748.55,
+    "observed_garden_cost_dollars": 52954.060000000005,
+    "observed_garden_units": 17833,
+    "observed_garden_transactions": 11163,
+    "recorded_minus_reconstructed_revenue_dollars": 0.7549999999901047,
+    "recorded_discount_dollars": 555.9,
+    "references": {
+      "Harbour": {
+        "full_cost_gap_dollars": 15923.470000000001,
+        "price_change_revenue_dollars": 4985.8679999999995
+      },
+      "Uptown": {
+        "full_cost_gap_dollars": 17409.78,
+        "price_change_revenue_dollars": -4005.751999999999
+      }
+    }
+  },
+  "hypothetical_volume_multipliers": [
+    0.85,
+    0.9,
+    0.95,
+    1.0,
+    1.05,
+    1.1
+  ],
+  "hypothetical_implementation_expenses_dollars": [
+    0.0,
+    1000.0,
+    2500.0,
+    5000.0
+  ]
+}

@@ -1,0 +1,37 @@
+STDOUT
+                                                                                matched_signatures  Garden_transactions  Garden_coverage_%  target_transactions  target_coverage_%  Garden_GP_per_basket_$  target_GP_per_basket_same_mix_$  matched_gap_$  signatures_where_Garden_lower_%
+comparison        variant                                                                                                                                                                                                                                                                  
+Garden vs Harbour all lines                                                                   1170                10293              92.21                14841              90.86                    3.85                             5.54           1.69                            100.0
+                  all lines, undiscounted transactions only                                   1102                 9453              92.14                13215              90.89                    3.85                             5.54           1.70                            100.0
+                  exact repeated lines removed                                                1159                10297              92.24                14859              90.97                    3.84                             5.53           1.69                            100.0
+                  exact repeated lines removed, undiscounted transactions only                1094                 9456              92.17                13233              91.02                    3.84                             5.53           1.69                            100.0
+Garden vs Uptown  all lines                                                                    932                 9806              87.84                 5800              90.77                    3.75                             4.82           1.07                            100.0
+                  all lines, undiscounted transactions only                                    875                 8966              87.40                 5312              90.93                    3.74                             4.79           1.05                            100.0
+                  exact repeated lines removed                                                 933                 9823              88.00                 5814              90.99                    3.75                             4.82           1.07                            100.0
+                  exact repeated lines removed, undiscounted transactions only                 878                 8983              87.56                 5326              91.17                    3.74                             4.79           1.05                            100.0
+
+repeated lines removed: 132
+                        size_Garden  mean_Garden  size_Harbour  mean_Harbour comparison  size_Uptown  mean_Uptown
+sig                                                                                                              
+Iced Latte x1                   266         2.94         463.0          3.87    Harbour          NaN          NaN
+Butter Croissant x1             239         2.01         368.0          2.67    Harbour          NaN          NaN
+Iced Matcha x1                  238         3.22         348.0          4.64    Harbour          NaN          NaN
+Brownie x1                      221         1.73         197.0          2.96    Harbour          NaN          NaN
+Frozen Yoghurt Cup x1           202         2.26         171.0          3.61    Harbour          NaN          NaN
+Classic Matcha x1               194         3.16         297.0          4.47    Harbour          NaN          NaN
+Cheesecake Slice x1             177         2.31         178.0          3.88    Harbour          NaN          NaN
+Tiramisu Cup x1                 175         2.42         161.0          3.87    Harbour          NaN          NaN
+Iced Americano x1               170         2.60         262.0          3.11    Harbour          NaN          NaN
+Chocolate Croissant x1          156         1.97         220.0          2.85    Harbour          NaN          NaN
+Iced Latte x1                   266         2.94           NaN           NaN     Uptown        159.0         3.52
+Butter Croissant x1             239         2.01           NaN           NaN     Uptown        116.0         2.38
+Iced Matcha x1                  238         3.22           NaN           NaN     Uptown        126.0         4.13
+Brownie x1                      221         1.73           NaN           NaN     Uptown         67.0         2.62
+Frozen Yoghurt Cup x1           202         2.26           NaN           NaN     Uptown         74.0         3.27
+Classic Matcha x1               194         3.16           NaN           NaN     Uptown        100.0         3.97
+Cheesecake Slice x1             177         2.31           NaN           NaN     Uptown         62.0         3.50
+Tiramisu Cup x1                 175         2.42           NaN           NaN     Uptown         47.0         3.54
+Iced Americano x1               170         2.60           NaN           NaN     Uptown         89.0         2.85
+Chocolate Croissant x1          156         1.97           NaN           NaN     Uptown         98.0         2.54
+
+STDERR

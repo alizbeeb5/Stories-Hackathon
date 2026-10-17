@@ -1,0 +1,136 @@
+Branch,Product,PriceMin,PriceMax,CostMin,CostMax,Lines,Units,PriceConstant,CostConstant
+Garden,Almond Croissant,4.85,4.85,2.73,2.73,359,377,True,True
+Garden,Americano,3.15,3.15,1.03,1.03,327,341,True,True
+Garden,Avocado Toast,9.45,9.45,5.98,5.98,283,305,True,True
+Garden,Banana Bread,4.45,4.45,2.25,2.25,392,416,True,True
+Garden,Blueberry Muffin,3.95,3.95,1.87,1.87,294,319,True,True
+Garden,Brownie,5.15,5.15,3.39,3.39,531,554,True,True
+Garden,Butter Croissant,3.65,3.65,1.63,1.63,663,687,True,True
+Garden,Cappuccino,4.05,4.05,1.6,1.6,495,517,True,True
+Garden,Caramel Latte,5.75,5.75,2.67,2.67,349,370,True,True
+Garden,Chai Latte,5.25,5.25,2.12,2.12,357,382,True,True
+Garden,Cheesecake Slice,6.75,6.75,4.4,4.4,444,465,True,True
+Garden,Chicken Pesto Sandwich,10.75,10.75,7.39,7.39,339,354,True,True
+Garden,Chicken Salad Bowl,12.45,12.45,8.08,8.08,173,179,True,True
+Garden,Chocolate Cookie,3.15,3.15,1.3,1.3,511,537,True,True
+Garden,Chocolate Croissant,4.25,4.25,2.26,2.26,489,514,True,True
+Garden,Cinnamon Roll,5.15,5.15,3.2,3.2,431,457,True,True
+Garden,Classic Matcha,6.45,6.45,3.25,3.25,623,650,True,True
+Garden,Coffee Frappe,6.55,6.55,3.62,3.62,304,322,True,True
+Garden,Cold Brew,5.15,5.15,1.66,1.66,437,461,True,True
+Garden,Egg Sandwich,8.15,8.15,4.45,4.45,326,346,True,True
+Garden,English Breakfast Tea,3.45,3.45,0.82,0.82,128,135,True,True
+Garden,Espresso,2.65,2.65,0.93,0.93,203,213,True,True
+Garden,Flat White,4.35,4.35,1.77,1.77,420,445,True,True
+Garden,Fresh Orange Juice,5.75,5.75,3.03,3.03,318,337,True,True
+Garden,Frozen Yoghurt Cup,6.15,6.15,3.85,3.85,463,485,True,True
+Garden,Granola Yoghurt,7.85,7.85,4.75,4.75,176,188,True,True
+Garden,Halloumi Wrap,9.95,9.95,5.92,5.92,268,288,True,True
+Garden,Iced Americano,3.85,3.85,1.23,1.23,484,508,True,True
+Garden,Iced Latte,5.35,5.35,2.37,2.37,769,814,True,True
+Garden,Iced Matcha,6.85,6.85,3.59,3.59,726,766,True,True
+Garden,Iced Mocha,6.25,6.25,3.19,3.19,345,362,True,True
+Garden,Lemonade,4.65,4.65,1.67,1.67,330,357,True,True
+Garden,Mint Tea,3.65,3.65,0.9,0.9,187,196,True,True
+Garden,Peach Iced Tea,4.45,4.45,1.64,1.64,386,411,True,True
+Garden,Pistachio Cookie,3.45,3.45,1.69,1.69,402,418,True,True
+Garden,Quinoa Bowl,11.65,11.65,7.04,7.04,158,172,True,True
+Garden,Soup of the Day,7.15,7.15,3.99,3.99,138,149,True,True
+Garden,Spanish Latte,5.95,5.95,2.83,2.83,397,412,True,True
+Garden,Sparkling Water,2.75,2.75,1.93,1.93,322,336,True,True
+Garden,Still Water,1.95,1.95,0.93,0.93,359,368,True,True
+Garden,Strawberry Matcha,7.65,7.65,4.55,4.55,449,480,True,True
+Garden,Tiramisu Cup,6.55,6.55,4.08,4.08,420,452,True,True
+Garden,Tuna Sandwich,8.85,8.85,5.33,5.33,202,211,True,True
+Garden,Turkey & Cheese Sandwich,9.65,9.65,6.75,6.75,297,317,True,True
+Garden,Vanilla Latte,5.45,5.45,2.46,2.46,433,460,True,True
+Harbour,Almond Croissant,5.09,5.09,1.91,1.91,586,618,True,True
+Harbour,Americano,3.31,3.31,0.72,0.72,535,566,True,True
+Harbour,Avocado Toast,9.92,9.92,4.18,4.18,401,425,True,True
+Harbour,Banana Bread,4.67,4.67,1.57,1.57,596,624,True,True
+Harbour,Blueberry Muffin,4.15,4.15,1.31,1.31,440,461,True,True
+Harbour,Brownie,5.41,5.41,2.37,2.37,558,587,True,True
+Harbour,Butter Croissant,3.83,3.83,1.14,1.14,1098,1157,True,True
+Harbour,Cappuccino,4.25,4.25,1.12,1.12,796,840,True,True
+Harbour,Caramel Latte,6.04,6.04,1.87,1.87,493,515,True,True
+Harbour,Chai Latte,5.51,5.51,1.48,1.48,490,518,True,True
+Harbour,Cheesecake Slice,7.09,7.09,3.08,3.08,521,561,True,True
+Harbour,Chicken Pesto Sandwich,11.29,11.29,5.17,5.17,471,489,True,True
+Harbour,Chicken Salad Bowl,13.07,13.07,5.65,5.65,240,262,True,True
+Harbour,Chocolate Cookie,3.31,3.31,0.91,0.91,765,802,True,True
+Harbour,Chocolate Croissant,4.46,4.46,1.58,1.58,706,758,True,True
+Harbour,Cinnamon Roll,5.41,5.41,2.24,2.24,738,777,True,True
+Harbour,Classic Matcha,6.77,6.77,2.27,2.27,923,964,True,True
+Harbour,Coffee Frappe,6.88,6.88,2.53,2.53,430,458,True,True
+Harbour,Cold Brew,5.41,5.41,1.16,1.16,736,773,True,True
+Harbour,Egg Sandwich,8.56,8.56,3.11,3.11,434,465,True,True
+Harbour,English Breakfast Tea,3.62,3.62,0.57,0.57,245,258,True,True
+Harbour,Espresso,2.78,2.78,0.65,0.65,327,350,True,True
+Harbour,Flat White,4.57,4.57,1.24,1.24,619,656,True,True
+Harbour,Fresh Orange Juice,6.04,6.04,2.12,2.12,457,486,True,True
+Harbour,Frozen Yoghurt Cup,6.46,6.46,2.69,2.69,436,456,True,True
+Harbour,Granola Yoghurt,8.24,8.24,3.32,3.32,272,281,True,True
+Harbour,Halloumi Wrap,10.45,10.45,4.14,4.14,383,408,True,True
+Harbour,Iced Americano,4.04,4.04,0.86,0.86,722,767,True,True
+Harbour,Iced Latte,5.62,5.62,1.66,1.66,1250,1344,True,True
+Harbour,Iced Matcha,7.19,7.19,2.51,2.51,1057,1121,True,True
+Harbour,Iced Mocha,6.56,6.56,2.23,2.23,499,535,True,True
+Harbour,Lemonade,4.88,4.88,1.17,1.17,469,501,True,True
+Harbour,Mint Tea,3.83,3.83,0.63,0.63,303,321,True,True
+Harbour,Peach Iced Tea,4.67,4.67,1.15,1.15,517,541,True,True
+Harbour,Pistachio Cookie,3.62,3.62,1.18,1.18,617,651,True,True
+Harbour,Quinoa Bowl,12.23,12.23,4.92,4.92,206,218,True,True
+Harbour,Soup of the Day,7.51,7.51,2.79,2.79,214,226,True,True
+Harbour,Spanish Latte,6.25,6.25,1.98,1.98,584,613,True,True
+Harbour,Sparkling Water,2.89,2.89,1.35,1.35,497,521,True,True
+Harbour,Still Water,2.05,2.05,0.65,0.65,535,577,True,True
+Harbour,Strawberry Matcha,8.03,8.03,3.18,3.18,686,725,True,True
+Harbour,Tiramisu Cup,6.88,6.88,2.85,2.85,399,419,True,True
+Harbour,Tuna Sandwich,9.29,9.29,3.73,3.73,315,329,True,True
+Harbour,Turkey & Cheese Sandwich,10.13,10.13,4.72,4.72,440,477,True,True
+Harbour,Vanilla Latte,5.72,5.72,1.72,1.72,648,692,True,True
+Uptown,Almond Croissant,4.66,4.66,1.83,1.83,174,189,True,True
+Uptown,Americano,3.02,3.02,0.69,0.69,204,218,True,True
+Uptown,Avocado Toast,9.07,9.07,4.01,4.01,169,175,True,True
+Uptown,Banana Bread,4.27,4.27,1.51,1.51,208,218,True,True
+Uptown,Blueberry Muffin,3.79,3.79,1.26,1.26,140,150,True,True
+Uptown,Brownie,4.94,4.94,2.28,2.28,173,180,True,True
+Uptown,Butter Croissant,3.5,3.5,1.09,1.09,370,394,True,True
+Uptown,Cappuccino,3.89,3.89,1.08,1.08,307,324,True,True
+Uptown,Caramel Latte,5.52,5.52,1.8,1.8,207,214,True,True
+Uptown,Chai Latte,5.04,5.04,1.42,1.42,211,223,True,True
+Uptown,Cheesecake Slice,6.48,6.48,2.96,2.96,174,190,True,True
+Uptown,Chicken Pesto Sandwich,10.32,10.32,4.96,4.96,287,303,True,True
+Uptown,Chicken Salad Bowl,11.95,11.95,5.42,5.42,101,111,True,True
+Uptown,Chocolate Cookie,3.02,3.02,0.87,0.87,313,328,True,True
+Uptown,Chocolate Croissant,4.08,4.08,1.52,1.52,272,286,True,True
+Uptown,Cinnamon Roll,4.94,4.94,2.15,2.15,265,281,True,True
+Uptown,Classic Matcha,6.19,6.19,2.18,2.18,334,349,True,True
+Uptown,Coffee Frappe,6.29,6.29,2.43,2.43,170,178,True,True
+Uptown,Cold Brew,4.94,4.94,1.11,1.11,247,264,True,True
+Uptown,Egg Sandwich,7.82,7.82,2.99,2.99,172,183,True,True
+Uptown,English Breakfast Tea,3.31,3.31,0.55,0.55,75,80,True,True
+Uptown,Espresso,2.54,2.54,0.62,0.62,117,124,True,True
+Uptown,Flat White,4.18,4.18,1.19,1.19,257,271,True,True
+Uptown,Fresh Orange Juice,5.52,5.52,2.04,2.04,176,180,True,True
+Uptown,Frozen Yoghurt Cup,5.9,5.9,2.58,2.58,168,179,True,True
+Uptown,Granola Yoghurt,7.54,7.54,3.19,3.19,101,107,True,True
+Uptown,Halloumi Wrap,9.55,9.55,3.97,3.97,256,275,True,True
+Uptown,Iced Americano,3.7,3.7,0.83,0.83,257,271,True,True
+Uptown,Iced Latte,5.14,5.14,1.59,1.59,443,471,True,True
+Uptown,Iced Matcha,6.58,6.58,2.41,2.41,412,435,True,True
+Uptown,Iced Mocha,6.0,6.0,2.14,2.14,209,217,True,True
+Uptown,Lemonade,4.46,4.46,1.12,1.12,174,184,True,True
+Uptown,Mint Tea,3.5,3.5,0.6,0.6,108,114,True,True
+Uptown,Peach Iced Tea,4.27,4.27,1.1,1.1,222,235,True,True
+Uptown,Pistachio Cookie,3.31,3.31,1.13,1.13,250,262,True,True
+Uptown,Quinoa Bowl,11.18,11.18,4.72,4.72,108,112,True,True
+Uptown,Soup of the Day,6.86,6.86,2.68,2.68,71,75,True,True
+Uptown,Spanish Latte,5.71,5.71,1.9,1.9,197,210,True,True
+Uptown,Sparkling Water,2.64,2.64,1.3,1.3,198,208,True,True
+Uptown,Still Water,1.87,1.87,0.62,0.62,238,248,True,True
+Uptown,Strawberry Matcha,7.34,7.34,3.05,3.05,266,281,True,True
+Uptown,Tiramisu Cup,6.29,6.29,2.74,2.74,148,163,True,True
+Uptown,Tuna Sandwich,8.5,8.5,3.58,3.58,167,181,True,True
+Uptown,Turkey & Cheese Sandwich,9.26,9.26,4.53,4.53,267,276,True,True
+Uptown,Vanilla Latte,5.23,5.23,1.65,1.65,233,244,True,True
